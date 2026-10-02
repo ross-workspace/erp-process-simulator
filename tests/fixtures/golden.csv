@@ -1,0 +1,13 @@
+case_id,activity,timestamp,resource
+A,Order Created,2026-01-05T09:00:00Z,sales_01
+A,Order Approved,2026-01-05T10:00:00Z,manager_01
+A,Picking Started,2026-01-05T12:00:00Z,warehouse_01
+A,Payment Received,2026-01-05T18:00:00Z,system
+B,Order Created,2026-01-05T09:00:00Z,sales_02
+B,Order Approved,2026-01-05T10:00:00Z,manager_01
+B,Order Edited,2026-01-05T11:00:00Z,sales_02
+B,Order Approved,2026-01-05T12:00:00Z,manager_02
+B,Picking Started,2026-01-05T16:00:00Z,warehouse_02
+B,Payment Received,2026-01-05T20:00:00Z,system
+C,Order Created,2026-01-05T09:00:00Z,sales_03
+C,Order Approved,2026-01-05T10:00:00Z,manager_01

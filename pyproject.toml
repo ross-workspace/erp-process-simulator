@@ -1,0 +1,25 @@
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "erp-process-analyzer"
+version = "0.1.0"
+description = "Local-first Order-to-Cash process mining and transparent timing scenarios"
+requires-python = ">=3.12"
+dependencies = [
+  "networkx>=3.2,<4",
+  "numpy>=1.26,<3",
+  "pandas>=2.2,<3",
+  "plotly>=5.22,<7",
+  "streamlit>=1.64,<2",
+]
+
+[project.optional-dependencies]
+dev = ["pytest>=8,<10"]
+
+[tool.setuptools.packages.find]
+where = ["src"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
