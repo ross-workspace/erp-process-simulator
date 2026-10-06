@@ -1,0 +1,1799 @@
+case_id,activity,timestamp,resource,department,cost,order_value,event_order
+ORD-000001,Order Created,2026-03-07T21:49:00+00:00,sales_08,Sales,14.55,24020.0,1
+ORD-000001,Order Approved,2026-03-07T22:52:58+00:00,management_07,Management,5.73,24020.0,2
+ORD-000001,Picking Started,2026-03-08T04:42:40+00:00,warehouse_03,Warehouse,8.57,24020.0,3
+ORD-000001,Packed,2026-03-08T06:40:45+00:00,warehouse_05,Warehouse,17.92,24020.0,4
+ORD-000001,Shipped,2026-03-08T07:36:44+00:00,warehouse_05,Warehouse,11.58,24020.0,5
+ORD-000001,Invoice Created,2026-03-09T04:50:22+00:00,accounting_07,Accounting,11.41,24020.0,6
+ORD-000001,Payment Received,2026-03-15T00:08:50+00:00,system,Finance,0.0,24020.0,7
+ORD-000002,Order Created,2026-01-19T18:03:00+00:00,sales_04,Sales,1.2,26280.0,1
+ORD-000002,Order Approved,2026-01-19T18:55:32+00:00,management_02,Management,12.76,26280.0,2
+ORD-000002,Picking Started,2026-01-20T04:46:59+00:00,warehouse_06,Warehouse,1.06,26280.0,3
+ORD-000002,Packed,2026-01-20T08:02:10+00:00,warehouse_03,Warehouse,3.63,26280.0,4
+ORD-000002,Shipped,2026-01-20T09:09:53+00:00,warehouse_08,Warehouse,9.67,26280.0,5
+ORD-000002,Invoice Created,2026-01-20T10:41:38+00:00,accounting_08,Accounting,11.88,26280.0,6
+ORD-000002,Payment Received,2026-01-31T00:03:44+00:00,system,Finance,0.0,26280.0,7
+ORD-000003,Order Created,2026-01-27T08:05:00+00:00,sales_05,Sales,6.49,9780.0,1
+ORD-000003,Order Approved,2026-01-27T09:26:07+00:00,management_04,Management,7.45,9780.0,2
+ORD-000003,Picking Started,2026-01-27T17:22:26+00:00,warehouse_07,Warehouse,11.03,9780.0,3
+ORD-000003,Packed,2026-01-27T18:45:11+00:00,warehouse_04,Warehouse,12.5,9780.0,4
+ORD-000003,Shipped,2026-01-27T20:02:24+00:00,warehouse_06,Warehouse,8.49,9780.0,5
+ORD-000003,Invoice Created,2026-01-27T22:13:18+00:00,accounting_01,Accounting,2.64,9780.0,6
+ORD-000003,Payment Received,2026-02-06T07:30:22+00:00,system,Finance,0.0,9780.0,7
+ORD-000004,Order Created,2026-02-10T13:23:00+00:00,sales_04,Sales,16.37,11140.0,1
+ORD-000004,Order Approved,2026-02-10T14:36:29+00:00,management_08,Management,3.47,11140.0,2
+ORD-000004,Picking Started,2026-02-11T03:19:18+00:00,warehouse_07,Warehouse,10.39,11140.0,3
+ORD-000004,Packed,2026-02-11T05:44:59+00:00,warehouse_08,Warehouse,16.03,11140.0,4
+ORD-000004,Shipped,2026-02-11T06:49:35+00:00,warehouse_05,Warehouse,7.4,11140.0,5
+ORD-000004,Invoice Created,2026-02-11T09:10:37+00:00,accounting_05,Accounting,5.07,11140.0,6
+ORD-000004,Payment Received,2026-02-18T13:02:19+00:00,system,Finance,0.0,11140.0,7
+ORD-000005,Order Created,2026-02-25T09:52:00+00:00,sales_04,Sales,3.09,23670.0,1
+ORD-000005,Order Approved,2026-02-25T10:21:22+00:00,management_01,Management,8.28,23670.0,2
+ORD-000005,Picking Started,2026-02-27T18:40:10+00:00,warehouse_06,Warehouse,6.85,23670.0,3
+ORD-000005,Packed,2026-02-27T20:05:19+00:00,warehouse_03,Warehouse,7.04,23670.0,4
+ORD-000005,Shipped,2026-02-27T21:10:39+00:00,warehouse_06,Warehouse,14.01,23670.0,5
+ORD-000005,Invoice Created,2026-02-28T01:35:33+00:00,accounting_08,Accounting,16.87,23670.0,6
+ORD-000005,Payment Received,2026-03-04T20:28:43+00:00,system,Finance,0.0,23670.0,7
+ORD-000006,Order Created,2026-01-18T22:17:00+00:00,sales_04,Sales,9.72,24500.0,1
+ORD-000006,Order Approved,2026-01-18T22:46:59+00:00,management_07,Management,4.85,24500.0,2
+ORD-000006,Picking Started,2026-01-19T05:29:52+00:00,warehouse_08,Warehouse,4.05,24500.0,3
+ORD-000006,Packed,2026-01-19T06:15:48+00:00,warehouse_03,Warehouse,17.12,24500.0,4
+ORD-000006,Shipped,2026-01-19T07:01:02+00:00,warehouse_08,Warehouse,5.62,24500.0,5
+ORD-000006,Invoice Created,2026-01-20T12:18:24+00:00,accounting_03,Accounting,17.67,24500.0,6
+ORD-000006,Payment Received,2026-01-25T08:02:28+00:00,system,Finance,0.0,24500.0,7
+ORD-000007,Order Created,2026-03-27T05:42:00+00:00,sales_08,Sales,2.17,20470.0,1
+ORD-000007,Order Approved,2026-03-27T08:41:41+00:00,management_02,Management,17.17,20470.0,2
+ORD-000007,Picking Started,2026-03-27T14:14:06+00:00,warehouse_05,Warehouse,14.7,20470.0,3
+ORD-000007,Packed,2026-03-27T15:54:22+00:00,warehouse_03,Warehouse,11.7,20470.0,4
+ORD-000007,Shipped,2026-03-27T18:34:50+00:00,warehouse_06,Warehouse,6.66,20470.0,5
+ORD-000007,Invoice Created,2026-03-27T21:07:28+00:00,accounting_06,Accounting,1.86,20470.0,6
+ORD-000007,Payment Received,2026-04-09T07:09:47+00:00,system,Finance,0.0,20470.0,7
+ORD-000008,Order Created,2026-01-23T14:17:00+00:00,sales_04,Sales,17.34,16260.0,1
+ORD-000008,Order Approved,2026-01-23T16:31:49+00:00,management_03,Management,11.68,16260.0,2
+ORD-000008,Picking Started,2026-01-23T22:15:03+00:00,warehouse_01,Warehouse,2.05,16260.0,3
+ORD-000008,Packed,2026-01-23T23:44:15+00:00,warehouse_02,Warehouse,13.99,16260.0,4
+ORD-000008,Shipped,2026-01-24T00:23:23+00:00,warehouse_08,Warehouse,2.92,16260.0,5
+ORD-000008,Invoice Created,2026-01-24T02:39:35+00:00,accounting_06,Accounting,14.63,16260.0,6
+ORD-000008,Payment Received,2026-01-29T00:27:00+00:00,system,Finance,0.0,16260.0,7
+ORD-000009,Order Created,2026-03-19T19:22:00+00:00,sales_08,Sales,10.64,18580.0,1
+ORD-000009,Order Approved,2026-03-19T20:28:00+00:00,management_03,Management,3.82,18580.0,2
+ORD-000009,Order Edited,2026-03-19T22:10:06+00:00,sales_05,Sales,1.36,18580.0,3
+ORD-000009,Order Approved,2026-03-20T00:11:21+00:00,management_05,Management,10.15,18580.0,4
+ORD-000009,Picking Started,2026-03-20T09:19:07+00:00,warehouse_08,Warehouse,12.19,18580.0,5
+ORD-000009,Shipped,2026-03-20T12:04:46+00:00,warehouse_02,Warehouse,10.76,18580.0,6
+ORD-000009,Invoice Created,2026-03-20T16:00:57+00:00,accounting_02,Accounting,14.63,18580.0,7
+ORD-000010,Order Created,2026-03-27T09:12:00+00:00,sales_07,Sales,6.33,71370.0,1
+ORD-000010,Order Approved,2026-03-27T09:40:11+00:00,management_04,Management,3.2,71370.0,2
+ORD-000010,Order Edited,2026-03-27T10:32:36+00:00,sales_07,Sales,16.0,71370.0,3
+ORD-000010,Order Approved,2026-03-27T11:28:40+00:00,management_05,Management,11.86,71370.0,4
+ORD-000010,Picking Started,2026-03-27T14:42:03+00:00,warehouse_05,Warehouse,2.64,71370.0,5
+ORD-000010,Packed,2026-03-27T17:20:32+00:00,warehouse_01,Warehouse,15.01,71370.0,6
+ORD-000010,Shipped,2026-03-27T18:02:19+00:00,warehouse_06,Warehouse,6.56,71370.0,7
+ORD-000010,Invoice Created,2026-03-27T19:46:13+00:00,accounting_03,Accounting,16.18,71370.0,8
+ORD-000010,Payment Received,2026-03-31T01:46:54+00:00,system,Finance,0.0,71370.0,9
+ORD-000011,Order Created,2026-03-24T09:18:00+00:00,sales_08,Sales,12.17,29510.0,1
+ORD-000011,Order Approved,2026-03-24T11:33:26+00:00,management_04,Management,7.47,29510.0,2
+ORD-000011,Picking Started,2026-03-24T17:18:29+00:00,warehouse_02,Warehouse,15.12,29510.0,3
+ORD-000011,Packed,2026-03-24T19:17:04+00:00,warehouse_06,Warehouse,7.32,29510.0,4
+ORD-000011,Shipped,2026-03-24T20:06:17+00:00,warehouse_03,Warehouse,5.21,29510.0,5
+ORD-000011,Invoice Created,2026-03-24T22:09:43+00:00,accounting_02,Accounting,8.78,29510.0,6
+ORD-000011,Payment Received,2026-04-04T08:02:03+00:00,system,Finance,0.0,29510.0,7
+ORD-000012,Order Created,2026-03-15T21:20:00+00:00,sales_05,Sales,2.38,24660.0,1
+ORD-000012,Order Approved,2026-03-15T23:21:57+00:00,management_06,Management,6.21,24660.0,2
+ORD-000012,Picking Started,2026-03-16T06:39:04+00:00,warehouse_03,Warehouse,11.54,24660.0,3
+ORD-000012,Packed,2026-03-16T10:18:05+00:00,warehouse_01,Warehouse,16.03,24660.0,4
+ORD-000012,Shipped,2026-03-16T11:29:47+00:00,warehouse_04,Warehouse,13.08,24660.0,5
+ORD-000012,Invoice Created,2026-03-16T19:13:52+00:00,accounting_06,Accounting,14.2,24660.0,6
+ORD-000012,Payment Received,2026-03-24T10:40:49+00:00,system,Finance,0.0,24660.0,7
+ORD-000013,Order Created,2026-03-11T19:01:00+00:00,sales_06,Sales,13.72,29890.0,1
+ORD-000013,Order Approved,2026-03-11T20:49:10+00:00,management_05,Management,3.14,29890.0,2
+ORD-000013,Picking Started,2026-03-12T09:34:17+00:00,warehouse_01,Warehouse,11.96,29890.0,3
+ORD-000013,Packed,2026-03-12T10:18:28+00:00,warehouse_07,Warehouse,17.95,29890.0,4
+ORD-000013,Shipped,2026-03-12T12:20:50+00:00,warehouse_07,Warehouse,14.21,29890.0,5
+ORD-000013,Invoice Created,2026-03-12T15:32:04+00:00,accounting_07,Accounting,11.9,29890.0,6
+ORD-000013,Payment Received,2026-03-17T00:00:12+00:00,system,Finance,0.0,29890.0,7
+ORD-000014,Order Created,2026-02-27T12:31:00+00:00,sales_07,Sales,10.22,21330.0,1
+ORD-000014,Order Approved,2026-02-27T14:04:24+00:00,management_08,Management,13.27,21330.0,2
+ORD-000014,Picking Started,2026-02-27T19:22:29+00:00,warehouse_05,Warehouse,15.12,21330.0,3
+ORD-000014,Packed,2026-02-27T20:59:11+00:00,warehouse_03,Warehouse,3.34,21330.0,4
+ORD-000014,Shipped,2026-02-27T22:15:39+00:00,warehouse_04,Warehouse,17.88,21330.0,5
+ORD-000014,Invoice Created,2026-03-01T14:33:11+00:00,accounting_08,Accounting,16.65,21330.0,6
+ORD-000014,Payment Received,2026-03-08T11:22:31+00:00,system,Finance,0.0,21330.0,7
+ORD-000015,Order Created,2026-03-20T14:41:00+00:00,sales_04,Sales,4.69,58100.0,1
+ORD-000015,Order Approved,2026-03-20T15:59:05+00:00,management_08,Management,2.15,58100.0,2
+ORD-000015,Order Edited,2026-03-20T16:32:51+00:00,sales_02,Sales,6.33,58100.0,3
+ORD-000015,Order Approved,2026-03-20T17:21:49+00:00,management_01,Management,13.24,58100.0,4
+ORD-000015,Picking Started,2026-03-20T20:42:22+00:00,warehouse_06,Warehouse,17.92,58100.0,5
+ORD-000015,Packed,2026-03-20T23:00:46+00:00,warehouse_01,Warehouse,16.58,58100.0,6
+ORD-000015,Shipped,2026-03-21T02:31:27+00:00,warehouse_01,Warehouse,4.86,58100.0,7
+ORD-000015,Invoice Created,2026-03-21T03:56:58+00:00,accounting_04,Accounting,9.56,58100.0,8
+ORD-000015,Payment Received,2026-04-01T10:39:08+00:00,system,Finance,0.0,58100.0,9
+ORD-000016,Order Created,2026-02-25T12:40:00+00:00,sales_07,Sales,9.77,41870.0,1
+ORD-000016,Order Approved,2026-02-25T14:08:01+00:00,management_04,Management,7.73,41870.0,2
+ORD-000016,Picking Started,2026-02-25T21:23:19+00:00,warehouse_05,Warehouse,15.85,41870.0,3
+ORD-000016,Packed,2026-02-26T00:09:30+00:00,warehouse_03,Warehouse,2.92,41870.0,4
+ORD-000016,Shipped,2026-02-26T01:38:38+00:00,warehouse_02,Warehouse,17.01,41870.0,5
+ORD-000016,Invoice Created,2026-02-26T03:01:33+00:00,accounting_06,Accounting,4.53,41870.0,6
+ORD-000016,Payment Received,2026-03-02T17:31:37+00:00,system,Finance,0.0,41870.0,7
+ORD-000017,Order Created,2026-04-02T15:00:00+00:00,sales_08,Sales,15.97,8900.0,1
+ORD-000017,Order Approved,2026-04-02T16:21:39+00:00,management_04,Management,15.09,8900.0,2
+ORD-000017,Picking Started,2026-04-02T22:13:28+00:00,warehouse_07,Warehouse,15.44,8900.0,3
+ORD-000017,Packed,2026-04-03T01:48:45+00:00,warehouse_06,Warehouse,13.51,8900.0,4
+ORD-000017,Shipped,2026-04-03T02:44:13+00:00,warehouse_03,Warehouse,13.86,8900.0,5
+ORD-000017,Invoice Created,2026-04-03T05:09:34+00:00,accounting_02,Accounting,16.63,8900.0,6
+ORD-000017,Payment Received,2026-04-05T15:52:18+00:00,system,Finance,0.0,8900.0,7
+ORD-000018,Order Created,2026-03-22T07:09:00+00:00,sales_08,Sales,5.79,10390.0,1
+ORD-000018,Order Approved,2026-03-22T08:22:08+00:00,management_04,Management,11.94,10390.0,2
+ORD-000018,Order Edited,2026-03-22T08:52:55+00:00,sales_06,Sales,8.37,10390.0,3
+ORD-000018,Order Approved,2026-03-22T11:13:05+00:00,management_01,Management,15.2,10390.0,4
+ORD-000018,Picking Started,2026-03-22T22:45:36+00:00,warehouse_06,Warehouse,12.38,10390.0,5
+ORD-000018,Packed,2026-03-23T02:56:49+00:00,warehouse_01,Warehouse,14.08,10390.0,6
+ORD-000018,Shipped,2026-03-23T03:35:34+00:00,warehouse_05,Warehouse,13.37,10390.0,7
+ORD-000018,Invoice Created,2026-03-23T06:19:01+00:00,accounting_06,Accounting,8.97,10390.0,8
+ORD-000018,Payment Received,2026-03-28T17:37:57+00:00,system,Finance,0.0,10390.0,9
+ORD-000019,Order Created,2026-04-01T14:02:00+00:00,sales_06,Sales,8.7,9100.0,1
+ORD-000019,Order Approved,2026-04-01T15:29:34+00:00,management_01,Management,10.36,9100.0,2
+ORD-000019,Picking Started,2026-04-01T18:58:56+00:00,warehouse_07,Warehouse,4.78,9100.0,3
+ORD-000019,Packed,2026-04-01T19:57:59+00:00,warehouse_05,Warehouse,15.94,9100.0,4
+ORD-000019,Shipped,2026-04-01T21:54:59+00:00,warehouse_06,Warehouse,13.75,9100.0,5
+ORD-000019,Invoice Created,2026-04-02T00:00:53+00:00,accounting_04,Accounting,10.41,9100.0,6
+ORD-000019,Payment Received,2026-04-09T23:53:50+00:00,system,Finance,0.0,9100.0,7
+ORD-000020,Order Created,2026-03-20T15:21:00+00:00,sales_05,Sales,13.65,17770.0,1
+ORD-000020,Order Approved,2026-03-20T16:48:41+00:00,management_04,Management,13.84,17770.0,2
+ORD-000020,Picking Started,2026-03-20T22:28:15+00:00,warehouse_04,Warehouse,6.75,17770.0,3
+ORD-000020,Packed,2026-03-20T23:41:09+00:00,warehouse_07,Warehouse,15.36,17770.0,4
+ORD-000020,Shipped,2026-03-21T01:24:10+00:00,warehouse_04,Warehouse,8.6,17770.0,5
+ORD-000020,Invoice Created,2026-03-21T02:30:49+00:00,accounting_08,Accounting,7.63,17770.0,6
+ORD-000020,Payment Received,2026-03-30T06:57:08+00:00,system,Finance,0.0,17770.0,7
+ORD-000021,Order Created,2026-01-08T10:16:00+00:00,sales_03,Sales,5.98,9910.0,1
+ORD-000021,Order Approved,2026-01-08T12:10:11+00:00,management_03,Management,17.98,9910.0,2
+ORD-000021,Picking Started,2026-01-08T14:25:46+00:00,warehouse_03,Warehouse,7.32,9910.0,3
+ORD-000021,Packed,2026-01-08T19:59:46+00:00,warehouse_04,Warehouse,17.11,9910.0,4
+ORD-000021,Shipped,2026-01-08T21:22:06+00:00,warehouse_07,Warehouse,5.54,9910.0,5
+ORD-000021,Invoice Created,2026-01-09T00:27:05+00:00,accounting_04,Accounting,9.4,9910.0,6
+ORD-000021,Payment Received,2026-01-11T20:13:08+00:00,system,Finance,0.0,9910.0,7
+ORD-000022,Order Created,2026-01-25T10:47:00+00:00,sales_07,Sales,9.05,9730.0,1
+ORD-000022,Order Approved,2026-01-25T12:01:02+00:00,management_06,Management,7.35,9730.0,2
+ORD-000022,Picking Started,2026-01-25T19:21:54+00:00,warehouse_04,Warehouse,4.42,9730.0,3
+ORD-000022,Packed,2026-01-25T22:54:34+00:00,warehouse_05,Warehouse,14.1,9730.0,4
+ORD-000022,Shipped,2026-01-25T23:26:00+00:00,warehouse_06,Warehouse,13.46,9730.0,5
+ORD-000022,Invoice Created,2026-01-26T05:51:45+00:00,accounting_04,Accounting,2.06,9730.0,6
+ORD-000022,Payment Received,2026-01-29T08:13:15+00:00,system,Finance,0.0,9730.0,7
+ORD-000023,Order Created,2026-02-14T09:37:00+00:00,sales_08,Sales,4.45,8000.0,1
+ORD-000023,Order Approved,2026-02-14T13:48:15+00:00,management_06,Management,5.92,8000.0,2
+ORD-000023,Picking Started,2026-02-14T17:24:46+00:00,warehouse_02,Warehouse,2.15,8000.0,3
+ORD-000023,Packed,2026-02-14T18:44:32+00:00,warehouse_03,Warehouse,14.12,8000.0,4
+ORD-000023,Shipped,2026-02-14T19:25:06+00:00,warehouse_07,Warehouse,3.33,8000.0,5
+ORD-000023,Invoice Created,2026-02-14T22:51:38+00:00,accounting_02,Accounting,14.06,8000.0,6
+ORD-000023,Payment Received,2026-02-18T07:17:59+00:00,system,Finance,0.0,8000.0,7
+ORD-000024,Order Created,2026-01-30T16:03:00+00:00,sales_06,Sales,9.32,13850.0,1
+ORD-000024,Order Approved,2026-01-30T17:19:32+00:00,management_04,Management,11.88,13850.0,2
+ORD-000024,Picking Started,2026-01-30T23:18:07+00:00,warehouse_04,Warehouse,3.35,13850.0,3
+ORD-000024,Packed,2026-01-31T00:53:08+00:00,warehouse_08,Warehouse,17.35,13850.0,4
+ORD-000024,Shipped,2026-01-31T01:55:13+00:00,warehouse_03,Warehouse,4.12,13850.0,5
+ORD-000024,Invoice Created,2026-01-31T05:04:31+00:00,accounting_08,Accounting,1.26,13850.0,6
+ORD-000024,Payment Received,2026-02-05T14:54:36+00:00,system,Finance,0.0,13850.0,7
+ORD-000025,Order Created,2026-02-17T00:35:00+00:00,sales_06,Sales,16.7,22110.0,1
+ORD-000025,Order Approved,2026-02-17T01:53:01+00:00,management_02,Management,12.36,22110.0,2
+ORD-000025,Picking Started,2026-02-17T08:51:13+00:00,warehouse_01,Warehouse,11.21,22110.0,3
+ORD-000025,Packed,2026-02-17T11:32:32+00:00,warehouse_06,Warehouse,4.64,22110.0,4
+ORD-000025,Shipped,2026-02-17T13:37:59+00:00,warehouse_01,Warehouse,2.94,22110.0,5
+ORD-000025,Invoice Created,2026-02-17T18:40:16+00:00,accounting_08,Accounting,1.55,22110.0,6
+ORD-000025,Payment Received,2026-02-19T00:28:26+00:00,system,Finance,0.0,22110.0,7
+ORD-000026,Order Created,2026-03-30T17:31:00+00:00,sales_08,Sales,6.71,29870.0,1
+ORD-000026,Order Approved,2026-03-30T18:56:01+00:00,management_03,Management,13.31,29870.0,2
+ORD-000026,Picking Started,2026-03-30T22:41:15+00:00,warehouse_01,Warehouse,8.16,29870.0,3
+ORD-000026,Packed,2026-03-31T01:10:26+00:00,warehouse_08,Warehouse,6.72,29870.0,4
+ORD-000026,Shipped,2026-03-31T01:57:31+00:00,warehouse_07,Warehouse,3.25,29870.0,5
+ORD-000026,Invoice Created,2026-03-31T06:26:38+00:00,accounting_03,Accounting,8.61,29870.0,6
+ORD-000026,Payment Received,2026-04-06T11:43:41+00:00,system,Finance,0.0,29870.0,7
+ORD-000027,Order Created,2026-02-01T16:27:00+00:00,sales_08,Sales,3.42,20060.0,1
+ORD-000027,Order Approved,2026-02-01T17:31:42+00:00,management_02,Management,12.67,20060.0,2
+ORD-000027,Picking Started,2026-02-01T19:07:10+00:00,warehouse_02,Warehouse,16.97,20060.0,3
+ORD-000027,Packed,2026-02-01T21:35:09+00:00,warehouse_03,Warehouse,12.94,20060.0,4
+ORD-000027,Shipped,2026-02-01T22:46:34+00:00,warehouse_03,Warehouse,3.0,20060.0,5
+ORD-000027,Invoice Created,2026-02-02T14:50:43+00:00,accounting_07,Accounting,10.35,20060.0,6
+ORD-000027,Payment Received,2026-02-15T08:38:01+00:00,system,Finance,0.0,20060.0,7
+ORD-000028,Order Created,2026-01-22T21:38:00+00:00,sales_03,Sales,5.98,46360.0,1
+ORD-000028,Order Approved,2026-01-22T23:05:38+00:00,management_08,Management,13.59,46360.0,2
+ORD-000028,Picking Started,2026-01-23T04:30:10+00:00,warehouse_06,Warehouse,13.32,46360.0,3
+ORD-000028,Packed,2026-01-23T05:40:41+00:00,warehouse_02,Warehouse,1.45,46360.0,4
+ORD-000028,Shipped,2026-01-23T07:31:39+00:00,warehouse_04,Warehouse,13.13,46360.0,5
+ORD-000028,Invoice Created,2026-01-23T08:50:08+00:00,accounting_08,Accounting,5.74,46360.0,6
+ORD-000028,Payment Received,2026-01-26T20:21:57+00:00,system,Finance,0.0,46360.0,7
+ORD-000029,Order Created,2026-03-12T02:32:00+00:00,sales_02,Sales,2.07,9920.0,1
+ORD-000029,Order Approved,2026-03-12T03:28:15+00:00,management_02,Management,4.64,9920.0,2
+ORD-000029,Picking Started,2026-03-14T11:20:32+00:00,warehouse_05,Warehouse,10.73,9920.0,3
+ORD-000029,Packed,2026-03-14T13:25:26+00:00,warehouse_03,Warehouse,2.28,9920.0,4
+ORD-000029,Shipped,2026-03-14T15:24:35+00:00,warehouse_07,Warehouse,2.13,9920.0,5
+ORD-000029,Invoice Created,2026-03-14T21:15:00+00:00,accounting_07,Accounting,15.71,9920.0,6
+ORD-000029,Payment Received,2026-03-29T21:33:13+00:00,system,Finance,0.0,9920.0,7
+ORD-000030,Order Created,2026-02-18T07:48:00+00:00,sales_05,Sales,8.7,24900.0,1
+ORD-000030,Order Approved,2026-02-18T08:28:50+00:00,management_08,Management,1.71,24900.0,2
+ORD-000030,Picking Started,2026-02-18T13:34:09+00:00,warehouse_03,Warehouse,3.61,24900.0,3
+ORD-000030,Packed,2026-02-18T16:22:50+00:00,warehouse_01,Warehouse,17.21,24900.0,4
+ORD-000030,Shipped,2026-02-18T17:06:58+00:00,warehouse_05,Warehouse,12.0,24900.0,5
+ORD-000030,Invoice Created,2026-02-18T18:49:25+00:00,accounting_05,Accounting,13.79,24900.0,6
+ORD-000031,Order Created,2026-02-25T17:37:00+00:00,sales_05,Sales,14.89,15630.0,1
+ORD-000031,Order Approved,2026-02-25T19:01:38+00:00,management_05,Management,10.26,15630.0,2
+ORD-000031,Picking Started,2026-02-26T12:04:50+00:00,warehouse_03,Warehouse,5.59,15630.0,3
+ORD-000031,Packed,2026-02-26T15:58:32+00:00,warehouse_04,Warehouse,10.21,15630.0,4
+ORD-000031,Shipped,2026-02-26T17:42:42+00:00,warehouse_02,Warehouse,2.82,15630.0,5
+ORD-000031,Invoice Created,2026-02-27T01:23:37+00:00,accounting_05,Accounting,16.71,15630.0,6
+ORD-000031,Payment Received,2026-03-06T08:13:48+00:00,system,Finance,0.0,15630.0,7
+ORD-000032,Order Created,2026-02-28T16:04:00+00:00,sales_07,Sales,2.19,7410.0,1
+ORD-000032,Order Approved,2026-02-28T17:19:03+00:00,management_02,Management,9.91,7410.0,2
+ORD-000032,Picking Started,2026-02-28T18:51:42+00:00,warehouse_04,Warehouse,8.44,7410.0,3
+ORD-000032,Packed,2026-02-28T21:09:38+00:00,warehouse_08,Warehouse,17.7,7410.0,4
+ORD-000032,Shipped,2026-02-28T22:22:32+00:00,warehouse_03,Warehouse,2.98,7410.0,5
+ORD-000032,Invoice Created,2026-03-01T00:12:38+00:00,accounting_03,Accounting,14.28,7410.0,6
+ORD-000032,Payment Received,2026-03-06T05:35:03+00:00,system,Finance,0.0,7410.0,7
+ORD-000033,Order Created,2026-02-02T07:36:00+00:00,sales_02,Sales,1.89,7510.0,1
+ORD-000033,Order Approved,2026-02-02T08:11:40+00:00,management_03,Management,3.21,7510.0,2
+ORD-000033,Order Edited,2026-02-02T10:57:14+00:00,sales_02,Sales,10.98,7510.0,3
+ORD-000033,Order Approved,2026-02-02T13:09:55+00:00,management_03,Management,1.58,7510.0,4
+ORD-000033,Picking Started,2026-02-03T01:19:36+00:00,warehouse_07,Warehouse,5.35,7510.0,5
+ORD-000033,Packed,2026-02-03T03:01:50+00:00,warehouse_07,Warehouse,13.83,7510.0,6
+ORD-000033,Shipped,2026-02-03T03:58:31+00:00,warehouse_02,Warehouse,16.61,7510.0,7
+ORD-000033,Invoice Created,2026-02-03T06:25:04+00:00,accounting_08,Accounting,13.51,7510.0,8
+ORD-000033,Payment Received,2026-02-08T01:54:41+00:00,system,Finance,0.0,7510.0,9
+ORD-000034,Order Created,2026-04-02T18:02:00+00:00,sales_04,Sales,17.54,20900.0,1
+ORD-000034,Order Approved,2026-04-02T19:03:59+00:00,management_02,Management,16.4,20900.0,2
+ORD-000034,Picking Started,2026-04-03T07:33:00+00:00,warehouse_02,Warehouse,2.58,20900.0,3
+ORD-000034,Packed,2026-04-03T08:56:01+00:00,warehouse_01,Warehouse,1.56,20900.0,4
+ORD-000034,Shipped,2026-04-03T10:36:30+00:00,warehouse_08,Warehouse,11.4,20900.0,5
+ORD-000034,Invoice Created,2026-04-03T11:52:14+00:00,accounting_04,Accounting,8.8,20900.0,6
+ORD-000034,Payment Received,2026-04-06T23:04:59+00:00,system,Finance,0.0,20900.0,7
+ORD-000035,Order Created,2026-02-25T12:09:00+00:00,sales_06,Sales,17.86,32820.0,1
+ORD-000035,Order Approved,2026-02-25T13:29:38+00:00,management_08,Management,8.7,32820.0,2
+ORD-000035,Picking Started,2026-02-25T17:07:22+00:00,warehouse_04,Warehouse,7.34,32820.0,3
+ORD-000035,Packed,2026-02-25T19:39:49+00:00,warehouse_08,Warehouse,7.9,32820.0,4
+ORD-000035,Shipped,2026-02-25T20:04:05+00:00,warehouse_04,Warehouse,7.56,32820.0,5
+ORD-000035,Invoice Created,2026-02-25T23:43:07+00:00,accounting_04,Accounting,3.38,32820.0,6
+ORD-000035,Payment Received,2026-03-05T01:33:59+00:00,system,Finance,0.0,32820.0,7
+ORD-000036,Order Created,2026-01-09T06:24:00+00:00,sales_05,Sales,13.93,24540.0,1
+ORD-000036,Order Approved,2026-01-09T07:06:37+00:00,management_04,Management,11.82,24540.0,2
+ORD-000036,Picking Started,2026-01-09T09:56:07+00:00,warehouse_03,Warehouse,2.81,24540.0,3
+ORD-000036,Packed,2026-01-09T11:38:55+00:00,warehouse_02,Warehouse,6.04,24540.0,4
+ORD-000036,Shipped,2026-01-09T12:54:40+00:00,warehouse_07,Warehouse,1.58,24540.0,5
+ORD-000036,Invoice Created,2026-01-09T16:58:28+00:00,accounting_08,Accounting,5.31,24540.0,6
+ORD-000036,Payment Received,2026-01-18T06:33:30+00:00,system,Finance,0.0,24540.0,7
+ORD-000037,Order Created,2026-02-26T08:23:00+00:00,sales_06,Sales,4.41,106660.0,1
+ORD-000037,Order Approved,2026-02-26T09:16:09+00:00,management_03,Management,5.87,106660.0,2
+ORD-000037,Picking Started,2026-02-28T17:39:18+00:00,warehouse_04,Warehouse,1.72,106660.0,3
+ORD-000037,Packed,2026-02-28T19:27:39+00:00,warehouse_08,Warehouse,11.22,106660.0,4
+ORD-000037,Shipped,2026-02-28T20:23:26+00:00,warehouse_03,Warehouse,6.57,106660.0,5
+ORD-000037,Invoice Created,2026-02-28T23:15:48+00:00,accounting_03,Accounting,1.6,106660.0,6
+ORD-000037,Payment Received,2026-03-08T01:04:13+00:00,system,Finance,0.0,106660.0,7
+ORD-000038,Order Created,2026-03-13T10:10:00+00:00,sales_02,Sales,13.04,17150.0,1
+ORD-000038,Order Approved,2026-03-13T11:32:32+00:00,management_05,Management,17.33,17150.0,2
+ORD-000038,Picking Started,2026-03-13T15:43:01+00:00,warehouse_02,Warehouse,11.81,17150.0,3
+ORD-000038,Packed,2026-03-13T18:06:36+00:00,warehouse_07,Warehouse,1.47,17150.0,4
+ORD-000038,Shipped,2026-03-13T18:34:14+00:00,warehouse_03,Warehouse,1.43,17150.0,5
+ORD-000038,Invoice Created,2026-03-13T21:35:46+00:00,accounting_06,Accounting,2.71,17150.0,6
+ORD-000039,Order Created,2026-03-03T07:44:00+00:00,sales_01,Sales,11.5,28840.0,1
+ORD-000039,Order Approved,2026-03-03T08:38:02+00:00,management_05,Management,5.43,28840.0,2
+ORD-000039,Picking Started,2026-03-05T20:57:03+00:00,warehouse_06,Warehouse,11.89,28840.0,3
+ORD-000039,Packed,2026-03-05T22:40:02+00:00,warehouse_07,Warehouse,1.26,28840.0,4
+ORD-000039,Shipped,2026-03-05T23:46:59+00:00,warehouse_03,Warehouse,3.19,28840.0,5
+ORD-000039,Invoice Created,2026-03-06T04:38:35+00:00,accounting_01,Accounting,14.81,28840.0,6
+ORD-000039,Payment Received,2026-03-10T13:44:28+00:00,system,Finance,0.0,28840.0,7
+ORD-000040,Order Created,2026-03-04T14:39:00+00:00,sales_02,Sales,6.29,35290.0,1
+ORD-000040,Order Approved,2026-03-04T16:15:11+00:00,management_03,Management,8.53,35290.0,2
+ORD-000040,Order Edited,2026-03-04T16:44:14+00:00,sales_01,Sales,13.11,35290.0,3
+ORD-000040,Order Approved,2026-03-04T18:11:50+00:00,management_05,Management,16.24,35290.0,4
+ORD-000040,Picking Started,2026-03-04T21:59:47+00:00,warehouse_07,Warehouse,5.77,35290.0,5
+ORD-000040,Packed,2026-03-05T00:59:40+00:00,warehouse_04,Warehouse,2.64,35290.0,6
+ORD-000040,Shipped,2026-03-05T01:53:42+00:00,warehouse_05,Warehouse,17.84,35290.0,7
+ORD-000040,Invoice Created,2026-03-05T06:49:00+00:00,accounting_06,Accounting,9.69,35290.0,8
+ORD-000040,Payment Received,2026-03-10T11:25:04+00:00,system,Finance,0.0,35290.0,9
+ORD-000041,Order Created,2026-01-10T05:42:00+00:00,sales_08,Sales,13.41,43780.0,1
+ORD-000041,Order Approved,2026-01-10T06:45:19+00:00,management_05,Management,4.57,43780.0,2
+ORD-000041,Picking Started,2026-01-10T17:45:14+00:00,warehouse_04,Warehouse,12.87,43780.0,3
+ORD-000041,Packed,2026-01-10T19:23:45+00:00,warehouse_01,Warehouse,9.01,43780.0,4
+ORD-000041,Shipped,2026-01-10T21:42:27+00:00,warehouse_04,Warehouse,1.97,43780.0,5
+ORD-000041,Invoice Created,2026-01-11T02:09:02+00:00,accounting_05,Accounting,12.22,43780.0,6
+ORD-000041,Payment Received,2026-01-17T04:01:38+00:00,system,Finance,0.0,43780.0,7
+ORD-000042,Order Created,2026-03-11T19:45:00+00:00,sales_01,Sales,16.41,23560.0,1
+ORD-000042,Order Approved,2026-03-11T22:11:26+00:00,management_08,Management,8.91,23560.0,2
+ORD-000042,Picking Started,2026-03-12T17:22:05+00:00,warehouse_04,Warehouse,5.93,23560.0,3
+ORD-000042,Packed,2026-03-12T20:29:16+00:00,warehouse_05,Warehouse,13.24,23560.0,4
+ORD-000042,Shipped,2026-03-12T23:32:43+00:00,warehouse_03,Warehouse,11.24,23560.0,5
+ORD-000042,Invoice Created,2026-03-13T01:18:21+00:00,accounting_05,Accounting,14.72,23560.0,6
+ORD-000042,Payment Received,2026-03-20T13:14:31+00:00,system,Finance,0.0,23560.0,7
+ORD-000043,Order Created,2026-01-10T05:20:00+00:00,sales_01,Sales,17.67,23030.0,1
+ORD-000043,Order Approved,2026-01-10T06:39:21+00:00,management_08,Management,14.71,23030.0,2
+ORD-000043,Picking Started,2026-01-10T13:24:42+00:00,warehouse_02,Warehouse,4.45,23030.0,3
+ORD-000043,Packed,2026-01-10T14:15:23+00:00,warehouse_08,Warehouse,15.92,23030.0,4
+ORD-000043,Shipped,2026-01-10T15:50:00+00:00,warehouse_05,Warehouse,9.83,23030.0,5
+ORD-000043,Invoice Created,2026-01-10T21:10:18+00:00,accounting_02,Accounting,3.14,23030.0,6
+ORD-000043,Payment Received,2026-01-15T15:10:12+00:00,system,Finance,0.0,23030.0,7
+ORD-000044,Order Created,2026-03-27T15:55:00+00:00,sales_08,Sales,8.18,33470.0,1
+ORD-000044,Order Approved,2026-03-27T17:51:03+00:00,management_06,Management,12.3,33470.0,2
+ORD-000044,Order Edited,2026-03-27T19:05:29+00:00,sales_02,Sales,7.79,33470.0,3
+ORD-000044,Order Approved,2026-03-27T23:38:59+00:00,management_06,Management,5.19,33470.0,4
+ORD-000044,Picking Started,2026-03-28T08:58:14+00:00,warehouse_08,Warehouse,6.26,33470.0,5
+ORD-000044,Shipped,2026-03-28T09:56:35+00:00,warehouse_04,Warehouse,9.59,33470.0,6
+ORD-000044,Invoice Created,2026-03-28T13:01:33+00:00,accounting_04,Accounting,12.44,33470.0,7
+ORD-000044,Payment Received,2026-03-30T09:24:28+00:00,system,Finance,0.0,33470.0,8
+ORD-000045,Order Created,2026-01-06T08:46:00+00:00,sales_08,Sales,2.47,21060.0,1
+ORD-000045,Order Approved,2026-01-06T09:36:04+00:00,management_05,Management,6.41,21060.0,2
+ORD-000045,Order Edited,2026-01-06T12:00:00+00:00,sales_05,Sales,14.79,21060.0,3
+ORD-000045,Order Approved,2026-01-06T14:08:46+00:00,management_04,Management,3.34,21060.0,4
+ORD-000045,Picking Started,2026-01-08T12:03:06+00:00,warehouse_05,Warehouse,8.28,21060.0,5
+ORD-000045,Packed,2026-01-08T17:18:22+00:00,warehouse_04,Warehouse,9.69,21060.0,6
+ORD-000045,Shipped,2026-01-08T18:00:31+00:00,warehouse_04,Warehouse,10.58,21060.0,7
+ORD-000045,Invoice Created,2026-01-08T20:37:44+00:00,accounting_05,Accounting,5.37,21060.0,8
+ORD-000045,Payment Received,2026-01-21T21:14:27+00:00,system,Finance,0.0,21060.0,9
+ORD-000046,Order Created,2026-03-12T03:31:00+00:00,sales_08,Sales,15.84,7600.0,1
+ORD-000046,Order Approved,2026-03-12T06:19:56+00:00,management_05,Management,8.9,7600.0,2
+ORD-000046,Picking Started,2026-03-12T09:44:04+00:00,warehouse_08,Warehouse,6.38,7600.0,3
+ORD-000046,Packed,2026-03-12T11:00:27+00:00,warehouse_08,Warehouse,7.96,7600.0,4
+ORD-000046,Shipped,2026-03-12T12:57:34+00:00,warehouse_08,Warehouse,1.51,7600.0,5
+ORD-000046,Invoice Created,2026-03-12T14:34:55+00:00,accounting_08,Accounting,11.28,7600.0,6
+ORD-000046,Payment Received,2026-03-16T00:16:53+00:00,system,Finance,0.0,7600.0,7
+ORD-000047,Order Created,2026-02-01T18:21:00+00:00,sales_01,Sales,16.92,6580.0,1
+ORD-000047,Order Approved,2026-02-01T19:20:41+00:00,management_06,Management,1.1,6580.0,2
+ORD-000047,Picking Started,2026-02-01T21:37:28+00:00,warehouse_05,Warehouse,17.33,6580.0,3
+ORD-000047,Packed,2026-02-01T22:09:25+00:00,warehouse_04,Warehouse,12.09,6580.0,4
+ORD-000047,Shipped,2026-02-01T23:12:58+00:00,warehouse_07,Warehouse,14.23,6580.0,5
+ORD-000047,Invoice Created,2026-02-02T02:41:57+00:00,accounting_03,Accounting,2.41,6580.0,6
+ORD-000047,Payment Received,2026-02-03T15:41:46+00:00,system,Finance,0.0,6580.0,7
+ORD-000048,Order Created,2026-03-26T20:48:00+00:00,sales_01,Sales,2.0,24000.0,1
+ORD-000048,Order Approved,2026-03-27T01:24:22+00:00,management_07,Management,17.72,24000.0,2
+ORD-000048,Picking Started,2026-03-27T03:52:00+00:00,warehouse_01,Warehouse,2.65,24000.0,3
+ORD-000048,Packed,2026-03-27T06:56:41+00:00,warehouse_07,Warehouse,16.1,24000.0,4
+ORD-000048,Shipped,2026-03-27T08:00:54+00:00,warehouse_01,Warehouse,1.97,24000.0,5
+ORD-000048,Invoice Created,2026-03-27T10:13:51+00:00,accounting_07,Accounting,4.35,24000.0,6
+ORD-000048,Payment Received,2026-03-31T10:37:52+00:00,system,Finance,0.0,24000.0,7
+ORD-000049,Order Created,2026-03-04T20:44:00+00:00,sales_05,Sales,10.35,18580.0,1
+ORD-000049,Order Approved,2026-03-04T22:16:58+00:00,management_08,Management,12.14,18580.0,2
+ORD-000049,Picking Started,2026-03-05T06:37:58+00:00,warehouse_07,Warehouse,2.48,18580.0,3
+ORD-000049,Packed,2026-03-05T10:48:50+00:00,warehouse_04,Warehouse,11.17,18580.0,4
+ORD-000049,Shipped,2026-03-05T11:43:51+00:00,warehouse_08,Warehouse,8.48,18580.0,5
+ORD-000049,Invoice Created,2026-03-05T15:00:25+00:00,accounting_05,Accounting,10.98,18580.0,6
+ORD-000050,Order Created,2026-02-26T18:02:00+00:00,sales_06,Sales,9.25,15250.0,1
+ORD-000050,Order Approved,2026-02-26T22:01:22+00:00,management_07,Management,5.8,15250.0,2
+ORD-000050,Picking Started,2026-02-27T03:32:07+00:00,warehouse_08,Warehouse,15.41,15250.0,3
+ORD-000050,Packed,2026-02-27T07:36:58+00:00,warehouse_03,Warehouse,9.65,15250.0,4
+ORD-000050,Shipped,2026-02-27T09:04:28+00:00,warehouse_03,Warehouse,2.12,15250.0,5
+ORD-000050,Invoice Created,2026-02-27T10:45:01+00:00,accounting_07,Accounting,15.91,15250.0,6
+ORD-000050,Payment Received,2026-03-02T10:01:26+00:00,system,Finance,0.0,15250.0,7
+ORD-000051,Order Created,2026-01-30T09:30:00+00:00,sales_08,Sales,16.56,23160.0,1
+ORD-000051,Order Approved,2026-01-30T12:10:03+00:00,management_02,Management,9.11,23160.0,2
+ORD-000051,Picking Started,2026-01-30T14:23:54+00:00,warehouse_02,Warehouse,17.82,23160.0,3
+ORD-000051,Packed,2026-01-30T17:05:04+00:00,warehouse_08,Warehouse,16.54,23160.0,4
+ORD-000051,Shipped,2026-01-30T18:03:44+00:00,warehouse_05,Warehouse,5.45,23160.0,5
+ORD-000051,Invoice Created,2026-01-30T22:01:11+00:00,accounting_05,Accounting,16.76,23160.0,6
+ORD-000051,Payment Received,2026-02-01T18:09:33+00:00,system,Finance,0.0,23160.0,7
+ORD-000052,Order Created,2026-02-03T03:23:00+00:00,sales_02,Sales,1.01,12310.0,1
+ORD-000052,Order Approved,2026-02-03T04:49:01+00:00,management_03,Management,17.36,12310.0,2
+ORD-000052,Order Edited,2026-02-03T05:44:21+00:00,sales_05,Sales,12.94,12310.0,3
+ORD-000052,Order Approved,2026-02-03T07:26:19+00:00,management_01,Management,17.45,12310.0,4
+ORD-000052,Picking Started,2026-02-03T16:26:43+00:00,warehouse_05,Warehouse,15.31,12310.0,5
+ORD-000052,Packed,2026-02-03T20:15:34+00:00,warehouse_07,Warehouse,2.68,12310.0,6
+ORD-000052,Shipped,2026-02-03T22:50:12+00:00,warehouse_05,Warehouse,7.53,12310.0,7
+ORD-000052,Invoice Created,2026-02-04T03:33:33+00:00,accounting_02,Accounting,10.52,12310.0,8
+ORD-000052,Payment Received,2026-02-09T18:12:33+00:00,system,Finance,0.0,12310.0,9
+ORD-000053,Order Created,2026-03-17T14:50:00+00:00,sales_03,Sales,4.16,17640.0,1
+ORD-000053,Order Approved,2026-03-17T16:16:06+00:00,management_07,Management,11.17,17640.0,2
+ORD-000053,Picking Started,2026-03-17T23:07:50+00:00,warehouse_08,Warehouse,13.46,17640.0,3
+ORD-000053,Packed,2026-03-18T00:48:01+00:00,warehouse_08,Warehouse,9.5,17640.0,4
+ORD-000053,Shipped,2026-03-18T01:52:21+00:00,warehouse_01,Warehouse,9.57,17640.0,5
+ORD-000053,Invoice Created,2026-03-18T03:11:20+00:00,accounting_07,Accounting,11.48,17640.0,6
+ORD-000053,Payment Received,2026-03-20T17:18:35+00:00,system,Finance,0.0,17640.0,7
+ORD-000054,Order Created,2026-03-05T12:00:00+00:00,sales_05,Sales,10.3,51170.0,1
+ORD-000054,Order Approved,2026-03-05T14:07:58+00:00,management_04,Management,16.94,51170.0,2
+ORD-000054,Picking Started,2026-03-07T07:42:00+00:00,warehouse_07,Warehouse,13.03,51170.0,3
+ORD-000054,Packed,2026-03-07T08:33:42+00:00,warehouse_01,Warehouse,1.29,51170.0,4
+ORD-000054,Shipped,2026-03-07T09:59:16+00:00,warehouse_01,Warehouse,8.82,51170.0,5
+ORD-000054,Invoice Created,2026-03-07T12:26:55+00:00,accounting_02,Accounting,11.45,51170.0,6
+ORD-000054,Payment Received,2026-03-18T14:00:46+00:00,system,Finance,0.0,51170.0,7
+ORD-000055,Order Created,2026-03-06T06:25:00+00:00,sales_04,Sales,5.12,35320.0,1
+ORD-000055,Order Approved,2026-03-06T08:05:23+00:00,management_04,Management,5.99,35320.0,2
+ORD-000055,Picking Started,2026-03-06T11:02:10+00:00,warehouse_04,Warehouse,15.41,35320.0,3
+ORD-000055,Packed,2026-03-06T12:35:47+00:00,warehouse_08,Warehouse,16.34,35320.0,4
+ORD-000055,Shipped,2026-03-06T14:06:47+00:00,warehouse_05,Warehouse,10.43,35320.0,5
+ORD-000055,Invoice Created,2026-03-06T18:44:48+00:00,accounting_06,Accounting,17.32,35320.0,6
+ORD-000055,Payment Received,2026-03-12T07:07:55+00:00,system,Finance,0.0,35320.0,7
+ORD-000056,Order Created,2026-03-04T20:34:00+00:00,sales_03,Sales,9.65,37530.0,1
+ORD-000056,Order Approved,2026-03-04T22:47:51+00:00,management_03,Management,4.42,37530.0,2
+ORD-000056,Picking Started,2026-03-05T09:50:18+00:00,warehouse_08,Warehouse,14.75,37530.0,3
+ORD-000056,Packed,2026-03-05T11:19:35+00:00,warehouse_07,Warehouse,6.46,37530.0,4
+ORD-000056,Shipped,2026-03-05T12:58:41+00:00,warehouse_05,Warehouse,12.26,37530.0,5
+ORD-000056,Invoice Created,2026-03-05T18:21:10+00:00,accounting_01,Accounting,11.49,37530.0,6
+ORD-000056,Payment Received,2026-03-11T05:44:16+00:00,system,Finance,0.0,37530.0,7
+ORD-000057,Order Created,2026-03-19T14:00:00+00:00,sales_06,Sales,16.67,10140.0,1
+ORD-000057,Order Approved,2026-03-19T15:25:04+00:00,management_01,Management,14.12,10140.0,2
+ORD-000057,Picking Started,2026-03-21T17:16:14+00:00,warehouse_01,Warehouse,7.45,10140.0,3
+ORD-000057,Packed,2026-03-21T22:07:02+00:00,warehouse_04,Warehouse,10.02,10140.0,4
+ORD-000057,Shipped,2026-03-21T22:50:45+00:00,warehouse_04,Warehouse,11.84,10140.0,5
+ORD-000057,Invoice Created,2026-03-22T03:36:26+00:00,accounting_08,Accounting,12.51,10140.0,6
+ORD-000057,Payment Received,2026-03-24T05:39:37+00:00,system,Finance,0.0,10140.0,7
+ORD-000058,Order Created,2026-02-08T21:36:00+00:00,sales_03,Sales,12.17,45610.0,1
+ORD-000058,Order Approved,2026-02-08T23:19:42+00:00,management_01,Management,7.03,45610.0,2
+ORD-000058,Picking Started,2026-02-09T11:24:44+00:00,warehouse_03,Warehouse,3.16,45610.0,3
+ORD-000058,Packed,2026-02-09T13:11:04+00:00,warehouse_05,Warehouse,3.08,45610.0,4
+ORD-000058,Shipped,2026-02-09T15:08:07+00:00,warehouse_04,Warehouse,3.0,45610.0,5
+ORD-000058,Invoice Created,2026-02-09T21:08:47+00:00,accounting_04,Accounting,5.68,45610.0,6
+ORD-000059,Order Created,2026-02-04T19:51:00+00:00,sales_08,Sales,14.97,13550.0,1
+ORD-000059,Order Approved,2026-02-04T20:35:17+00:00,management_08,Management,5.97,13550.0,2
+ORD-000059,Picking Started,2026-02-04T23:16:01+00:00,warehouse_02,Warehouse,17.87,13550.0,3
+ORD-000059,Packed,2026-02-05T00:47:40+00:00,warehouse_02,Warehouse,17.73,13550.0,4
+ORD-000059,Shipped,2026-02-05T01:16:58+00:00,warehouse_07,Warehouse,11.96,13550.0,5
+ORD-000059,Invoice Created,2026-02-05T05:02:14+00:00,accounting_06,Accounting,11.6,13550.0,6
+ORD-000059,Payment Received,2026-02-08T15:36:46+00:00,system,Finance,0.0,13550.0,7
+ORD-000060,Order Created,2026-02-07T16:07:00+00:00,sales_03,Sales,12.44,40750.0,1
+ORD-000060,Order Approved,2026-02-07T16:49:19+00:00,management_06,Management,4.21,40750.0,2
+ORD-000060,Picking Started,2026-02-08T00:12:09+00:00,warehouse_06,Warehouse,4.22,40750.0,3
+ORD-000060,Shipped,2026-02-08T01:53:32+00:00,warehouse_06,Warehouse,8.87,40750.0,4
+ORD-000060,Invoice Created,2026-02-08T03:01:02+00:00,accounting_02,Accounting,14.89,40750.0,5
+ORD-000060,Payment Received,2026-02-11T18:34:31+00:00,system,Finance,0.0,40750.0,6
+ORD-000061,Order Created,2026-03-18T09:11:00+00:00,sales_05,Sales,6.06,6940.0,1
+ORD-000061,Order Approved,2026-03-18T11:45:32+00:00,management_07,Management,9.79,6940.0,2
+ORD-000061,Picking Started,2026-03-18T14:39:45+00:00,warehouse_02,Warehouse,3.64,6940.0,3
+ORD-000061,Packed,2026-03-18T15:09:43+00:00,warehouse_03,Warehouse,7.27,6940.0,4
+ORD-000061,Shipped,2026-03-18T16:56:00+00:00,warehouse_04,Warehouse,12.59,6940.0,5
+ORD-000061,Invoice Created,2026-03-18T23:39:28+00:00,accounting_07,Accounting,17.73,6940.0,6
+ORD-000061,Payment Received,2026-03-30T17:49:24+00:00,system,Finance,0.0,6940.0,7
+ORD-000062,Order Created,2026-02-19T09:35:00+00:00,sales_01,Sales,14.56,23710.0,1
+ORD-000062,Order Approved,2026-02-19T13:55:16+00:00,management_05,Management,9.6,23710.0,2
+ORD-000062,Picking Started,2026-02-20T00:36:52+00:00,warehouse_03,Warehouse,6.23,23710.0,3
+ORD-000062,Packed,2026-02-20T02:16:35+00:00,warehouse_03,Warehouse,6.7,23710.0,4
+ORD-000062,Shipped,2026-02-20T03:18:20+00:00,warehouse_08,Warehouse,16.98,23710.0,5
+ORD-000062,Invoice Created,2026-02-20T06:30:21+00:00,accounting_01,Accounting,15.51,23710.0,6
+ORD-000062,Payment Received,2026-02-25T22:22:46+00:00,system,Finance,0.0,23710.0,7
+ORD-000063,Order Created,2026-04-02T06:07:00+00:00,sales_05,Sales,17.84,14260.0,1
+ORD-000063,Order Approved,2026-04-02T08:19:37+00:00,management_05,Management,3.49,14260.0,2
+ORD-000063,Picking Started,2026-04-02T16:52:24+00:00,warehouse_08,Warehouse,1.67,14260.0,3
+ORD-000063,Packed,2026-04-02T19:39:59+00:00,warehouse_02,Warehouse,6.74,14260.0,4
+ORD-000063,Shipped,2026-04-02T20:37:38+00:00,warehouse_07,Warehouse,12.09,14260.0,5
+ORD-000063,Invoice Created,2026-04-02T21:59:57+00:00,accounting_01,Accounting,1.2,14260.0,6
+ORD-000063,Payment Received,2026-04-05T20:51:56+00:00,system,Finance,0.0,14260.0,7
+ORD-000064,Order Created,2026-02-14T12:39:00+00:00,sales_07,Sales,2.17,25450.0,1
+ORD-000064,Order Approved,2026-02-14T16:00:27+00:00,management_04,Management,2.74,25450.0,2
+ORD-000064,Picking Started,2026-02-14T19:50:28+00:00,warehouse_02,Warehouse,5.22,25450.0,3
+ORD-000064,Packed,2026-02-15T04:26:07+00:00,warehouse_05,Warehouse,15.5,25450.0,4
+ORD-000064,Shipped,2026-02-15T05:45:08+00:00,warehouse_06,Warehouse,6.37,25450.0,5
+ORD-000064,Invoice Created,2026-02-15T08:55:33+00:00,accounting_05,Accounting,5.99,25450.0,6
+ORD-000064,Payment Received,2026-02-21T20:09:00+00:00,system,Finance,0.0,25450.0,7
+ORD-000065,Order Created,2026-02-13T23:52:00+00:00,sales_07,Sales,4.07,27310.0,1
+ORD-000065,Order Approved,2026-02-14T00:45:35+00:00,management_01,Management,5.79,27310.0,2
+ORD-000065,Order Edited,2026-02-14T01:43:34+00:00,sales_08,Sales,12.61,27310.0,3
+ORD-000065,Order Approved,2026-02-14T02:51:24+00:00,management_08,Management,6.06,27310.0,4
+ORD-000065,Picking Started,2026-02-14T11:10:53+00:00,warehouse_02,Warehouse,11.11,27310.0,5
+ORD-000065,Packed,2026-02-14T12:23:45+00:00,warehouse_08,Warehouse,7.04,27310.0,6
+ORD-000065,Shipped,2026-02-14T13:31:54+00:00,warehouse_03,Warehouse,6.79,27310.0,7
+ORD-000065,Invoice Created,2026-02-14T18:18:04+00:00,accounting_07,Accounting,1.05,27310.0,8
+ORD-000065,Payment Received,2026-02-19T07:28:00+00:00,system,Finance,0.0,27310.0,9
+ORD-000066,Order Created,2026-03-22T11:06:00+00:00,sales_05,Sales,7.82,14600.0,1
+ORD-000066,Order Approved,2026-03-22T12:26:44+00:00,management_03,Management,8.68,14600.0,2
+ORD-000066,Picking Started,2026-03-22T19:42:51+00:00,warehouse_06,Warehouse,17.42,14600.0,3
+ORD-000066,Packed,2026-03-22T22:48:52+00:00,warehouse_02,Warehouse,10.09,14600.0,4
+ORD-000066,Shipped,2026-03-23T00:35:41+00:00,warehouse_06,Warehouse,5.02,14600.0,5
+ORD-000066,Invoice Created,2026-03-23T02:07:31+00:00,accounting_06,Accounting,4.4,14600.0,6
+ORD-000066,Payment Received,2026-03-29T09:24:08+00:00,system,Finance,0.0,14600.0,7
+ORD-000067,Order Created,2026-01-22T12:04:00+00:00,sales_04,Sales,5.54,37410.0,1
+ORD-000067,Order Approved,2026-01-22T14:00:06+00:00,management_04,Management,4.77,37410.0,2
+ORD-000067,Picking Started,2026-01-23T06:46:11+00:00,warehouse_04,Warehouse,6.47,37410.0,3
+ORD-000067,Packed,2026-01-23T08:24:16+00:00,warehouse_07,Warehouse,16.09,37410.0,4
+ORD-000067,Shipped,2026-01-23T10:02:18+00:00,warehouse_08,Warehouse,15.59,37410.0,5
+ORD-000067,Invoice Created,2026-01-23T14:35:36+00:00,accounting_06,Accounting,15.66,37410.0,6
+ORD-000068,Order Created,2026-03-14T14:05:00+00:00,sales_07,Sales,3.4,8000.0,1
+ORD-000068,Order Approved,2026-03-14T15:16:04+00:00,management_06,Management,8.88,8000.0,2
+ORD-000068,Picking Started,2026-03-15T04:26:56+00:00,warehouse_04,Warehouse,17.01,8000.0,3
+ORD-000068,Packed,2026-03-15T07:43:28+00:00,warehouse_02,Warehouse,12.51,8000.0,4
+ORD-000068,Shipped,2026-03-15T08:51:19+00:00,warehouse_06,Warehouse,7.34,8000.0,5
+ORD-000068,Invoice Created,2026-03-15T11:50:43+00:00,accounting_04,Accounting,5.69,8000.0,6
+ORD-000068,Payment Received,2026-03-27T10:13:57+00:00,system,Finance,0.0,8000.0,7
+ORD-000069,Order Created,2026-03-21T07:10:00+00:00,sales_01,Sales,10.5,12330.0,1
+ORD-000069,Order Approved,2026-03-21T09:43:13+00:00,management_06,Management,15.88,12330.0,2
+ORD-000069,Picking Started,2026-03-21T15:22:27+00:00,warehouse_05,Warehouse,3.74,12330.0,3
+ORD-000069,Packed,2026-03-21T21:20:10+00:00,warehouse_05,Warehouse,7.45,12330.0,4
+ORD-000069,Shipped,2026-03-22T00:42:27+00:00,warehouse_05,Warehouse,7.91,12330.0,5
+ORD-000069,Invoice Created,2026-03-22T05:13:53+00:00,accounting_01,Accounting,5.88,12330.0,6
+ORD-000070,Order Created,2026-01-29T03:43:00+00:00,sales_03,Sales,8.79,22120.0,1
+ORD-000070,Order Approved,2026-01-29T05:52:57+00:00,management_04,Management,15.43,22120.0,2
+ORD-000070,Picking Started,2026-01-29T13:54:20+00:00,warehouse_07,Warehouse,12.37,22120.0,3
+ORD-000070,Packed,2026-01-29T16:55:52+00:00,warehouse_08,Warehouse,12.89,22120.0,4
+ORD-000070,Shipped,2026-01-29T18:10:54+00:00,warehouse_02,Warehouse,5.38,22120.0,5
+ORD-000070,Invoice Created,2026-01-29T19:10:07+00:00,accounting_04,Accounting,1.34,22120.0,6
+ORD-000070,Payment Received,2026-02-02T16:49:32+00:00,system,Finance,0.0,22120.0,7
+ORD-000071,Order Created,2026-02-10T01:19:00+00:00,sales_08,Sales,8.85,9000.0,1
+ORD-000071,Order Approved,2026-02-10T02:19:50+00:00,management_03,Management,10.16,9000.0,2
+ORD-000071,Picking Started,2026-02-10T12:25:16+00:00,warehouse_03,Warehouse,10.03,9000.0,3
+ORD-000071,Packed,2026-02-10T14:41:15+00:00,warehouse_06,Warehouse,5.19,9000.0,4
+ORD-000071,Shipped,2026-02-10T15:01:58+00:00,warehouse_03,Warehouse,13.27,9000.0,5
+ORD-000071,Invoice Created,2026-02-12T14:43:10+00:00,accounting_06,Accounting,10.81,9000.0,6
+ORD-000071,Payment Received,2026-02-18T12:57:57+00:00,system,Finance,0.0,9000.0,7
+ORD-000072,Order Created,2026-03-05T12:51:00+00:00,sales_05,Sales,1.66,14140.0,1
+ORD-000072,Order Approved,2026-03-05T13:45:24+00:00,management_03,Management,1.21,14140.0,2
+ORD-000072,Picking Started,2026-03-05T22:41:34+00:00,warehouse_02,Warehouse,5.99,14140.0,3
+ORD-000072,Packed,2026-03-06T00:28:15+00:00,warehouse_06,Warehouse,1.91,14140.0,4
+ORD-000072,Shipped,2026-03-06T01:48:16+00:00,warehouse_03,Warehouse,16.91,14140.0,5
+ORD-000072,Invoice Created,2026-03-06T03:41:52+00:00,accounting_02,Accounting,7.35,14140.0,6
+ORD-000072,Payment Received,2026-03-10T03:31:19+00:00,system,Finance,0.0,14140.0,7
+ORD-000073,Order Created,2026-02-11T22:52:00+00:00,sales_08,Sales,7.57,17650.0,1
+ORD-000073,Order Approved,2026-02-12T00:57:34+00:00,management_06,Management,15.29,17650.0,2
+ORD-000073,Picking Started,2026-02-13T10:01:33+00:00,warehouse_07,Warehouse,17.88,17650.0,3
+ORD-000073,Packed,2026-02-13T13:16:20+00:00,warehouse_03,Warehouse,1.8,17650.0,4
+ORD-000073,Shipped,2026-02-13T14:12:55+00:00,warehouse_01,Warehouse,3.61,17650.0,5
+ORD-000073,Invoice Created,2026-02-13T17:58:05+00:00,accounting_06,Accounting,4.34,17650.0,6
+ORD-000073,Payment Received,2026-02-16T17:52:42+00:00,system,Finance,0.0,17650.0,7
+ORD-000074,Order Created,2026-02-17T10:24:00+00:00,sales_08,Sales,9.48,28410.0,1
+ORD-000074,Order Approved,2026-02-17T12:47:09+00:00,management_02,Management,8.87,28410.0,2
+ORD-000074,Picking Started,2026-02-17T15:14:31+00:00,warehouse_07,Warehouse,9.28,28410.0,3
+ORD-000074,Packed,2026-02-17T16:13:33+00:00,warehouse_01,Warehouse,3.74,28410.0,4
+ORD-000074,Shipped,2026-02-17T17:07:47+00:00,warehouse_04,Warehouse,5.5,28410.0,5
+ORD-000074,Invoice Created,2026-02-17T18:03:24+00:00,accounting_01,Accounting,2.94,28410.0,6
+ORD-000074,Payment Received,2026-02-21T05:29:17+00:00,system,Finance,0.0,28410.0,7
+ORD-000075,Order Created,2026-03-16T18:54:00+00:00,sales_04,Sales,8.31,18890.0,1
+ORD-000075,Order Approved,2026-03-16T19:48:14+00:00,management_07,Management,8.07,18890.0,2
+ORD-000075,Picking Started,2026-03-16T21:35:51+00:00,warehouse_06,Warehouse,2.17,18890.0,3
+ORD-000075,Packed,2026-03-16T22:53:50+00:00,warehouse_08,Warehouse,12.25,18890.0,4
+ORD-000075,Shipped,2026-03-17T01:00:53+00:00,warehouse_01,Warehouse,16.93,18890.0,5
+ORD-000075,Invoice Created,2026-03-17T04:14:41+00:00,accounting_03,Accounting,11.14,18890.0,6
+ORD-000075,Payment Received,2026-03-27T02:15:32+00:00,system,Finance,0.0,18890.0,7
+ORD-000076,Order Created,2026-03-13T12:42:00+00:00,sales_01,Sales,1.54,22650.0,1
+ORD-000076,Order Approved,2026-03-13T14:31:01+00:00,management_03,Management,17.33,22650.0,2
+ORD-000076,Picking Started,2026-03-13T19:42:48+00:00,warehouse_01,Warehouse,6.53,22650.0,3
+ORD-000076,Packed,2026-03-13T21:01:40+00:00,warehouse_05,Warehouse,9.48,22650.0,4
+ORD-000076,Shipped,2026-03-13T22:45:50+00:00,warehouse_01,Warehouse,16.3,22650.0,5
+ORD-000076,Invoice Created,2026-03-14T03:36:30+00:00,accounting_02,Accounting,15.31,22650.0,6
+ORD-000076,Payment Received,2026-03-18T12:56:48+00:00,system,Finance,0.0,22650.0,7
+ORD-000077,Order Created,2026-02-07T15:12:00+00:00,sales_07,Sales,2.47,38340.0,1
+ORD-000077,Order Approved,2026-02-07T19:04:25+00:00,management_03,Management,12.3,38340.0,2
+ORD-000077,Picking Started,2026-02-07T21:12:08+00:00,warehouse_06,Warehouse,6.24,38340.0,3
+ORD-000077,Packed,2026-02-08T00:20:41+00:00,warehouse_05,Warehouse,6.82,38340.0,4
+ORD-000077,Shipped,2026-02-08T01:05:22+00:00,warehouse_06,Warehouse,6.82,38340.0,5
+ORD-000077,Invoice Created,2026-02-08T02:27:53+00:00,accounting_01,Accounting,4.71,38340.0,6
+ORD-000077,Payment Received,2026-02-11T13:23:24+00:00,system,Finance,0.0,38340.0,7
+ORD-000078,Order Created,2026-01-23T20:04:00+00:00,sales_01,Sales,11.07,90040.0,1
+ORD-000078,Order Approved,2026-01-23T21:12:36+00:00,management_02,Management,6.22,90040.0,2
+ORD-000078,Picking Started,2026-01-24T03:09:01+00:00,warehouse_06,Warehouse,5.09,90040.0,3
+ORD-000078,Packed,2026-01-24T04:46:24+00:00,warehouse_04,Warehouse,16.37,90040.0,4
+ORD-000078,Shipped,2026-01-24T06:02:52+00:00,warehouse_02,Warehouse,7.12,90040.0,5
+ORD-000078,Invoice Created,2026-01-24T10:28:49+00:00,accounting_07,Accounting,5.77,90040.0,6
+ORD-000078,Payment Received,2026-02-01T15:00:29+00:00,system,Finance,0.0,90040.0,7
+ORD-000079,Order Created,2026-02-18T10:59:00+00:00,sales_01,Sales,14.71,31260.0,1
+ORD-000079,Order Approved,2026-02-18T12:15:03+00:00,management_06,Management,17.58,31260.0,2
+ORD-000079,Picking Started,2026-02-18T14:54:14+00:00,warehouse_01,Warehouse,5.73,31260.0,3
+ORD-000079,Packed,2026-02-18T17:21:19+00:00,warehouse_08,Warehouse,4.64,31260.0,4
+ORD-000079,Shipped,2026-02-18T19:10:12+00:00,warehouse_05,Warehouse,13.23,31260.0,5
+ORD-000079,Invoice Created,2026-02-18T23:31:32+00:00,accounting_04,Accounting,1.29,31260.0,6
+ORD-000079,Payment Received,2026-02-21T03:04:14+00:00,system,Finance,0.0,31260.0,7
+ORD-000080,Order Created,2026-02-23T22:18:00+00:00,sales_03,Sales,7.07,69960.0,1
+ORD-000080,Order Approved,2026-02-23T23:17:09+00:00,management_04,Management,8.97,69960.0,2
+ORD-000080,Picking Started,2026-02-24T05:50:00+00:00,warehouse_07,Warehouse,7.54,69960.0,3
+ORD-000080,Packed,2026-02-24T12:41:50+00:00,warehouse_01,Warehouse,11.3,69960.0,4
+ORD-000080,Shipped,2026-02-24T14:29:41+00:00,warehouse_05,Warehouse,2.88,69960.0,5
+ORD-000080,Invoice Created,2026-02-24T20:04:29+00:00,accounting_03,Accounting,1.64,69960.0,6
+ORD-000080,Payment Received,2026-02-28T09:01:54+00:00,system,Finance,0.0,69960.0,7
+ORD-000081,Order Created,2026-04-02T07:51:00+00:00,sales_03,Sales,14.98,26590.0,1
+ORD-000081,Order Approved,2026-04-02T08:36:48+00:00,management_01,Management,16.47,26590.0,2
+ORD-000081,Order Edited,2026-04-02T09:31:08+00:00,sales_04,Sales,15.84,26590.0,3
+ORD-000081,Order Approved,2026-04-02T10:18:05+00:00,management_07,Management,7.97,26590.0,4
+ORD-000081,Picking Started,2026-04-02T13:32:18+00:00,warehouse_04,Warehouse,4.94,26590.0,5
+ORD-000081,Packed,2026-04-02T17:04:04+00:00,warehouse_01,Warehouse,2.84,26590.0,6
+ORD-000081,Shipped,2026-04-02T18:05:14+00:00,warehouse_05,Warehouse,10.66,26590.0,7
+ORD-000081,Invoice Created,2026-04-02T21:38:39+00:00,accounting_04,Accounting,7.13,26590.0,8
+ORD-000081,Payment Received,2026-04-07T22:22:34+00:00,system,Finance,0.0,26590.0,9
+ORD-000082,Order Created,2026-03-10T13:19:00+00:00,sales_05,Sales,2.48,48020.0,1
+ORD-000082,Order Approved,2026-03-10T17:12:47+00:00,management_02,Management,5.17,48020.0,2
+ORD-000082,Picking Started,2026-03-10T22:24:03+00:00,warehouse_04,Warehouse,14.86,48020.0,3
+ORD-000082,Packed,2026-03-11T00:18:15+00:00,warehouse_03,Warehouse,2.51,48020.0,4
+ORD-000082,Shipped,2026-03-11T01:18:59+00:00,warehouse_08,Warehouse,13.63,48020.0,5
+ORD-000082,Invoice Created,2026-03-11T03:20:31+00:00,accounting_06,Accounting,11.24,48020.0,6
+ORD-000082,Payment Received,2026-03-16T17:47:38+00:00,system,Finance,0.0,48020.0,7
+ORD-000083,Order Created,2026-03-04T01:31:00+00:00,sales_02,Sales,8.88,41270.0,1
+ORD-000083,Order Approved,2026-03-04T03:00:02+00:00,management_07,Management,6.04,41270.0,2
+ORD-000083,Picking Started,2026-03-04T04:31:53+00:00,warehouse_05,Warehouse,1.6,41270.0,3
+ORD-000083,Packed,2026-03-04T06:06:09+00:00,warehouse_07,Warehouse,9.3,41270.0,4
+ORD-000083,Shipped,2026-03-04T08:48:38+00:00,warehouse_06,Warehouse,14.99,41270.0,5
+ORD-000083,Invoice Created,2026-03-04T15:19:36+00:00,accounting_03,Accounting,6.15,41270.0,6
+ORD-000083,Payment Received,2026-03-12T10:54:05+00:00,system,Finance,0.0,41270.0,7
+ORD-000084,Order Created,2026-02-27T20:47:00+00:00,sales_08,Sales,16.26,20870.0,1
+ORD-000084,Order Approved,2026-02-27T21:42:00+00:00,management_03,Management,3.17,20870.0,2
+ORD-000084,Picking Started,2026-02-28T01:43:45+00:00,warehouse_08,Warehouse,13.99,20870.0,3
+ORD-000084,Packed,2026-02-28T03:09:31+00:00,warehouse_06,Warehouse,9.45,20870.0,4
+ORD-000084,Shipped,2026-02-28T04:41:44+00:00,warehouse_05,Warehouse,13.82,20870.0,5
+ORD-000084,Invoice Created,2026-02-28T14:42:18+00:00,accounting_06,Accounting,5.42,20870.0,6
+ORD-000084,Payment Received,2026-03-06T12:28:33+00:00,system,Finance,0.0,20870.0,7
+ORD-000085,Order Created,2026-01-18T09:38:00+00:00,sales_03,Sales,3.75,28660.0,1
+ORD-000085,Order Approved,2026-01-18T11:05:09+00:00,management_02,Management,2.09,28660.0,2
+ORD-000085,Picking Started,2026-01-18T22:03:22+00:00,warehouse_07,Warehouse,12.07,28660.0,3
+ORD-000085,Packed,2026-01-18T22:59:05+00:00,warehouse_06,Warehouse,16.06,28660.0,4
+ORD-000085,Shipped,2026-01-19T00:07:11+00:00,warehouse_02,Warehouse,8.56,28660.0,5
+ORD-000085,Invoice Created,2026-01-19T02:32:46+00:00,accounting_08,Accounting,5.84,28660.0,6
+ORD-000085,Payment Received,2026-01-25T19:03:59+00:00,system,Finance,0.0,28660.0,7
+ORD-000086,Order Created,2026-03-26T18:09:00+00:00,sales_05,Sales,4.01,57820.0,1
+ORD-000086,Order Approved,2026-03-26T19:44:03+00:00,management_08,Management,1.41,57820.0,2
+ORD-000086,Picking Started,2026-03-27T00:32:12+00:00,warehouse_08,Warehouse,10.76,57820.0,3
+ORD-000086,Packed,2026-03-27T03:18:44+00:00,warehouse_03,Warehouse,7.52,57820.0,4
+ORD-000086,Shipped,2026-03-27T05:22:30+00:00,warehouse_07,Warehouse,15.49,57820.0,5
+ORD-000086,Invoice Created,2026-03-27T21:21:39+00:00,accounting_05,Accounting,9.37,57820.0,6
+ORD-000086,Payment Received,2026-03-31T05:18:32+00:00,system,Finance,0.0,57820.0,7
+ORD-000087,Order Created,2026-01-26T04:12:00+00:00,sales_05,Sales,14.31,12100.0,1
+ORD-000087,Order Approved,2026-01-26T05:38:31+00:00,management_02,Management,14.55,12100.0,2
+ORD-000087,Picking Started,2026-01-26T14:14:39+00:00,warehouse_04,Warehouse,7.5,12100.0,3
+ORD-000087,Packed,2026-01-26T15:30:52+00:00,warehouse_08,Warehouse,11.11,12100.0,4
+ORD-000087,Shipped,2026-01-26T17:13:48+00:00,warehouse_01,Warehouse,11.63,12100.0,5
+ORD-000087,Invoice Created,2026-01-26T21:40:19+00:00,accounting_07,Accounting,3.68,12100.0,6
+ORD-000087,Payment Received,2026-02-09T13:50:35+00:00,system,Finance,0.0,12100.0,7
+ORD-000088,Order Created,2026-03-14T23:57:00+00:00,sales_01,Sales,17.95,53200.0,1
+ORD-000088,Order Approved,2026-03-15T00:59:11+00:00,management_06,Management,4.57,53200.0,2
+ORD-000088,Order Edited,2026-03-15T01:36:25+00:00,sales_05,Sales,7.84,53200.0,3
+ORD-000088,Order Approved,2026-03-15T03:25:02+00:00,management_05,Management,15.23,53200.0,4
+ORD-000088,Picking Started,2026-03-15T11:53:58+00:00,warehouse_01,Warehouse,10.51,53200.0,5
+ORD-000088,Packed,2026-03-15T13:25:09+00:00,warehouse_03,Warehouse,4.11,53200.0,6
+ORD-000088,Shipped,2026-03-15T15:08:12+00:00,warehouse_02,Warehouse,15.48,53200.0,7
+ORD-000088,Invoice Created,2026-03-15T18:01:17+00:00,accounting_03,Accounting,12.35,53200.0,8
+ORD-000088,Payment Received,2026-03-21T10:56:19+00:00,system,Finance,0.0,53200.0,9
+ORD-000089,Order Created,2026-03-17T01:42:00+00:00,sales_05,Sales,11.98,12560.0,1
+ORD-000089,Order Approved,2026-03-17T04:40:43+00:00,management_01,Management,4.05,12560.0,2
+ORD-000089,Picking Started,2026-03-17T09:38:04+00:00,warehouse_02,Warehouse,12.25,12560.0,3
+ORD-000089,Packed,2026-03-17T10:29:50+00:00,warehouse_05,Warehouse,11.31,12560.0,4
+ORD-000089,Shipped,2026-03-17T12:58:51+00:00,warehouse_02,Warehouse,2.97,12560.0,5
+ORD-000089,Invoice Created,2026-03-17T16:37:08+00:00,accounting_06,Accounting,8.62,12560.0,6
+ORD-000089,Payment Received,2026-03-19T01:11:36+00:00,system,Finance,0.0,12560.0,7
+ORD-000090,Order Created,2026-03-18T14:10:00+00:00,sales_06,Sales,16.87,38360.0,1
+ORD-000090,Order Approved,2026-03-18T16:01:18+00:00,management_03,Management,17.84,38360.0,2
+ORD-000090,Picking Started,2026-03-19T05:47:39+00:00,warehouse_08,Warehouse,13.34,38360.0,3
+ORD-000090,Packed,2026-03-19T08:54:16+00:00,warehouse_02,Warehouse,5.91,38360.0,4
+ORD-000090,Shipped,2026-03-19T11:34:41+00:00,warehouse_06,Warehouse,15.91,38360.0,5
+ORD-000090,Invoice Created,2026-03-19T19:54:07+00:00,accounting_05,Accounting,1.38,38360.0,6
+ORD-000090,Payment Received,2026-03-22T04:07:17+00:00,system,Finance,0.0,38360.0,7
+ORD-000091,Order Created,2026-02-17T12:44:00+00:00,sales_02,Sales,9.57,19660.0,1
+ORD-000091,Order Approved,2026-02-17T13:18:42+00:00,management_03,Management,11.81,19660.0,2
+ORD-000091,Order Edited,2026-02-17T14:19:24+00:00,sales_08,Sales,3.06,19660.0,3
+ORD-000091,Order Approved,2026-02-17T15:01:26+00:00,management_01,Management,13.62,19660.0,4
+ORD-000091,Picking Started,2026-02-17T17:39:11+00:00,warehouse_02,Warehouse,10.79,19660.0,5
+ORD-000091,Packed,2026-02-17T19:17:25+00:00,warehouse_05,Warehouse,13.5,19660.0,6
+ORD-000091,Shipped,2026-02-17T21:25:09+00:00,warehouse_01,Warehouse,8.99,19660.0,7
+ORD-000091,Invoice Created,2026-02-17T23:57:53+00:00,accounting_04,Accounting,4.68,19660.0,8
+ORD-000091,Payment Received,2026-02-24T00:18:17+00:00,system,Finance,0.0,19660.0,9
+ORD-000092,Order Created,2026-02-06T07:13:00+00:00,sales_02,Sales,15.67,76560.0,1
+ORD-000092,Order Approved,2026-02-06T08:36:59+00:00,management_03,Management,7.36,76560.0,2
+ORD-000092,Picking Started,2026-02-06T13:10:52+00:00,warehouse_06,Warehouse,11.65,76560.0,3
+ORD-000092,Packed,2026-02-06T15:57:11+00:00,warehouse_02,Warehouse,5.39,76560.0,4
+ORD-000092,Shipped,2026-02-06T18:04:43+00:00,warehouse_03,Warehouse,6.4,76560.0,5
+ORD-000092,Invoice Created,2026-02-06T20:37:39+00:00,accounting_08,Accounting,13.81,76560.0,6
+ORD-000092,Payment Received,2026-02-09T21:08:03+00:00,system,Finance,0.0,76560.0,7
+ORD-000093,Order Created,2026-01-28T17:02:00+00:00,sales_04,Sales,15.13,48520.0,1
+ORD-000093,Order Approved,2026-01-28T18:47:23+00:00,management_06,Management,13.46,48520.0,2
+ORD-000093,Picking Started,2026-01-28T22:50:14+00:00,warehouse_01,Warehouse,5.12,48520.0,3
+ORD-000093,Packed,2026-01-29T01:52:53+00:00,warehouse_02,Warehouse,13.97,48520.0,4
+ORD-000093,Shipped,2026-01-29T02:50:10+00:00,warehouse_05,Warehouse,6.88,48520.0,5
+ORD-000093,Invoice Created,2026-01-29T03:28:24+00:00,accounting_08,Accounting,13.79,48520.0,6
+ORD-000093,Payment Received,2026-01-31T09:22:43+00:00,system,Finance,0.0,48520.0,7
+ORD-000094,Order Created,2026-04-01T11:36:00+00:00,sales_01,Sales,6.05,44550.0,1
+ORD-000094,Order Approved,2026-04-01T15:09:37+00:00,management_05,Management,3.63,44550.0,2
+ORD-000094,Order Edited,2026-04-01T17:03:05+00:00,sales_08,Sales,12.96,44550.0,3
+ORD-000094,Order Approved,2026-04-01T17:56:48+00:00,management_08,Management,10.12,44550.0,4
+ORD-000094,Picking Started,2026-04-01T23:17:38+00:00,warehouse_07,Warehouse,7.24,44550.0,5
+ORD-000094,Packed,2026-04-02T00:16:36+00:00,warehouse_05,Warehouse,3.73,44550.0,6
+ORD-000094,Shipped,2026-04-02T01:54:29+00:00,warehouse_08,Warehouse,5.68,44550.0,7
+ORD-000094,Invoice Created,2026-04-02T08:49:23+00:00,accounting_06,Accounting,10.75,44550.0,8
+ORD-000094,Payment Received,2026-04-09T04:25:33+00:00,system,Finance,0.0,44550.0,9
+ORD-000095,Order Created,2026-01-23T01:58:00+00:00,sales_07,Sales,6.0,67900.0,1
+ORD-000095,Order Approved,2026-01-23T03:56:06+00:00,management_01,Management,17.9,67900.0,2
+ORD-000095,Order Edited,2026-01-23T06:07:58+00:00,sales_08,Sales,13.99,67900.0,3
+ORD-000095,Order Approved,2026-01-23T07:08:53+00:00,management_02,Management,3.9,67900.0,4
+ORD-000095,Picking Started,2026-01-25T14:14:55+00:00,warehouse_01,Warehouse,7.66,67900.0,5
+ORD-000095,Packed,2026-01-25T15:10:03+00:00,warehouse_08,Warehouse,16.31,67900.0,6
+ORD-000095,Shipped,2026-01-25T15:54:06+00:00,warehouse_06,Warehouse,4.83,67900.0,7
+ORD-000095,Invoice Created,2026-01-25T20:07:57+00:00,accounting_05,Accounting,12.84,67900.0,8
+ORD-000095,Payment Received,2026-01-27T21:13:47+00:00,system,Finance,0.0,67900.0,9
+ORD-000096,Order Created,2026-03-22T12:37:00+00:00,sales_02,Sales,14.41,10560.0,1
+ORD-000096,Order Approved,2026-03-22T13:51:36+00:00,management_02,Management,4.76,10560.0,2
+ORD-000096,Picking Started,2026-03-22T16:59:19+00:00,warehouse_05,Warehouse,13.03,10560.0,3
+ORD-000096,Packed,2026-03-22T17:55:16+00:00,warehouse_05,Warehouse,17.5,10560.0,4
+ORD-000096,Shipped,2026-03-22T22:51:04+00:00,warehouse_04,Warehouse,10.73,10560.0,5
+ORD-000096,Invoice Created,2026-03-24T01:48:23+00:00,accounting_03,Accounting,11.97,10560.0,6
+ORD-000096,Payment Received,2026-03-28T11:22:40+00:00,system,Finance,0.0,10560.0,7
+ORD-000097,Order Created,2026-03-31T06:14:00+00:00,sales_04,Sales,7.51,16080.0,1
+ORD-000097,Order Approved,2026-03-31T08:07:13+00:00,management_01,Management,15.45,16080.0,2
+ORD-000097,Picking Started,2026-03-31T09:55:08+00:00,warehouse_04,Warehouse,15.56,16080.0,3
+ORD-000097,Packed,2026-03-31T13:20:57+00:00,warehouse_03,Warehouse,12.96,16080.0,4
+ORD-000097,Shipped,2026-03-31T13:54:08+00:00,warehouse_02,Warehouse,12.3,16080.0,5
+ORD-000097,Invoice Created,2026-03-31T16:04:27+00:00,accounting_01,Accounting,2.23,16080.0,6
+ORD-000097,Payment Received,2026-04-03T21:11:35+00:00,system,Finance,0.0,16080.0,7
+ORD-000098,Order Created,2026-03-20T22:37:00+00:00,sales_05,Sales,14.73,22260.0,1
+ORD-000098,Order Approved,2026-03-20T23:34:40+00:00,management_01,Management,2.7,22260.0,2
+ORD-000098,Picking Started,2026-03-22T20:53:59+00:00,warehouse_04,Warehouse,4.99,22260.0,3
+ORD-000098,Shipped,2026-03-22T23:03:18+00:00,warehouse_01,Warehouse,6.72,22260.0,4
+ORD-000098,Invoice Created,2026-03-23T05:35:37+00:00,accounting_06,Accounting,7.46,22260.0,5
+ORD-000098,Payment Received,2026-03-30T08:47:56+00:00,system,Finance,0.0,22260.0,6
+ORD-000099,Order Created,2026-01-31T20:56:00+00:00,sales_08,Sales,4.8,37070.0,1
+ORD-000099,Order Approved,2026-01-31T21:33:23+00:00,management_07,Management,4.76,37070.0,2
+ORD-000099,Order Edited,2026-02-01T00:29:57+00:00,sales_06,Sales,6.58,37070.0,3
+ORD-000099,Order Approved,2026-02-01T03:22:45+00:00,management_03,Management,9.63,37070.0,4
+ORD-000099,Picking Started,2026-02-01T09:48:16+00:00,warehouse_08,Warehouse,12.97,37070.0,5
+ORD-000099,Packed,2026-02-01T10:57:53+00:00,warehouse_01,Warehouse,2.34,37070.0,6
+ORD-000099,Shipped,2026-02-01T11:38:00+00:00,warehouse_03,Warehouse,3.89,37070.0,7
+ORD-000099,Invoice Created,2026-02-01T14:13:44+00:00,accounting_06,Accounting,11.65,37070.0,8
+ORD-000099,Payment Received,2026-02-05T19:57:33+00:00,system,Finance,0.0,37070.0,9
+ORD-000100,Order Created,2026-03-29T02:31:00+00:00,sales_08,Sales,10.04,25840.0,1
+ORD-000100,Order Approved,2026-03-29T03:42:39+00:00,management_07,Management,12.08,25840.0,2
+ORD-000100,Picking Started,2026-03-29T07:59:59+00:00,warehouse_05,Warehouse,2.12,25840.0,3
+ORD-000100,Packed,2026-03-29T10:12:20+00:00,warehouse_05,Warehouse,13.16,25840.0,4
+ORD-000100,Shipped,2026-03-29T12:42:20+00:00,warehouse_03,Warehouse,14.26,25840.0,5
+ORD-000100,Invoice Created,2026-03-29T17:26:40+00:00,accounting_06,Accounting,11.47,25840.0,6
+ORD-000100,Payment Received,2026-04-08T00:19:22+00:00,system,Finance,0.0,25840.0,7
+ORD-000101,Order Created,2026-03-27T12:36:00+00:00,sales_08,Sales,15.85,21150.0,1
+ORD-000101,Order Approved,2026-03-27T13:44:54+00:00,management_04,Management,13.92,21150.0,2
+ORD-000101,Picking Started,2026-03-27T15:41:12+00:00,warehouse_02,Warehouse,5.39,21150.0,3
+ORD-000101,Packed,2026-03-27T19:24:43+00:00,warehouse_07,Warehouse,8.63,21150.0,4
+ORD-000101,Shipped,2026-03-27T20:29:56+00:00,warehouse_07,Warehouse,5.57,21150.0,5
+ORD-000101,Invoice Created,2026-03-27T22:43:00+00:00,accounting_05,Accounting,2.19,21150.0,6
+ORD-000101,Payment Received,2026-04-06T13:23:06+00:00,system,Finance,0.0,21150.0,7
+ORD-000102,Order Created,2026-03-17T12:43:00+00:00,sales_06,Sales,12.61,23780.0,1
+ORD-000102,Order Approved,2026-03-17T13:41:36+00:00,management_08,Management,4.31,23780.0,2
+ORD-000102,Picking Started,2026-03-19T21:40:47+00:00,warehouse_07,Warehouse,8.53,23780.0,3
+ORD-000102,Packed,2026-03-20T00:21:44+00:00,warehouse_08,Warehouse,16.87,23780.0,4
+ORD-000102,Shipped,2026-03-20T04:44:25+00:00,warehouse_02,Warehouse,12.12,23780.0,5
+ORD-000102,Invoice Created,2026-03-20T07:28:15+00:00,accounting_03,Accounting,8.91,23780.0,6
+ORD-000102,Payment Received,2026-03-22T17:03:44+00:00,system,Finance,0.0,23780.0,7
+ORD-000103,Order Created,2026-02-06T10:17:00+00:00,sales_01,Sales,16.92,30390.0,1
+ORD-000103,Order Approved,2026-02-06T17:23:34+00:00,management_06,Management,11.11,30390.0,2
+ORD-000103,Picking Started,2026-02-06T20:47:53+00:00,warehouse_02,Warehouse,15.76,30390.0,3
+ORD-000103,Packed,2026-02-06T22:25:05+00:00,warehouse_02,Warehouse,5.46,30390.0,4
+ORD-000103,Shipped,2026-02-07T00:27:42+00:00,warehouse_04,Warehouse,14.4,30390.0,5
+ORD-000103,Invoice Created,2026-02-07T04:36:28+00:00,accounting_01,Accounting,5.86,30390.0,6
+ORD-000103,Payment Received,2026-02-18T06:39:16+00:00,system,Finance,0.0,30390.0,7
+ORD-000104,Order Created,2026-02-09T13:03:00+00:00,sales_05,Sales,5.55,12940.0,1
+ORD-000104,Order Approved,2026-02-09T14:22:06+00:00,management_02,Management,5.42,12940.0,2
+ORD-000104,Picking Started,2026-02-09T19:19:40+00:00,warehouse_01,Warehouse,14.27,12940.0,3
+ORD-000104,Packed,2026-02-09T22:31:40+00:00,warehouse_01,Warehouse,8.55,12940.0,4
+ORD-000104,Shipped,2026-02-09T23:32:57+00:00,warehouse_06,Warehouse,7.96,12940.0,5
+ORD-000104,Invoice Created,2026-02-10T04:14:34+00:00,accounting_02,Accounting,10.36,12940.0,6
+ORD-000104,Payment Received,2026-02-16T01:22:22+00:00,system,Finance,0.0,12940.0,7
+ORD-000105,Order Created,2026-03-06T17:57:00+00:00,sales_01,Sales,14.56,19110.0,1
+ORD-000105,Order Approved,2026-03-06T18:54:18+00:00,management_02,Management,15.16,19110.0,2
+ORD-000105,Picking Started,2026-03-06T23:43:34+00:00,warehouse_02,Warehouse,12.37,19110.0,3
+ORD-000105,Packed,2026-03-07T01:18:16+00:00,warehouse_05,Warehouse,16.63,19110.0,4
+ORD-000105,Shipped,2026-03-07T02:29:14+00:00,warehouse_04,Warehouse,14.73,19110.0,5
+ORD-000105,Invoice Created,2026-03-07T05:33:45+00:00,accounting_05,Accounting,3.94,19110.0,6
+ORD-000105,Payment Received,2026-03-12T17:09:08+00:00,system,Finance,0.0,19110.0,7
+ORD-000106,Order Created,2026-02-21T20:55:00+00:00,sales_04,Sales,1.51,29320.0,1
+ORD-000106,Order Approved,2026-02-21T22:45:45+00:00,management_03,Management,6.74,29320.0,2
+ORD-000106,Order Edited,2026-02-21T23:49:59+00:00,sales_04,Sales,11.32,29320.0,3
+ORD-000106,Order Approved,2026-02-22T01:08:15+00:00,management_02,Management,14.71,29320.0,4
+ORD-000106,Picking Started,2026-02-24T02:43:07+00:00,warehouse_03,Warehouse,2.09,29320.0,5
+ORD-000106,Packed,2026-02-24T04:39:42+00:00,warehouse_03,Warehouse,16.91,29320.0,6
+ORD-000106,Shipped,2026-02-24T05:43:18+00:00,warehouse_01,Warehouse,13.01,29320.0,7
+ORD-000106,Invoice Created,2026-02-24T10:08:47+00:00,accounting_08,Accounting,8.12,29320.0,8
+ORD-000106,Payment Received,2026-03-06T00:15:28+00:00,system,Finance,0.0,29320.0,9
+ORD-000107,Order Created,2026-03-07T19:41:00+00:00,sales_02,Sales,14.8,43340.0,1
+ORD-000107,Order Approved,2026-03-07T20:09:17+00:00,management_06,Management,11.44,43340.0,2
+ORD-000107,Picking Started,2026-03-08T01:51:51+00:00,warehouse_06,Warehouse,7.4,43340.0,3
+ORD-000107,Packed,2026-03-08T02:39:36+00:00,warehouse_02,Warehouse,4.08,43340.0,4
+ORD-000107,Shipped,2026-03-08T03:55:30+00:00,warehouse_08,Warehouse,17.34,43340.0,5
+ORD-000107,Invoice Created,2026-03-08T12:19:24+00:00,accounting_06,Accounting,14.89,43340.0,6
+ORD-000108,Order Created,2026-03-01T00:24:00+00:00,sales_01,Sales,13.07,30990.0,1
+ORD-000108,Order Approved,2026-03-01T01:14:38+00:00,management_03,Management,8.21,30990.0,2
+ORD-000108,Picking Started,2026-03-01T06:32:00+00:00,warehouse_05,Warehouse,2.92,30990.0,3
+ORD-000108,Packed,2026-03-01T07:49:58+00:00,warehouse_01,Warehouse,17.03,30990.0,4
+ORD-000108,Shipped,2026-03-01T09:03:16+00:00,warehouse_04,Warehouse,2.01,30990.0,5
+ORD-000108,Invoice Created,2026-03-01T11:57:36+00:00,accounting_08,Accounting,15.91,30990.0,6
+ORD-000108,Payment Received,2026-03-06T12:51:24+00:00,system,Finance,0.0,30990.0,7
+ORD-000109,Order Created,2026-02-22T17:58:00+00:00,sales_06,Sales,4.33,36190.0,1
+ORD-000109,Order Approved,2026-02-22T20:35:19+00:00,management_01,Management,2.26,36190.0,2
+ORD-000109,Picking Started,2026-02-23T05:29:47+00:00,warehouse_02,Warehouse,9.83,36190.0,3
+ORD-000109,Packed,2026-02-23T09:28:46+00:00,warehouse_08,Warehouse,15.53,36190.0,4
+ORD-000109,Shipped,2026-02-23T11:59:03+00:00,warehouse_08,Warehouse,16.03,36190.0,5
+ORD-000109,Invoice Created,2026-02-23T13:33:34+00:00,accounting_03,Accounting,17.25,36190.0,6
+ORD-000109,Payment Received,2026-04-27T05:04:00+00:00,system,Finance,0.0,36190.0,7
+ORD-000110,Order Created,2026-01-18T02:27:00+00:00,sales_01,Sales,6.35,26150.0,1
+ORD-000110,Order Approved,2026-01-18T03:38:34+00:00,management_06,Management,15.57,26150.0,2
+ORD-000110,Picking Started,2026-01-18T10:35:53+00:00,warehouse_07,Warehouse,17.95,26150.0,3
+ORD-000110,Packed,2026-01-18T14:24:24+00:00,warehouse_06,Warehouse,4.04,26150.0,4
+ORD-000110,Shipped,2026-01-18T18:46:29+00:00,warehouse_01,Warehouse,9.72,26150.0,5
+ORD-000110,Invoice Created,2026-01-19T00:17:05+00:00,accounting_03,Accounting,10.58,26150.0,6
+ORD-000110,Payment Received,2026-01-22T14:54:51+00:00,system,Finance,0.0,26150.0,7
+ORD-000111,Order Created,2026-02-16T05:54:00+00:00,sales_04,Sales,2.8,36230.0,1
+ORD-000111,Order Approved,2026-02-16T07:02:22+00:00,management_08,Management,7.45,36230.0,2
+ORD-000111,Picking Started,2026-02-16T17:14:13+00:00,warehouse_06,Warehouse,7.84,36230.0,3
+ORD-000111,Packed,2026-02-16T19:51:35+00:00,warehouse_01,Warehouse,1.83,36230.0,4
+ORD-000111,Shipped,2026-02-16T21:13:13+00:00,warehouse_01,Warehouse,6.51,36230.0,5
+ORD-000111,Invoice Created,2026-02-17T02:36:22+00:00,accounting_07,Accounting,11.65,36230.0,6
+ORD-000111,Payment Received,2026-02-19T12:02:29+00:00,system,Finance,0.0,36230.0,7
+ORD-000112,Order Created,2026-03-30T12:01:00+00:00,sales_04,Sales,2.02,25670.0,1
+ORD-000112,Order Approved,2026-03-30T13:17:22+00:00,management_02,Management,7.99,25670.0,2
+ORD-000112,Picking Started,2026-03-30T19:10:37+00:00,warehouse_04,Warehouse,4.73,25670.0,3
+ORD-000112,Packed,2026-03-30T21:00:29+00:00,warehouse_08,Warehouse,5.21,25670.0,4
+ORD-000112,Shipped,2026-03-30T23:44:45+00:00,warehouse_07,Warehouse,8.94,25670.0,5
+ORD-000112,Invoice Created,2026-03-31T02:40:31+00:00,accounting_05,Accounting,1.86,25670.0,6
+ORD-000112,Payment Received,2026-04-08T05:45:54+00:00,system,Finance,0.0,25670.0,7
+ORD-000113,Order Created,2026-03-20T10:34:00+00:00,sales_05,Sales,17.96,28430.0,1
+ORD-000113,Order Approved,2026-03-20T12:55:10+00:00,management_07,Management,9.37,28430.0,2
+ORD-000113,Picking Started,2026-03-21T02:51:35+00:00,warehouse_08,Warehouse,1.04,28430.0,3
+ORD-000113,Packed,2026-03-21T06:12:34+00:00,warehouse_05,Warehouse,8.47,28430.0,4
+ORD-000113,Shipped,2026-03-21T08:21:19+00:00,warehouse_03,Warehouse,10.32,28430.0,5
+ORD-000113,Invoice Created,2026-03-21T22:58:45+00:00,accounting_02,Accounting,17.35,28430.0,6
+ORD-000113,Payment Received,2026-03-28T07:21:18+00:00,system,Finance,0.0,28430.0,7
+ORD-000114,Order Created,2026-01-29T08:38:00+00:00,sales_07,Sales,2.46,18980.0,1
+ORD-000114,Order Approved,2026-01-29T09:53:24+00:00,management_03,Management,15.99,18980.0,2
+ORD-000114,Picking Started,2026-01-29T18:25:51+00:00,warehouse_08,Warehouse,11.14,18980.0,3
+ORD-000114,Packed,2026-01-29T21:54:08+00:00,warehouse_01,Warehouse,11.19,18980.0,4
+ORD-000114,Shipped,2026-01-29T23:22:24+00:00,warehouse_05,Warehouse,5.53,18980.0,5
+ORD-000114,Invoice Created,2026-01-30T02:33:33+00:00,accounting_04,Accounting,17.42,18980.0,6
+ORD-000114,Payment Received,2026-02-01T14:55:42+00:00,system,Finance,0.0,18980.0,7
+ORD-000115,Order Created,2026-02-22T22:57:00+00:00,sales_08,Sales,15.93,25670.0,1
+ORD-000115,Order Approved,2026-02-23T00:51:06+00:00,management_08,Management,6.82,25670.0,2
+ORD-000115,Picking Started,2026-02-23T03:41:33+00:00,warehouse_08,Warehouse,3.11,25670.0,3
+ORD-000115,Packed,2026-02-23T05:58:25+00:00,warehouse_08,Warehouse,2.89,25670.0,4
+ORD-000115,Shipped,2026-02-23T07:39:29+00:00,warehouse_01,Warehouse,6.12,25670.0,5
+ORD-000115,Invoice Created,2026-02-23T12:19:54+00:00,accounting_03,Accounting,2.29,25670.0,6
+ORD-000115,Payment Received,2026-03-16T12:17:30+00:00,system,Finance,0.0,25670.0,7
+ORD-000116,Order Created,2026-03-09T18:53:00+00:00,sales_01,Sales,4.6,28990.0,1
+ORD-000116,Order Approved,2026-03-09T22:15:32+00:00,management_01,Management,4.27,28990.0,2
+ORD-000116,Picking Started,2026-03-10T04:29:14+00:00,warehouse_06,Warehouse,8.33,28990.0,3
+ORD-000116,Packed,2026-03-10T09:08:56+00:00,warehouse_03,Warehouse,12.23,28990.0,4
+ORD-000116,Shipped,2026-03-10T10:44:02+00:00,warehouse_06,Warehouse,14.69,28990.0,5
+ORD-000116,Invoice Created,2026-03-10T14:41:40+00:00,accounting_03,Accounting,8.48,28990.0,6
+ORD-000116,Payment Received,2026-03-13T05:47:08+00:00,system,Finance,0.0,28990.0,7
+ORD-000117,Order Created,2026-03-22T06:24:00+00:00,sales_08,Sales,9.06,32260.0,1
+ORD-000117,Order Approved,2026-03-22T07:10:56+00:00,management_08,Management,14.42,32260.0,2
+ORD-000117,Picking Started,2026-03-22T11:51:23+00:00,warehouse_01,Warehouse,16.92,32260.0,3
+ORD-000117,Packed,2026-03-22T23:09:15+00:00,warehouse_03,Warehouse,8.0,32260.0,4
+ORD-000117,Shipped,2026-03-22T23:53:15+00:00,warehouse_08,Warehouse,8.16,32260.0,5
+ORD-000117,Invoice Created,2026-03-23T01:33:31+00:00,accounting_08,Accounting,4.63,32260.0,6
+ORD-000117,Payment Received,2026-03-26T13:02:36+00:00,system,Finance,0.0,32260.0,7
+ORD-000118,Order Created,2026-01-30T06:52:00+00:00,sales_08,Sales,12.56,21260.0,1
+ORD-000118,Order Approved,2026-01-30T09:02:06+00:00,management_01,Management,4.37,21260.0,2
+ORD-000118,Picking Started,2026-02-01T23:51:30+00:00,warehouse_02,Warehouse,15.7,21260.0,3
+ORD-000118,Packed,2026-02-02T02:19:24+00:00,warehouse_01,Warehouse,5.01,21260.0,4
+ORD-000118,Shipped,2026-02-02T03:06:18+00:00,warehouse_05,Warehouse,11.7,21260.0,5
+ORD-000118,Invoice Created,2026-02-03T05:25:11+00:00,accounting_06,Accounting,8.88,21260.0,6
+ORD-000118,Payment Received,2026-02-09T01:45:40+00:00,system,Finance,0.0,21260.0,7
+ORD-000119,Order Created,2026-01-16T02:49:00+00:00,sales_07,Sales,4.1,17980.0,1
+ORD-000119,Order Approved,2026-01-16T03:35:31+00:00,management_01,Management,7.72,17980.0,2
+ORD-000119,Picking Started,2026-01-16T11:34:33+00:00,warehouse_07,Warehouse,16.95,17980.0,3
+ORD-000119,Packed,2026-01-16T15:24:42+00:00,warehouse_06,Warehouse,13.87,17980.0,4
+ORD-000119,Shipped,2026-01-16T16:53:26+00:00,warehouse_01,Warehouse,5.94,17980.0,5
+ORD-000119,Invoice Created,2026-01-16T18:00:24+00:00,accounting_01,Accounting,1.97,17980.0,6
+ORD-000119,Payment Received,2026-01-20T16:57:46+00:00,system,Finance,0.0,17980.0,7
+ORD-000120,Order Created,2026-02-17T18:40:00+00:00,sales_03,Sales,14.95,13250.0,1
+ORD-000120,Order Approved,2026-02-17T19:45:15+00:00,management_04,Management,17.44,13250.0,2
+ORD-000120,Picking Started,2026-02-18T20:57:57+00:00,warehouse_01,Warehouse,10.98,13250.0,3
+ORD-000120,Packed,2026-02-18T22:00:59+00:00,warehouse_02,Warehouse,2.38,13250.0,4
+ORD-000120,Shipped,2026-02-18T23:04:47+00:00,warehouse_01,Warehouse,7.92,13250.0,5
+ORD-000120,Invoice Created,2026-02-19T02:28:16+00:00,accounting_04,Accounting,5.6,13250.0,6
+ORD-000120,Payment Received,2026-02-21T23:25:09+00:00,system,Finance,0.0,13250.0,7
+ORD-000121,Order Created,2026-01-31T05:46:00+00:00,sales_05,Sales,7.54,6880.0,1
+ORD-000121,Order Approved,2026-01-31T06:48:44+00:00,management_01,Management,7.75,6880.0,2
+ORD-000121,Picking Started,2026-01-31T09:57:03+00:00,warehouse_07,Warehouse,11.73,6880.0,3
+ORD-000121,Packed,2026-01-31T15:34:59+00:00,warehouse_02,Warehouse,2.61,6880.0,4
+ORD-000121,Shipped,2026-01-31T18:08:35+00:00,warehouse_05,Warehouse,11.59,6880.0,5
+ORD-000121,Invoice Created,2026-01-31T20:03:05+00:00,accounting_02,Accounting,5.43,6880.0,6
+ORD-000121,Payment Received,2026-02-05T04:25:04+00:00,system,Finance,0.0,6880.0,7
+ORD-000122,Order Created,2026-04-05T06:37:00+00:00,sales_07,Sales,12.51,21000.0,1
+ORD-000122,Order Approved,2026-04-05T09:21:16+00:00,management_05,Management,17.09,21000.0,2
+ORD-000122,Picking Started,2026-04-05T19:19:25+00:00,warehouse_05,Warehouse,2.78,21000.0,3
+ORD-000122,Packed,2026-04-05T20:19:49+00:00,warehouse_07,Warehouse,14.29,21000.0,4
+ORD-000122,Shipped,2026-04-05T21:21:37+00:00,warehouse_03,Warehouse,1.94,21000.0,5
+ORD-000122,Invoice Created,2026-04-06T02:56:11+00:00,accounting_05,Accounting,7.8,21000.0,6
+ORD-000122,Payment Received,2026-04-09T11:34:55+00:00,system,Finance,0.0,21000.0,7
+ORD-000123,Order Created,2026-03-27T13:13:00+00:00,sales_02,Sales,4.7,39710.0,1
+ORD-000123,Order Approved,2026-03-27T16:45:32+00:00,management_06,Management,5.22,39710.0,2
+ORD-000123,Picking Started,2026-03-27T19:14:09+00:00,warehouse_02,Warehouse,9.41,39710.0,3
+ORD-000123,Packed,2026-03-27T21:05:24+00:00,warehouse_03,Warehouse,11.77,39710.0,4
+ORD-000123,Shipped,2026-03-27T21:54:23+00:00,warehouse_05,Warehouse,5.66,39710.0,5
+ORD-000123,Invoice Created,2026-03-27T23:40:26+00:00,accounting_07,Accounting,1.87,39710.0,6
+ORD-000123,Payment Received,2026-04-18T19:46:22+00:00,system,Finance,0.0,39710.0,7
+ORD-000124,Order Created,2026-03-25T10:02:00+00:00,sales_06,Sales,5.98,38540.0,1
+ORD-000124,Order Approved,2026-03-25T11:00:15+00:00,management_08,Management,2.27,38540.0,2
+ORD-000124,Picking Started,2026-03-25T13:53:01+00:00,warehouse_06,Warehouse,16.24,38540.0,3
+ORD-000124,Packed,2026-03-25T17:36:57+00:00,warehouse_05,Warehouse,10.29,38540.0,4
+ORD-000124,Shipped,2026-03-25T19:45:53+00:00,warehouse_01,Warehouse,7.38,38540.0,5
+ORD-000124,Invoice Created,2026-03-25T20:45:31+00:00,accounting_04,Accounting,12.57,38540.0,6
+ORD-000125,Order Created,2026-02-09T09:27:00+00:00,sales_03,Sales,7.76,36900.0,1
+ORD-000125,Order Approved,2026-02-09T10:46:07+00:00,management_06,Management,1.87,36900.0,2
+ORD-000125,Picking Started,2026-02-09T17:20:18+00:00,warehouse_04,Warehouse,8.46,36900.0,3
+ORD-000125,Packed,2026-02-09T22:28:40+00:00,warehouse_01,Warehouse,9.51,36900.0,4
+ORD-000125,Shipped,2026-02-10T01:10:55+00:00,warehouse_02,Warehouse,15.07,36900.0,5
+ORD-000125,Invoice Created,2026-02-10T04:02:25+00:00,accounting_08,Accounting,11.01,36900.0,6
+ORD-000125,Payment Received,2026-02-13T16:23:41+00:00,system,Finance,0.0,36900.0,7
+ORD-000126,Order Created,2026-03-07T01:55:00+00:00,sales_05,Sales,3.79,6470.0,1
+ORD-000126,Order Approved,2026-03-07T05:53:27+00:00,management_05,Management,1.7,6470.0,2
+ORD-000126,Picking Started,2026-03-09T08:56:15+00:00,warehouse_03,Warehouse,8.01,6470.0,3
+ORD-000126,Packed,2026-03-09T10:29:16+00:00,warehouse_05,Warehouse,1.12,6470.0,4
+ORD-000126,Shipped,2026-03-09T11:38:51+00:00,warehouse_05,Warehouse,6.05,6470.0,5
+ORD-000126,Invoice Created,2026-03-09T13:54:54+00:00,accounting_05,Accounting,10.12,6470.0,6
+ORD-000126,Payment Received,2026-03-17T02:56:02+00:00,system,Finance,0.0,6470.0,7
+ORD-000127,Order Created,2026-01-10T01:41:00+00:00,sales_06,Sales,3.01,8970.0,1
+ORD-000127,Order Approved,2026-01-10T04:59:19+00:00,management_08,Management,4.42,8970.0,2
+ORD-000127,Order Edited,2026-01-10T05:52:26+00:00,sales_04,Sales,9.91,8970.0,3
+ORD-000127,Order Approved,2026-01-10T06:47:23+00:00,management_04,Management,9.46,8970.0,4
+ORD-000127,Picking Started,2026-01-10T11:31:14+00:00,warehouse_06,Warehouse,1.79,8970.0,5
+ORD-000127,Packed,2026-01-10T12:36:15+00:00,warehouse_05,Warehouse,1.14,8970.0,6
+ORD-000127,Shipped,2026-01-10T13:10:40+00:00,warehouse_08,Warehouse,3.07,8970.0,7
+ORD-000127,Invoice Created,2026-01-10T16:47:47+00:00,accounting_06,Accounting,16.08,8970.0,8
+ORD-000127,Payment Received,2026-01-13T23:08:10+00:00,system,Finance,0.0,8970.0,9
+ORD-000128,Order Created,2026-01-13T08:39:00+00:00,sales_08,Sales,10.93,16390.0,1
+ORD-000128,Order Approved,2026-01-13T09:47:09+00:00,management_03,Management,2.89,16390.0,2
+ORD-000128,Picking Started,2026-01-13T17:20:39+00:00,warehouse_01,Warehouse,12.98,16390.0,3
+ORD-000128,Packed,2026-01-13T21:24:41+00:00,warehouse_06,Warehouse,6.22,16390.0,4
+ORD-000128,Shipped,2026-01-13T22:28:47+00:00,warehouse_05,Warehouse,11.69,16390.0,5
+ORD-000128,Invoice Created,2026-01-16T03:43:16+00:00,accounting_05,Accounting,4.44,16390.0,6
+ORD-000128,Payment Received,2026-01-19T13:55:57+00:00,system,Finance,0.0,16390.0,7
+ORD-000129,Order Created,2026-02-10T21:04:00+00:00,sales_08,Sales,11.12,53040.0,1
+ORD-000129,Order Approved,2026-02-10T21:50:17+00:00,management_07,Management,11.14,53040.0,2
+ORD-000129,Picking Started,2026-02-11T06:02:30+00:00,warehouse_01,Warehouse,7.6,53040.0,3
+ORD-000129,Packed,2026-02-11T08:03:31+00:00,warehouse_01,Warehouse,11.84,53040.0,4
+ORD-000129,Shipped,2026-02-11T08:35:29+00:00,warehouse_08,Warehouse,3.94,53040.0,5
+ORD-000129,Invoice Created,2026-02-11T12:15:43+00:00,accounting_01,Accounting,3.04,53040.0,6
+ORD-000129,Payment Received,2026-02-18T04:40:25+00:00,system,Finance,0.0,53040.0,7
+ORD-000130,Order Created,2026-03-25T07:19:00+00:00,sales_08,Sales,3.83,33910.0,1
+ORD-000130,Order Approved,2026-03-25T09:15:18+00:00,management_03,Management,2.5,33910.0,2
+ORD-000130,Picking Started,2026-03-25T12:08:25+00:00,warehouse_08,Warehouse,14.33,33910.0,3
+ORD-000130,Packed,2026-03-25T13:03:27+00:00,warehouse_04,Warehouse,7.75,33910.0,4
+ORD-000130,Shipped,2026-03-25T14:02:27+00:00,warehouse_01,Warehouse,15.22,33910.0,5
+ORD-000130,Invoice Created,2026-03-25T15:17:00+00:00,accounting_03,Accounting,1.71,33910.0,6
+ORD-000130,Payment Received,2026-03-30T12:09:08+00:00,system,Finance,0.0,33910.0,7
+ORD-000131,Order Created,2026-02-25T05:52:00+00:00,sales_05,Sales,1.18,20770.0,1
+ORD-000131,Order Approved,2026-02-25T07:09:44+00:00,management_05,Management,17.12,20770.0,2
+ORD-000131,Picking Started,2026-02-25T23:49:46+00:00,warehouse_05,Warehouse,5.82,20770.0,3
+ORD-000131,Packed,2026-02-26T00:37:13+00:00,warehouse_07,Warehouse,4.87,20770.0,4
+ORD-000131,Shipped,2026-02-26T02:10:09+00:00,warehouse_04,Warehouse,6.85,20770.0,5
+ORD-000131,Invoice Created,2026-02-26T07:21:49+00:00,accounting_05,Accounting,12.75,20770.0,6
+ORD-000131,Payment Received,2026-03-01T21:13:59+00:00,system,Finance,0.0,20770.0,7
+ORD-000132,Order Created,2026-03-10T11:36:00+00:00,sales_06,Sales,15.23,22530.0,1
+ORD-000132,Order Approved,2026-03-10T13:53:53+00:00,management_01,Management,9.34,22530.0,2
+ORD-000132,Picking Started,2026-03-10T18:33:27+00:00,warehouse_03,Warehouse,10.5,22530.0,3
+ORD-000132,Packed,2026-03-10T20:06:58+00:00,warehouse_08,Warehouse,17.61,22530.0,4
+ORD-000132,Shipped,2026-03-10T20:24:52+00:00,warehouse_03,Warehouse,4.98,22530.0,5
+ORD-000132,Invoice Created,2026-03-10T23:27:13+00:00,accounting_06,Accounting,13.77,22530.0,6
+ORD-000132,Payment Received,2026-03-18T10:23:02+00:00,system,Finance,0.0,22530.0,7
+ORD-000133,Order Created,2026-03-10T10:20:00+00:00,sales_02,Sales,1.1,69320.0,1
+ORD-000133,Order Approved,2026-03-10T11:22:14+00:00,management_06,Management,16.16,69320.0,2
+ORD-000133,Picking Started,2026-03-12T12:02:49+00:00,warehouse_01,Warehouse,13.0,69320.0,3
+ORD-000133,Packed,2026-03-12T13:54:14+00:00,warehouse_02,Warehouse,8.84,69320.0,4
+ORD-000133,Shipped,2026-03-12T14:41:56+00:00,warehouse_06,Warehouse,6.22,69320.0,5
+ORD-000133,Invoice Created,2026-03-12T17:40:16+00:00,accounting_01,Accounting,5.52,69320.0,6
+ORD-000133,Payment Received,2026-03-16T09:07:42+00:00,system,Finance,0.0,69320.0,7
+ORD-000134,Order Created,2026-02-27T17:32:00+00:00,sales_02,Sales,5.76,24580.0,1
+ORD-000134,Order Approved,2026-02-27T22:14:22+00:00,management_05,Management,14.58,24580.0,2
+ORD-000134,Picking Started,2026-02-28T03:58:29+00:00,warehouse_01,Warehouse,1.59,24580.0,3
+ORD-000134,Packed,2026-02-28T07:48:05+00:00,warehouse_08,Warehouse,16.55,24580.0,4
+ORD-000134,Shipped,2026-02-28T09:06:02+00:00,warehouse_03,Warehouse,10.69,24580.0,5
+ORD-000134,Invoice Created,2026-02-28T13:48:09+00:00,accounting_02,Accounting,11.26,24580.0,6
+ORD-000134,Payment Received,2026-03-04T02:23:57+00:00,system,Finance,0.0,24580.0,7
+ORD-000135,Order Created,2026-01-17T23:50:00+00:00,sales_04,Sales,7.26,29080.0,1
+ORD-000135,Order Approved,2026-01-18T01:16:17+00:00,management_08,Management,11.56,29080.0,2
+ORD-000135,Order Edited,2026-01-18T02:35:08+00:00,sales_05,Sales,12.42,29080.0,3
+ORD-000135,Order Approved,2026-01-18T02:54:10+00:00,management_06,Management,15.87,29080.0,4
+ORD-000135,Picking Started,2026-01-18T10:03:39+00:00,warehouse_03,Warehouse,7.56,29080.0,5
+ORD-000135,Packed,2026-01-18T15:49:06+00:00,warehouse_08,Warehouse,7.22,29080.0,6
+ORD-000135,Shipped,2026-01-18T16:51:48+00:00,warehouse_03,Warehouse,4.51,29080.0,7
+ORD-000135,Invoice Created,2026-01-18T17:36:19+00:00,accounting_02,Accounting,5.68,29080.0,8
+ORD-000135,Payment Received,2026-01-26T00:15:47+00:00,system,Finance,0.0,29080.0,9
+ORD-000136,Order Created,2026-03-26T03:20:00+00:00,sales_08,Sales,15.05,25300.0,1
+ORD-000136,Order Approved,2026-03-26T04:02:01+00:00,management_07,Management,4.5,25300.0,2
+ORD-000136,Picking Started,2026-03-26T12:09:47+00:00,warehouse_07,Warehouse,8.16,25300.0,3
+ORD-000136,Packed,2026-03-26T14:11:53+00:00,warehouse_02,Warehouse,11.68,25300.0,4
+ORD-000136,Shipped,2026-03-26T15:11:42+00:00,warehouse_04,Warehouse,2.99,25300.0,5
+ORD-000136,Invoice Created,2026-03-26T18:35:49+00:00,accounting_02,Accounting,4.16,25300.0,6
+ORD-000136,Payment Received,2026-03-29T05:14:00+00:00,system,Finance,0.0,25300.0,7
+ORD-000137,Order Created,2026-01-14T08:23:00+00:00,sales_08,Sales,14.66,15750.0,1
+ORD-000137,Order Approved,2026-01-14T14:14:21+00:00,management_06,Management,12.09,15750.0,2
+ORD-000137,Picking Started,2026-01-14T23:10:40+00:00,warehouse_07,Warehouse,5.57,15750.0,3
+ORD-000137,Packed,2026-01-15T00:06:36+00:00,warehouse_06,Warehouse,16.51,15750.0,4
+ORD-000137,Shipped,2026-01-15T01:33:34+00:00,warehouse_02,Warehouse,16.29,15750.0,5
+ORD-000137,Invoice Created,2026-01-15T06:46:09+00:00,accounting_08,Accounting,8.41,15750.0,6
+ORD-000137,Payment Received,2026-01-20T08:33:26+00:00,system,Finance,0.0,15750.0,7
+ORD-000138,Order Created,2026-03-18T18:37:00+00:00,sales_06,Sales,10.62,20730.0,1
+ORD-000138,Order Approved,2026-03-18T20:32:05+00:00,management_01,Management,11.52,20730.0,2
+ORD-000138,Order Edited,2026-03-18T21:33:57+00:00,sales_01,Sales,4.59,20730.0,3
+ORD-000138,Order Approved,2026-03-19T00:09:28+00:00,management_06,Management,10.55,20730.0,4
+ORD-000138,Picking Started,2026-03-19T05:07:37+00:00,warehouse_07,Warehouse,7.11,20730.0,5
+ORD-000138,Packed,2026-03-19T07:43:23+00:00,warehouse_02,Warehouse,5.03,20730.0,6
+ORD-000138,Shipped,2026-03-19T08:38:39+00:00,warehouse_06,Warehouse,8.79,20730.0,7
+ORD-000138,Invoice Created,2026-03-19T11:19:38+00:00,accounting_08,Accounting,13.94,20730.0,8
+ORD-000138,Payment Received,2026-03-22T20:36:38+00:00,system,Finance,0.0,20730.0,9
+ORD-000139,Order Created,2026-02-23T05:44:00+00:00,sales_01,Sales,5.98,30580.0,1
+ORD-000139,Order Approved,2026-02-23T08:15:54+00:00,management_01,Management,15.35,30580.0,2
+ORD-000139,Picking Started,2026-02-23T16:30:23+00:00,warehouse_06,Warehouse,2.21,30580.0,3
+ORD-000139,Packed,2026-02-23T18:46:37+00:00,warehouse_08,Warehouse,8.24,30580.0,4
+ORD-000139,Shipped,2026-02-23T20:46:13+00:00,warehouse_06,Warehouse,6.54,30580.0,5
+ORD-000139,Invoice Created,2026-02-24T00:42:11+00:00,accounting_06,Accounting,5.33,30580.0,6
+ORD-000139,Payment Received,2026-02-28T08:58:08+00:00,system,Finance,0.0,30580.0,7
+ORD-000140,Order Created,2026-02-16T23:08:00+00:00,sales_07,Sales,15.12,16060.0,1
+ORD-000140,Order Approved,2026-02-17T01:14:50+00:00,management_07,Management,16.4,16060.0,2
+ORD-000140,Picking Started,2026-02-17T08:24:32+00:00,warehouse_08,Warehouse,9.22,16060.0,3
+ORD-000140,Packed,2026-02-17T11:12:59+00:00,warehouse_01,Warehouse,8.19,16060.0,4
+ORD-000140,Shipped,2026-02-17T13:36:07+00:00,warehouse_03,Warehouse,16.43,16060.0,5
+ORD-000140,Invoice Created,2026-02-17T17:11:54+00:00,accounting_04,Accounting,6.89,16060.0,6
+ORD-000140,Payment Received,2026-02-24T08:15:16+00:00,system,Finance,0.0,16060.0,7
+ORD-000141,Order Created,2026-02-02T08:50:00+00:00,sales_02,Sales,5.21,22820.0,1
+ORD-000141,Order Approved,2026-02-02T10:58:48+00:00,management_03,Management,14.96,22820.0,2
+ORD-000141,Picking Started,2026-02-02T22:02:52+00:00,warehouse_03,Warehouse,6.21,22820.0,3
+ORD-000141,Packed,2026-02-02T23:04:01+00:00,warehouse_05,Warehouse,3.24,22820.0,4
+ORD-000141,Shipped,2026-02-03T00:27:31+00:00,warehouse_05,Warehouse,9.33,22820.0,5
+ORD-000141,Invoice Created,2026-02-03T06:09:42+00:00,accounting_08,Accounting,8.62,22820.0,6
+ORD-000142,Order Created,2026-02-03T04:38:00+00:00,sales_04,Sales,4.72,16420.0,1
+ORD-000142,Order Approved,2026-02-03T05:18:27+00:00,management_05,Management,8.16,16420.0,2
+ORD-000142,Picking Started,2026-02-03T15:42:22+00:00,warehouse_08,Warehouse,13.39,16420.0,3
+ORD-000142,Packed,2026-02-03T19:35:08+00:00,warehouse_04,Warehouse,3.85,16420.0,4
+ORD-000142,Shipped,2026-02-03T22:20:35+00:00,warehouse_04,Warehouse,15.35,16420.0,5
+ORD-000142,Invoice Created,2026-02-04T02:59:27+00:00,accounting_02,Accounting,13.6,16420.0,6
+ORD-000142,Payment Received,2026-02-07T02:44:05+00:00,system,Finance,0.0,16420.0,7
+ORD-000143,Order Created,2026-02-13T14:15:00+00:00,sales_07,Sales,3.97,10350.0,1
+ORD-000143,Order Approved,2026-02-13T17:31:40+00:00,management_06,Management,4.5,10350.0,2
+ORD-000143,Order Edited,2026-02-13T18:14:48+00:00,sales_07,Sales,6.99,10350.0,3
+ORD-000143,Order Approved,2026-02-13T19:45:41+00:00,management_05,Management,17.39,10350.0,4
+ORD-000143,Picking Started,2026-02-14T03:44:55+00:00,warehouse_03,Warehouse,16.58,10350.0,5
+ORD-000143,Packed,2026-02-14T07:53:21+00:00,warehouse_07,Warehouse,17.17,10350.0,6
+ORD-000143,Shipped,2026-02-14T08:43:47+00:00,warehouse_07,Warehouse,10.77,10350.0,7
+ORD-000143,Invoice Created,2026-02-14T10:21:31+00:00,accounting_01,Accounting,4.95,10350.0,8
+ORD-000143,Payment Received,2026-02-24T02:35:33+00:00,system,Finance,0.0,10350.0,9
+ORD-000144,Order Created,2026-03-17T21:26:00+00:00,sales_08,Sales,2.67,52180.0,1
+ORD-000144,Order Approved,2026-03-17T21:55:46+00:00,management_02,Management,16.42,52180.0,2
+ORD-000144,Picking Started,2026-03-18T00:54:20+00:00,warehouse_01,Warehouse,11.7,52180.0,3
+ORD-000144,Packed,2026-03-18T02:11:33+00:00,warehouse_05,Warehouse,10.68,52180.0,4
+ORD-000144,Shipped,2026-03-18T05:01:57+00:00,warehouse_08,Warehouse,7.28,52180.0,5
+ORD-000144,Invoice Created,2026-03-18T07:40:43+00:00,accounting_07,Accounting,14.59,52180.0,6
+ORD-000144,Payment Received,2026-03-22T06:28:12+00:00,system,Finance,0.0,52180.0,7
+ORD-000145,Order Created,2026-03-12T05:51:00+00:00,sales_08,Sales,1.44,32660.0,1
+ORD-000145,Order Approved,2026-03-12T07:05:38+00:00,management_02,Management,14.39,32660.0,2
+ORD-000145,Picking Started,2026-03-12T12:13:19+00:00,warehouse_04,Warehouse,7.38,32660.0,3
+ORD-000145,Packed,2026-03-12T14:20:37+00:00,warehouse_08,Warehouse,2.61,32660.0,4
+ORD-000145,Shipped,2026-03-12T15:32:16+00:00,warehouse_05,Warehouse,9.9,32660.0,5
+ORD-000145,Invoice Created,2026-03-12T18:27:15+00:00,accounting_06,Accounting,4.09,32660.0,6
+ORD-000145,Payment Received,2026-03-15T13:48:36+00:00,system,Finance,0.0,32660.0,7
+ORD-000146,Order Created,2026-03-24T01:24:00+00:00,sales_05,Sales,11.94,26840.0,1
+ORD-000146,Order Approved,2026-03-24T04:05:49+00:00,management_01,Management,15.96,26840.0,2
+ORD-000146,Picking Started,2026-03-24T08:02:34+00:00,warehouse_08,Warehouse,14.76,26840.0,3
+ORD-000146,Packed,2026-03-24T09:56:17+00:00,warehouse_01,Warehouse,2.12,26840.0,4
+ORD-000146,Shipped,2026-03-24T10:36:16+00:00,warehouse_01,Warehouse,10.11,26840.0,5
+ORD-000146,Invoice Created,2026-03-24T21:50:42+00:00,accounting_06,Accounting,14.72,26840.0,6
+ORD-000146,Payment Received,2026-03-29T18:44:24+00:00,system,Finance,0.0,26840.0,7
+ORD-000147,Order Created,2026-02-18T14:33:00+00:00,sales_08,Sales,9.29,35170.0,1
+ORD-000147,Order Approved,2026-02-18T17:10:07+00:00,management_04,Management,12.79,35170.0,2
+ORD-000147,Picking Started,2026-02-18T20:10:29+00:00,warehouse_06,Warehouse,9.65,35170.0,3
+ORD-000147,Packed,2026-02-18T22:25:56+00:00,warehouse_02,Warehouse,5.46,35170.0,4
+ORD-000147,Shipped,2026-02-18T23:11:40+00:00,warehouse_04,Warehouse,15.38,35170.0,5
+ORD-000147,Invoice Created,2026-02-19T08:59:35+00:00,accounting_04,Accounting,1.78,35170.0,6
+ORD-000147,Payment Received,2026-02-23T18:29:33+00:00,system,Finance,0.0,35170.0,7
+ORD-000148,Order Created,2026-01-20T11:26:00+00:00,sales_03,Sales,16.52,49920.0,1
+ORD-000148,Order Approved,2026-01-20T13:02:39+00:00,management_07,Management,12.7,49920.0,2
+ORD-000148,Picking Started,2026-01-20T18:29:34+00:00,warehouse_02,Warehouse,6.94,49920.0,3
+ORD-000148,Packed,2026-01-20T21:17:22+00:00,warehouse_02,Warehouse,16.23,49920.0,4
+ORD-000148,Shipped,2026-01-20T22:37:29+00:00,warehouse_02,Warehouse,1.96,49920.0,5
+ORD-000148,Invoice Created,2026-01-20T23:36:45+00:00,accounting_01,Accounting,10.46,49920.0,6
+ORD-000149,Order Created,2026-01-28T17:45:00+00:00,sales_03,Sales,3.33,10090.0,1
+ORD-000149,Order Approved,2026-01-28T18:52:01+00:00,management_01,Management,5.98,10090.0,2
+ORD-000149,Picking Started,2026-01-29T02:47:09+00:00,warehouse_07,Warehouse,3.54,10090.0,3
+ORD-000149,Packed,2026-01-29T06:08:31+00:00,warehouse_07,Warehouse,3.14,10090.0,4
+ORD-000149,Shipped,2026-01-29T07:06:47+00:00,warehouse_07,Warehouse,10.18,10090.0,5
+ORD-000149,Invoice Created,2026-01-29T15:38:17+00:00,accounting_03,Accounting,5.62,10090.0,6
+ORD-000149,Payment Received,2026-02-02T05:02:22+00:00,system,Finance,0.0,10090.0,7
+ORD-000150,Order Created,2026-02-22T01:25:00+00:00,sales_08,Sales,8.01,15490.0,1
+ORD-000150,Order Approved,2026-02-22T03:38:11+00:00,management_02,Management,17.48,15490.0,2
+ORD-000150,Order Edited,2026-02-22T04:20:17+00:00,sales_06,Sales,13.65,15490.0,3
+ORD-000150,Order Approved,2026-02-22T05:14:31+00:00,management_04,Management,4.35,15490.0,4
+ORD-000150,Picking Started,2026-02-22T14:37:54+00:00,warehouse_06,Warehouse,12.18,15490.0,5
+ORD-000150,Packed,2026-02-22T15:13:25+00:00,warehouse_01,Warehouse,4.66,15490.0,6
+ORD-000150,Shipped,2026-02-22T16:17:58+00:00,warehouse_03,Warehouse,3.18,15490.0,7
+ORD-000150,Invoice Created,2026-02-23T12:42:18+00:00,accounting_08,Accounting,6.6,15490.0,8
+ORD-000150,Payment Received,2026-03-06T12:50:04+00:00,system,Finance,0.0,15490.0,9
+ORD-000151,Order Created,2026-04-01T16:24:00+00:00,sales_01,Sales,3.74,6950.0,1
+ORD-000151,Order Approved,2026-04-01T17:39:53+00:00,management_05,Management,12.59,6950.0,2
+ORD-000151,Picking Started,2026-04-01T21:10:56+00:00,warehouse_01,Warehouse,5.62,6950.0,3
+ORD-000151,Packed,2026-04-01T23:01:47+00:00,warehouse_08,Warehouse,3.12,6950.0,4
+ORD-000151,Shipped,2026-04-01T23:48:09+00:00,warehouse_08,Warehouse,1.43,6950.0,5
+ORD-000151,Invoice Created,2026-04-02T02:37:37+00:00,accounting_07,Accounting,10.07,6950.0,6
+ORD-000151,Payment Received,2026-04-11T04:54:42+00:00,system,Finance,0.0,6950.0,7
+ORD-000152,Order Created,2026-02-10T11:38:00+00:00,sales_06,Sales,5.39,32200.0,1
+ORD-000152,Order Approved,2026-02-10T12:17:56+00:00,management_04,Management,7.02,32200.0,2
+ORD-000152,Picking Started,2026-02-10T18:57:36+00:00,warehouse_04,Warehouse,15.11,32200.0,3
+ORD-000152,Packed,2026-02-10T19:56:43+00:00,warehouse_04,Warehouse,15.09,32200.0,4
+ORD-000152,Shipped,2026-02-10T20:50:24+00:00,warehouse_05,Warehouse,3.88,32200.0,5
+ORD-000152,Invoice Created,2026-02-10T22:46:10+00:00,accounting_03,Accounting,6.32,32200.0,6
+ORD-000152,Payment Received,2026-02-12T13:08:27+00:00,system,Finance,0.0,32200.0,7
+ORD-000153,Order Created,2026-01-20T12:37:00+00:00,sales_05,Sales,17.26,14100.0,1
+ORD-000153,Order Approved,2026-01-20T14:42:48+00:00,management_05,Management,12.92,14100.0,2
+ORD-000153,Picking Started,2026-01-20T20:13:12+00:00,warehouse_06,Warehouse,5.29,14100.0,3
+ORD-000153,Packed,2026-01-20T21:54:31+00:00,warehouse_05,Warehouse,17.91,14100.0,4
+ORD-000153,Shipped,2026-01-20T22:53:20+00:00,warehouse_08,Warehouse,3.65,14100.0,5
+ORD-000153,Invoice Created,2026-01-20T23:45:37+00:00,accounting_03,Accounting,4.33,14100.0,6
+ORD-000153,Payment Received,2026-01-22T12:18:58+00:00,system,Finance,0.0,14100.0,7
+ORD-000154,Order Created,2026-02-09T12:09:00+00:00,sales_04,Sales,15.72,28370.0,1
+ORD-000154,Order Approved,2026-02-09T13:41:35+00:00,management_04,Management,6.16,28370.0,2
+ORD-000154,Picking Started,2026-02-09T18:46:01+00:00,warehouse_08,Warehouse,15.92,28370.0,3
+ORD-000154,Packed,2026-02-09T21:16:04+00:00,warehouse_07,Warehouse,4.35,28370.0,4
+ORD-000154,Shipped,2026-02-09T22:42:57+00:00,warehouse_02,Warehouse,11.55,28370.0,5
+ORD-000154,Invoice Created,2026-02-09T23:58:20+00:00,accounting_08,Accounting,6.55,28370.0,6
+ORD-000154,Payment Received,2026-02-12T01:22:23+00:00,system,Finance,0.0,28370.0,7
+ORD-000155,Order Created,2026-01-10T07:41:00+00:00,sales_05,Sales,10.4,44670.0,1
+ORD-000155,Order Approved,2026-01-10T09:49:17+00:00,management_02,Management,14.65,44670.0,2
+ORD-000155,Picking Started,2026-01-10T11:32:32+00:00,warehouse_02,Warehouse,10.69,44670.0,3
+ORD-000155,Packed,2026-01-10T13:43:53+00:00,warehouse_05,Warehouse,17.66,44670.0,4
+ORD-000155,Shipped,2026-01-10T14:33:07+00:00,warehouse_06,Warehouse,14.38,44670.0,5
+ORD-000155,Invoice Created,2026-01-10T17:28:00+00:00,accounting_08,Accounting,9.27,44670.0,6
+ORD-000155,Payment Received,2026-01-14T06:46:26+00:00,system,Finance,0.0,44670.0,7
+ORD-000156,Order Created,2026-03-14T10:48:00+00:00,sales_01,Sales,11.44,26390.0,1
+ORD-000156,Order Approved,2026-03-14T12:03:53+00:00,management_01,Management,17.99,26390.0,2
+ORD-000156,Picking Started,2026-03-14T16:04:15+00:00,warehouse_08,Warehouse,14.31,26390.0,3
+ORD-000156,Packed,2026-03-14T19:03:51+00:00,warehouse_01,Warehouse,8.12,26390.0,4
+ORD-000156,Shipped,2026-03-14T20:15:28+00:00,warehouse_02,Warehouse,5.38,26390.0,5
+ORD-000156,Invoice Created,2026-03-15T00:35:51+00:00,accounting_02,Accounting,6.08,26390.0,6
+ORD-000156,Payment Received,2026-03-21T13:53:07+00:00,system,Finance,0.0,26390.0,7
+ORD-000157,Order Created,2026-01-23T13:39:00+00:00,sales_05,Sales,6.82,26240.0,1
+ORD-000157,Order Approved,2026-01-23T14:27:12+00:00,management_08,Management,8.77,26240.0,2
+ORD-000157,Order Edited,2026-01-23T15:22:08+00:00,sales_06,Sales,7.98,26240.0,3
+ORD-000157,Order Approved,2026-01-23T16:57:14+00:00,management_05,Management,11.21,26240.0,4
+ORD-000157,Picking Started,2026-01-23T22:40:24+00:00,warehouse_03,Warehouse,8.0,26240.0,5
+ORD-000157,Packed,2026-01-24T00:12:03+00:00,warehouse_01,Warehouse,12.03,26240.0,6
+ORD-000157,Shipped,2026-01-24T02:02:08+00:00,warehouse_07,Warehouse,16.92,26240.0,7
+ORD-000157,Invoice Created,2026-01-24T03:24:02+00:00,accounting_06,Accounting,8.16,26240.0,8
+ORD-000157,Payment Received,2026-01-28T09:55:43+00:00,system,Finance,0.0,26240.0,9
+ORD-000158,Order Created,2026-03-18T19:57:00+00:00,sales_04,Sales,10.22,10150.0,1
+ORD-000158,Order Approved,2026-03-18T20:53:09+00:00,management_01,Management,5.06,10150.0,2
+ORD-000158,Picking Started,2026-03-18T22:15:18+00:00,warehouse_01,Warehouse,6.85,10150.0,3
+ORD-000158,Packed,2026-03-18T23:49:56+00:00,warehouse_03,Warehouse,8.35,10150.0,4
+ORD-000158,Shipped,2026-03-19T00:40:50+00:00,warehouse_02,Warehouse,11.02,10150.0,5
+ORD-000158,Invoice Created,2026-03-19T09:23:53+00:00,accounting_05,Accounting,2.1,10150.0,6
+ORD-000158,Payment Received,2026-03-28T16:27:34+00:00,system,Finance,0.0,10150.0,7
+ORD-000159,Order Created,2026-03-08T13:13:00+00:00,sales_08,Sales,3.16,11110.0,1
+ORD-000159,Order Approved,2026-03-08T15:10:08+00:00,management_07,Management,6.32,11110.0,2
+ORD-000159,Picking Started,2026-03-10T00:25:14+00:00,warehouse_02,Warehouse,6.7,11110.0,3
+ORD-000159,Packed,2026-03-10T03:43:23+00:00,warehouse_06,Warehouse,1.71,11110.0,4
+ORD-000159,Shipped,2026-03-10T03:59:39+00:00,warehouse_06,Warehouse,8.32,11110.0,5
+ORD-000159,Invoice Created,2026-03-10T06:34:28+00:00,accounting_03,Accounting,1.98,11110.0,6
+ORD-000159,Payment Received,2026-03-12T14:24:27+00:00,system,Finance,0.0,11110.0,7
+ORD-000160,Order Created,2026-01-05T23:38:00+00:00,sales_03,Sales,13.81,17560.0,1
+ORD-000160,Order Approved,2026-01-06T00:33:21+00:00,management_04,Management,16.75,17560.0,2
+ORD-000160,Picking Started,2026-01-07T22:02:55+00:00,warehouse_05,Warehouse,5.7,17560.0,3
+ORD-000160,Packed,2026-01-08T02:34:41+00:00,warehouse_06,Warehouse,8.07,17560.0,4
+ORD-000160,Shipped,2026-01-08T03:04:56+00:00,warehouse_04,Warehouse,4.45,17560.0,5
+ORD-000160,Invoice Created,2026-01-08T12:34:59+00:00,accounting_02,Accounting,10.8,17560.0,6
+ORD-000160,Payment Received,2026-01-15T20:28:33+00:00,system,Finance,0.0,17560.0,7
+ORD-000161,Order Created,2026-01-24T19:36:00+00:00,sales_08,Sales,9.41,20910.0,1
+ORD-000161,Order Approved,2026-01-24T21:52:36+00:00,management_06,Management,13.14,20910.0,2
+ORD-000161,Order Edited,2026-01-24T22:23:10+00:00,sales_04,Sales,3.87,20910.0,3
+ORD-000161,Order Approved,2026-01-24T22:55:24+00:00,management_04,Management,7.97,20910.0,4
+ORD-000161,Picking Started,2026-01-25T01:48:16+00:00,warehouse_05,Warehouse,9.58,20910.0,5
+ORD-000161,Packed,2026-01-25T05:10:35+00:00,warehouse_08,Warehouse,16.99,20910.0,6
+ORD-000161,Shipped,2026-01-25T05:55:30+00:00,warehouse_08,Warehouse,6.89,20910.0,7
+ORD-000161,Invoice Created,2026-01-25T09:05:11+00:00,accounting_03,Accounting,3.97,20910.0,8
+ORD-000162,Order Created,2026-03-10T05:28:00+00:00,sales_03,Sales,1.64,12520.0,1
+ORD-000162,Order Approved,2026-03-10T06:22:19+00:00,management_01,Management,10.78,12520.0,2
+ORD-000162,Picking Started,2026-03-10T14:12:34+00:00,warehouse_08,Warehouse,4.43,12520.0,3
+ORD-000162,Packed,2026-03-10T21:21:39+00:00,warehouse_01,Warehouse,7.84,12520.0,4
+ORD-000162,Shipped,2026-03-10T22:42:09+00:00,warehouse_07,Warehouse,15.92,12520.0,5
+ORD-000162,Invoice Created,2026-03-11T01:36:04+00:00,accounting_04,Accounting,9.41,12520.0,6
+ORD-000162,Payment Received,2026-03-19T16:35:22+00:00,system,Finance,0.0,12520.0,7
+ORD-000163,Order Created,2026-01-31T04:24:00+00:00,sales_03,Sales,10.36,12890.0,1
+ORD-000163,Order Approved,2026-01-31T07:16:04+00:00,management_05,Management,5.34,12890.0,2
+ORD-000163,Picking Started,2026-01-31T11:29:43+00:00,warehouse_03,Warehouse,9.17,12890.0,3
+ORD-000163,Packed,2026-01-31T13:51:52+00:00,warehouse_06,Warehouse,12.94,12890.0,4
+ORD-000163,Shipped,2026-01-31T15:30:35+00:00,warehouse_02,Warehouse,12.42,12890.0,5
+ORD-000163,Invoice Created,2026-01-31T17:14:14+00:00,accounting_06,Accounting,6.28,12890.0,6
+ORD-000163,Payment Received,2026-02-04T03:43:49+00:00,system,Finance,0.0,12890.0,7
+ORD-000164,Order Created,2026-02-19T16:35:00+00:00,sales_06,Sales,10.61,90710.0,1
+ORD-000164,Order Approved,2026-02-19T19:23:25+00:00,management_07,Management,12.03,90710.0,2
+ORD-000164,Picking Started,2026-02-19T22:27:14+00:00,warehouse_08,Warehouse,12.35,90710.0,3
+ORD-000164,Packed,2026-02-19T23:39:14+00:00,warehouse_02,Warehouse,7.63,90710.0,4
+ORD-000164,Shipped,2026-02-20T01:01:01+00:00,warehouse_03,Warehouse,4.57,90710.0,5
+ORD-000164,Invoice Created,2026-02-20T06:27:37+00:00,accounting_05,Accounting,10.26,90710.0,6
+ORD-000164,Payment Received,2026-02-22T21:00:52+00:00,system,Finance,0.0,90710.0,7
+ORD-000165,Order Created,2026-02-11T19:17:00+00:00,sales_01,Sales,3.03,18950.0,1
+ORD-000165,Order Approved,2026-02-11T20:56:47+00:00,management_06,Management,12.13,18950.0,2
+ORD-000165,Picking Started,2026-02-12T02:16:36+00:00,warehouse_03,Warehouse,2.27,18950.0,3
+ORD-000165,Packed,2026-02-12T03:58:18+00:00,warehouse_01,Warehouse,3.8,18950.0,4
+ORD-000165,Shipped,2026-02-12T05:42:08+00:00,warehouse_03,Warehouse,10.25,18950.0,5
+ORD-000165,Invoice Created,2026-02-14T01:33:56+00:00,accounting_08,Accounting,10.17,18950.0,6
+ORD-000166,Order Created,2026-02-19T02:52:00+00:00,sales_06,Sales,10.17,17620.0,1
+ORD-000166,Order Approved,2026-02-19T04:14:07+00:00,management_01,Management,15.54,17620.0,2
+ORD-000166,Picking Started,2026-02-19T18:04:17+00:00,warehouse_03,Warehouse,12.96,17620.0,3
+ORD-000166,Packed,2026-02-19T19:44:59+00:00,warehouse_06,Warehouse,11.08,17620.0,4
+ORD-000166,Shipped,2026-02-19T22:32:10+00:00,warehouse_01,Warehouse,5.41,17620.0,5
+ORD-000166,Invoice Created,2026-02-21T13:51:17+00:00,accounting_03,Accounting,2.22,17620.0,6
+ORD-000167,Order Created,2026-03-07T04:49:00+00:00,sales_01,Sales,9.73,9540.0,1
+ORD-000167,Order Approved,2026-03-07T06:50:02+00:00,management_01,Management,17.78,9540.0,2
+ORD-000167,Picking Started,2026-03-07T10:23:39+00:00,warehouse_05,Warehouse,9.11,9540.0,3
+ORD-000167,Packed,2026-03-07T12:38:44+00:00,warehouse_07,Warehouse,2.08,9540.0,4
+ORD-000167,Shipped,2026-03-07T13:26:52+00:00,warehouse_01,Warehouse,17.02,9540.0,5
+ORD-000167,Invoice Created,2026-03-07T17:31:00+00:00,accounting_05,Accounting,1.17,9540.0,6
+ORD-000167,Payment Received,2026-03-23T19:25:56+00:00,system,Finance,0.0,9540.0,7
+ORD-000168,Order Created,2026-01-07T11:57:00+00:00,sales_05,Sales,6.84,27030.0,1
+ORD-000168,Order Approved,2026-01-07T14:08:18+00:00,management_03,Management,1.06,27030.0,2
+ORD-000168,Picking Started,2026-01-07T18:05:33+00:00,warehouse_07,Warehouse,7.08,27030.0,3
+ORD-000168,Packed,2026-01-07T19:23:28+00:00,warehouse_03,Warehouse,6.69,27030.0,4
+ORD-000168,Shipped,2026-01-07T20:05:23+00:00,warehouse_06,Warehouse,4.35,27030.0,5
+ORD-000168,Invoice Created,2026-01-07T21:17:24+00:00,accounting_08,Accounting,11.45,27030.0,6
+ORD-000169,Order Created,2026-02-23T18:28:00+00:00,sales_01,Sales,9.51,46280.0,1
+ORD-000169,Order Approved,2026-02-23T20:22:46+00:00,management_01,Management,4.48,46280.0,2
+ORD-000169,Picking Started,2026-02-24T01:33:43+00:00,warehouse_03,Warehouse,17.02,46280.0,3
+ORD-000169,Packed,2026-02-24T03:11:30+00:00,warehouse_03,Warehouse,6.98,46280.0,4
+ORD-000169,Shipped,2026-02-24T05:48:01+00:00,warehouse_04,Warehouse,11.11,46280.0,5
+ORD-000169,Invoice Created,2026-02-24T11:49:38+00:00,accounting_05,Accounting,13.36,46280.0,6
+ORD-000169,Payment Received,2026-03-02T10:47:25+00:00,system,Finance,0.0,46280.0,7
+ORD-000170,Order Created,2026-01-30T05:37:00+00:00,sales_03,Sales,14.75,20150.0,1
+ORD-000170,Order Approved,2026-01-30T06:47:44+00:00,management_08,Management,10.03,20150.0,2
+ORD-000170,Picking Started,2026-01-30T10:33:32+00:00,warehouse_05,Warehouse,10.74,20150.0,3
+ORD-000170,Packed,2026-01-30T13:43:00+00:00,warehouse_07,Warehouse,13.36,20150.0,4
+ORD-000170,Shipped,2026-01-30T14:21:08+00:00,warehouse_03,Warehouse,10.8,20150.0,5
+ORD-000170,Invoice Created,2026-01-30T16:59:25+00:00,accounting_03,Accounting,7.31,20150.0,6
+ORD-000170,Payment Received,2026-02-06T18:42:30+00:00,system,Finance,0.0,20150.0,7
+ORD-000171,Order Created,2026-01-25T15:49:00+00:00,sales_02,Sales,3.71,28270.0,1
+ORD-000171,Order Approved,2026-01-25T16:33:14+00:00,management_08,Management,3.59,28270.0,2
+ORD-000171,Order Edited,2026-01-25T17:55:00+00:00,sales_06,Sales,4.4,28270.0,3
+ORD-000171,Order Approved,2026-01-25T19:03:19+00:00,management_04,Management,14.85,28270.0,4
+ORD-000171,Picking Started,2026-01-25T21:05:50+00:00,warehouse_03,Warehouse,10.18,28270.0,5
+ORD-000171,Packed,2026-01-25T22:09:54+00:00,warehouse_02,Warehouse,16.8,28270.0,6
+ORD-000171,Shipped,2026-01-25T22:55:48+00:00,warehouse_03,Warehouse,6.55,28270.0,7
+ORD-000171,Invoice Created,2026-01-26T00:59:33+00:00,accounting_01,Accounting,13.32,28270.0,8
+ORD-000171,Payment Received,2026-01-29T21:35:11+00:00,system,Finance,0.0,28270.0,9
+ORD-000172,Order Created,2026-02-18T05:32:00+00:00,sales_07,Sales,2.87,21210.0,1
+ORD-000172,Order Approved,2026-02-18T10:18:26+00:00,management_03,Management,14.08,21210.0,2
+ORD-000172,Picking Started,2026-02-18T16:35:59+00:00,warehouse_08,Warehouse,15.19,21210.0,3
+ORD-000172,Packed,2026-02-18T17:13:43+00:00,warehouse_05,Warehouse,13.8,21210.0,4
+ORD-000172,Shipped,2026-02-18T21:16:04+00:00,warehouse_07,Warehouse,15.9,21210.0,5
+ORD-000172,Invoice Created,2026-02-19T01:36:35+00:00,accounting_03,Accounting,4.42,21210.0,6
+ORD-000172,Payment Received,2026-02-24T03:07:38+00:00,system,Finance,0.0,21210.0,7
+ORD-000173,Order Created,2026-04-01T02:44:00+00:00,sales_02,Sales,3.4,41910.0,1
+ORD-000173,Order Approved,2026-04-01T03:07:25+00:00,management_08,Management,10.94,41910.0,2
+ORD-000173,Picking Started,2026-04-01T06:26:43+00:00,warehouse_08,Warehouse,11.34,41910.0,3
+ORD-000173,Packed,2026-04-01T07:30:46+00:00,warehouse_01,Warehouse,4.38,41910.0,4
+ORD-000173,Shipped,2026-04-01T08:26:41+00:00,warehouse_05,Warehouse,1.21,41910.0,5
+ORD-000173,Invoice Created,2026-04-01T14:19:38+00:00,accounting_04,Accounting,5.35,41910.0,6
+ORD-000174,Order Created,2026-01-05T14:59:00+00:00,sales_08,Sales,8.74,17460.0,1
+ORD-000174,Order Approved,2026-01-05T15:59:31+00:00,management_03,Management,6.46,17460.0,2
+ORD-000174,Picking Started,2026-01-05T22:42:06+00:00,warehouse_01,Warehouse,10.28,17460.0,3
+ORD-000174,Packed,2026-01-06T01:19:57+00:00,warehouse_01,Warehouse,16.88,17460.0,4
+ORD-000174,Shipped,2026-01-06T02:20:09+00:00,warehouse_08,Warehouse,5.0,17460.0,5
+ORD-000174,Invoice Created,2026-01-06T04:38:48+00:00,accounting_08,Accounting,8.62,17460.0,6
+ORD-000174,Payment Received,2026-01-10T18:34:57+00:00,system,Finance,0.0,17460.0,7
+ORD-000175,Order Created,2026-02-05T17:42:00+00:00,sales_04,Sales,3.33,14980.0,1
+ORD-000175,Order Approved,2026-02-05T18:44:00+00:00,management_06,Management,5.54,14980.0,2
+ORD-000175,Order Edited,2026-02-05T20:14:40+00:00,sales_05,Sales,10.97,14980.0,3
+ORD-000175,Order Approved,2026-02-05T21:06:53+00:00,management_02,Management,8.21,14980.0,4
+ORD-000175,Picking Started,2026-02-06T00:14:36+00:00,warehouse_01,Warehouse,1.29,14980.0,5
+ORD-000175,Packed,2026-02-06T01:08:17+00:00,warehouse_04,Warehouse,1.23,14980.0,6
+ORD-000175,Shipped,2026-02-06T02:12:46+00:00,warehouse_08,Warehouse,13.47,14980.0,7
+ORD-000175,Invoice Created,2026-02-06T04:44:10+00:00,accounting_07,Accounting,5.2,14980.0,8
+ORD-000175,Payment Received,2026-02-11T07:35:09+00:00,system,Finance,0.0,14980.0,9
+ORD-000176,Order Created,2026-02-19T09:37:00+00:00,sales_05,Sales,3.74,14650.0,1
+ORD-000176,Order Approved,2026-02-19T12:04:03+00:00,management_03,Management,3.1,14650.0,2
+ORD-000176,Picking Started,2026-02-19T19:17:39+00:00,warehouse_03,Warehouse,6.07,14650.0,3
+ORD-000176,Shipped,2026-02-19T20:00:27+00:00,warehouse_07,Warehouse,3.98,14650.0,4
+ORD-000176,Invoice Created,2026-02-19T23:28:58+00:00,accounting_02,Accounting,9.51,14650.0,5
+ORD-000176,Payment Received,2026-02-24T13:48:54+00:00,system,Finance,0.0,14650.0,6
+ORD-000177,Order Created,2026-02-22T18:09:00+00:00,sales_04,Sales,11.62,34600.0,1
+ORD-000177,Order Approved,2026-02-22T23:27:27+00:00,management_05,Management,16.27,34600.0,2
+ORD-000177,Picking Started,2026-02-23T03:50:00+00:00,warehouse_08,Warehouse,12.3,34600.0,3
+ORD-000177,Packed,2026-02-23T05:36:28+00:00,warehouse_08,Warehouse,3.5,34600.0,4
+ORD-000177,Shipped,2026-02-23T06:14:37+00:00,warehouse_03,Warehouse,3.03,34600.0,5
+ORD-000177,Invoice Created,2026-02-23T11:15:28+00:00,accounting_03,Accounting,12.72,34600.0,6
+ORD-000178,Order Created,2026-01-13T20:14:00+00:00,sales_04,Sales,4.07,33840.0,1
+ORD-000178,Order Approved,2026-01-13T20:43:33+00:00,management_03,Management,7.3,33840.0,2
+ORD-000178,Picking Started,2026-01-15T12:35:26+00:00,warehouse_04,Warehouse,11.02,33840.0,3
+ORD-000178,Packed,2026-01-15T14:55:13+00:00,warehouse_04,Warehouse,10.85,33840.0,4
+ORD-000178,Shipped,2026-01-15T15:49:09+00:00,warehouse_01,Warehouse,15.39,33840.0,5
+ORD-000178,Invoice Created,2026-01-15T22:09:54+00:00,accounting_05,Accounting,16.13,33840.0,6
+ORD-000178,Payment Received,2026-01-19T07:53:47+00:00,system,Finance,0.0,33840.0,7
+ORD-000179,Order Created,2026-03-11T06:23:00+00:00,sales_07,Sales,12.43,10590.0,1
+ORD-000179,Order Approved,2026-03-11T07:52:20+00:00,management_02,Management,1.79,10590.0,2
+ORD-000179,Picking Started,2026-03-11T15:15:11+00:00,warehouse_05,Warehouse,12.72,10590.0,3
+ORD-000179,Packed,2026-03-11T23:28:07+00:00,warehouse_02,Warehouse,10.47,10590.0,4
+ORD-000179,Shipped,2026-03-12T00:59:06+00:00,warehouse_01,Warehouse,15.74,10590.0,5
+ORD-000179,Invoice Created,2026-03-12T02:35:07+00:00,accounting_04,Accounting,9.96,10590.0,6
+ORD-000179,Payment Received,2026-03-15T14:17:20+00:00,system,Finance,0.0,10590.0,7
+ORD-000180,Order Created,2026-01-13T19:21:00+00:00,sales_01,Sales,9.23,35890.0,1
+ORD-000180,Order Approved,2026-01-13T21:10:01+00:00,management_01,Management,1.5,35890.0,2
+ORD-000180,Picking Started,2026-01-14T10:13:05+00:00,warehouse_07,Warehouse,9.08,35890.0,3
+ORD-000180,Packed,2026-01-14T11:29:17+00:00,warehouse_01,Warehouse,10.24,35890.0,4
+ORD-000180,Shipped,2026-01-14T13:08:19+00:00,warehouse_02,Warehouse,13.46,35890.0,5
+ORD-000180,Invoice Created,2026-01-14T18:07:25+00:00,accounting_04,Accounting,6.07,35890.0,6
+ORD-000180,Payment Received,2026-01-19T08:55:12+00:00,system,Finance,0.0,35890.0,7
+ORD-000181,Order Created,2026-02-14T00:07:00+00:00,sales_08,Sales,15.58,10310.0,1
+ORD-000181,Order Approved,2026-02-14T00:46:46+00:00,management_03,Management,16.89,10310.0,2
+ORD-000181,Picking Started,2026-02-15T00:10:49+00:00,warehouse_05,Warehouse,16.29,10310.0,3
+ORD-000181,Shipped,2026-02-15T03:09:57+00:00,warehouse_06,Warehouse,15.07,10310.0,4
+ORD-000181,Invoice Created,2026-02-15T06:14:22+00:00,accounting_05,Accounting,9.39,10310.0,5
+ORD-000181,Payment Received,2026-02-19T05:19:35+00:00,system,Finance,0.0,10310.0,6
+ORD-000182,Order Created,2026-03-12T05:48:00+00:00,sales_07,Sales,2.03,31280.0,1
+ORD-000182,Order Approved,2026-03-12T06:54:18+00:00,management_08,Management,9.32,31280.0,2
+ORD-000182,Picking Started,2026-03-12T08:39:48+00:00,warehouse_02,Warehouse,9.05,31280.0,3
+ORD-000182,Packed,2026-03-12T10:11:43+00:00,warehouse_08,Warehouse,7.4,31280.0,4
+ORD-000182,Shipped,2026-03-12T11:20:40+00:00,warehouse_07,Warehouse,4.58,31280.0,5
+ORD-000182,Invoice Created,2026-03-13T03:54:21+00:00,accounting_02,Accounting,15.35,31280.0,6
+ORD-000182,Payment Received,2026-03-29T03:27:03+00:00,system,Finance,0.0,31280.0,7
+ORD-000183,Order Created,2026-01-28T03:01:00+00:00,sales_08,Sales,7.08,6130.0,1
+ORD-000183,Order Approved,2026-01-28T05:17:44+00:00,management_04,Management,17.93,6130.0,2
+ORD-000183,Picking Started,2026-01-28T17:06:42+00:00,warehouse_02,Warehouse,5.64,6130.0,3
+ORD-000183,Packed,2026-01-28T18:00:46+00:00,warehouse_07,Warehouse,7.32,6130.0,4
+ORD-000183,Shipped,2026-01-28T19:45:45+00:00,warehouse_04,Warehouse,16.23,6130.0,5
+ORD-000183,Invoice Created,2026-01-29T06:59:57+00:00,accounting_02,Accounting,6.24,6130.0,6
+ORD-000183,Payment Received,2026-02-01T22:41:03+00:00,system,Finance,0.0,6130.0,7
+ORD-000184,Order Created,2026-03-19T04:17:00+00:00,sales_08,Sales,12.45,24700.0,1
+ORD-000184,Order Approved,2026-03-19T05:06:52+00:00,management_04,Management,9.96,24700.0,2
+ORD-000184,Picking Started,2026-03-20T14:53:59+00:00,warehouse_06,Warehouse,4.13,24700.0,3
+ORD-000184,Packed,2026-03-20T16:32:48+00:00,warehouse_04,Warehouse,9.33,24700.0,4
+ORD-000184,Shipped,2026-03-20T18:36:36+00:00,warehouse_05,Warehouse,15.58,24700.0,5
+ORD-000184,Invoice Created,2026-03-20T19:36:06+00:00,accounting_06,Accounting,6.72,24700.0,6
+ORD-000184,Payment Received,2026-03-22T08:31:49+00:00,system,Finance,0.0,24700.0,7
+ORD-000185,Order Created,2026-01-18T18:39:00+00:00,sales_07,Sales,16.04,14430.0,1
+ORD-000185,Order Approved,2026-01-18T19:06:01+00:00,management_06,Management,4.89,14430.0,2
+ORD-000185,Picking Started,2026-01-18T23:31:27+00:00,warehouse_08,Warehouse,9.73,14430.0,3
+ORD-000185,Packed,2026-01-19T00:57:24+00:00,warehouse_01,Warehouse,15.33,14430.0,4
+ORD-000185,Shipped,2026-01-19T01:59:32+00:00,warehouse_04,Warehouse,14.86,14430.0,5
+ORD-000185,Invoice Created,2026-01-19T02:32:03+00:00,accounting_03,Accounting,3.08,14430.0,6
+ORD-000185,Payment Received,2026-01-20T22:32:41+00:00,system,Finance,0.0,14430.0,7
+ORD-000186,Order Created,2026-01-30T20:05:00+00:00,sales_02,Sales,15.48,38060.0,1
+ORD-000186,Order Approved,2026-01-30T20:45:46+00:00,management_07,Management,4.85,38060.0,2
+ORD-000186,Picking Started,2026-01-31T05:40:49+00:00,warehouse_04,Warehouse,8.33,38060.0,3
+ORD-000186,Packed,2026-01-31T06:51:55+00:00,warehouse_01,Warehouse,5.4,38060.0,4
+ORD-000186,Shipped,2026-01-31T07:51:39+00:00,warehouse_08,Warehouse,2.44,38060.0,5
+ORD-000186,Invoice Created,2026-01-31T09:20:13+00:00,accounting_03,Accounting,14.28,38060.0,6
+ORD-000186,Payment Received,2026-02-05T11:39:34+00:00,system,Finance,0.0,38060.0,7
+ORD-000187,Order Created,2026-01-21T00:37:00+00:00,sales_08,Sales,2.03,13960.0,1
+ORD-000187,Order Approved,2026-01-21T02:28:14+00:00,management_08,Management,14.04,13960.0,2
+ORD-000187,Picking Started,2026-01-21T08:03:06+00:00,warehouse_08,Warehouse,15.49,13960.0,3
+ORD-000187,Packed,2026-01-21T11:14:35+00:00,warehouse_03,Warehouse,3.17,13960.0,4
+ORD-000187,Shipped,2026-01-21T12:29:59+00:00,warehouse_03,Warehouse,7.95,13960.0,5
+ORD-000187,Invoice Created,2026-01-21T15:07:10+00:00,accounting_02,Accounting,8.31,13960.0,6
+ORD-000188,Order Created,2026-01-12T04:53:00+00:00,sales_02,Sales,15.37,8430.0,1
+ORD-000188,Order Approved,2026-01-12T06:01:25+00:00,management_07,Management,5.69,8430.0,2
+ORD-000188,Picking Started,2026-01-12T08:56:21+00:00,warehouse_08,Warehouse,3.03,8430.0,3
+ORD-000188,Packed,2026-01-12T10:26:44+00:00,warehouse_03,Warehouse,1.8,8430.0,4
+ORD-000188,Shipped,2026-01-12T12:03:51+00:00,warehouse_08,Warehouse,14.06,8430.0,5
+ORD-000188,Invoice Created,2026-01-12T16:42:50+00:00,accounting_07,Accounting,7.52,8430.0,6
+ORD-000188,Payment Received,2026-01-19T06:20:36+00:00,system,Finance,0.0,8430.0,7
+ORD-000189,Order Created,2026-01-17T22:46:00+00:00,sales_03,Sales,10.05,36520.0,1
+ORD-000189,Order Approved,2026-01-17T23:29:20+00:00,management_03,Management,2.08,36520.0,2
+ORD-000189,Picking Started,2026-01-18T09:20:06+00:00,warehouse_02,Warehouse,7.96,36520.0,3
+ORD-000189,Shipped,2026-01-18T10:22:41+00:00,warehouse_01,Warehouse,17.03,36520.0,4
+ORD-000189,Invoice Created,2026-01-18T13:03:27+00:00,accounting_08,Accounting,9.16,36520.0,5
+ORD-000190,Order Created,2026-03-24T12:36:00+00:00,sales_03,Sales,16.06,55340.0,1
+ORD-000190,Order Approved,2026-03-24T13:55:15+00:00,management_01,Management,12.76,55340.0,2
+ORD-000190,Order Edited,2026-03-24T15:06:33+00:00,sales_03,Sales,2.98,55340.0,3
+ORD-000190,Order Approved,2026-03-24T15:58:01+00:00,management_04,Management,6.28,55340.0,4
+ORD-000190,Picking Started,2026-03-24T23:14:57+00:00,warehouse_04,Warehouse,2.47,55340.0,5
+ORD-000190,Packed,2026-03-25T00:39:05+00:00,warehouse_01,Warehouse,8.19,55340.0,6
+ORD-000190,Shipped,2026-03-25T01:11:15+00:00,warehouse_02,Warehouse,6.92,55340.0,7
+ORD-000190,Invoice Created,2026-03-25T03:00:39+00:00,accounting_02,Accounting,10.92,55340.0,8
+ORD-000191,Order Created,2026-03-30T06:09:00+00:00,sales_06,Sales,12.76,47920.0,1
+ORD-000191,Order Approved,2026-03-30T08:56:53+00:00,management_08,Management,6.21,47920.0,2
+ORD-000191,Picking Started,2026-03-30T15:20:56+00:00,warehouse_07,Warehouse,6.2,47920.0,3
+ORD-000191,Packed,2026-03-30T16:24:13+00:00,warehouse_02,Warehouse,4.13,47920.0,4
+ORD-000191,Shipped,2026-03-30T17:42:33+00:00,warehouse_03,Warehouse,15.59,47920.0,5
+ORD-000191,Invoice Created,2026-03-30T19:25:10+00:00,accounting_03,Accounting,14.94,47920.0,6
+ORD-000191,Payment Received,2026-04-05T11:17:29+00:00,system,Finance,0.0,47920.0,7
+ORD-000192,Order Created,2026-02-03T23:59:00+00:00,sales_08,Sales,11.35,7590.0,1
+ORD-000192,Order Approved,2026-02-04T01:59:43+00:00,management_02,Management,8.73,7590.0,2
+ORD-000192,Order Edited,2026-02-04T02:44:16+00:00,sales_05,Sales,2.16,7590.0,3
+ORD-000192,Order Approved,2026-02-04T06:06:34+00:00,management_03,Management,1.57,7590.0,4
+ORD-000192,Picking Started,2026-02-04T14:10:39+00:00,warehouse_05,Warehouse,17.46,7590.0,5
+ORD-000192,Packed,2026-02-04T15:05:45+00:00,warehouse_06,Warehouse,5.23,7590.0,6
+ORD-000192,Shipped,2026-02-04T16:51:46+00:00,warehouse_07,Warehouse,4.6,7590.0,7
+ORD-000192,Invoice Created,2026-02-04T19:58:32+00:00,accounting_07,Accounting,8.8,7590.0,8
+ORD-000192,Payment Received,2026-02-11T06:45:56+00:00,system,Finance,0.0,7590.0,9
+ORD-000193,Order Created,2026-01-11T11:29:00+00:00,sales_03,Sales,5.83,14520.0,1
+ORD-000193,Order Approved,2026-01-11T13:12:14+00:00,management_04,Management,6.36,14520.0,2
+ORD-000193,Picking Started,2026-01-11T15:50:06+00:00,warehouse_04,Warehouse,16.72,14520.0,3
+ORD-000193,Packed,2026-01-11T17:59:36+00:00,warehouse_01,Warehouse,10.18,14520.0,4
+ORD-000193,Shipped,2026-01-11T19:41:23+00:00,warehouse_05,Warehouse,11.98,14520.0,5
+ORD-000193,Invoice Created,2026-01-11T21:13:10+00:00,accounting_05,Accounting,17.59,14520.0,6
+ORD-000193,Payment Received,2026-01-18T11:01:00+00:00,system,Finance,0.0,14520.0,7
+ORD-000194,Order Created,2026-02-19T21:26:00+00:00,sales_06,Sales,16.02,22500.0,1
+ORD-000194,Order Approved,2026-02-19T23:19:19+00:00,management_03,Management,7.99,22500.0,2
+ORD-000194,Picking Started,2026-02-20T04:00:27+00:00,warehouse_05,Warehouse,4.87,22500.0,3
+ORD-000194,Packed,2026-02-20T08:22:08+00:00,warehouse_05,Warehouse,3.97,22500.0,4
+ORD-000194,Shipped,2026-02-20T09:02:49+00:00,warehouse_06,Warehouse,6.71,22500.0,5
+ORD-000194,Invoice Created,2026-02-20T11:11:28+00:00,accounting_08,Accounting,11.48,22500.0,6
+ORD-000194,Payment Received,2026-02-23T08:22:03+00:00,system,Finance,0.0,22500.0,7
+ORD-000195,Order Created,2026-02-15T09:10:00+00:00,sales_08,Sales,10.06,27460.0,1
+ORD-000195,Order Approved,2026-02-15T10:21:17+00:00,management_07,Management,6.99,27460.0,2
+ORD-000195,Picking Started,2026-02-15T13:44:44+00:00,warehouse_01,Warehouse,7.41,27460.0,3
+ORD-000195,Packed,2026-02-15T14:49:43+00:00,warehouse_06,Warehouse,15.34,27460.0,4
+ORD-000195,Shipped,2026-02-15T16:54:17+00:00,warehouse_04,Warehouse,2.14,27460.0,5
+ORD-000195,Invoice Created,2026-02-15T19:16:18+00:00,accounting_03,Accounting,8.6,27460.0,6
+ORD-000196,Order Created,2026-04-02T09:32:00+00:00,sales_07,Sales,17.11,12440.0,1
+ORD-000196,Order Approved,2026-04-02T10:48:51+00:00,management_02,Management,11.88,12440.0,2
+ORD-000196,Picking Started,2026-04-02T14:40:38+00:00,warehouse_04,Warehouse,13.03,12440.0,3
+ORD-000196,Packed,2026-04-02T17:20:25+00:00,warehouse_07,Warehouse,15.04,12440.0,4
+ORD-000196,Shipped,2026-04-02T18:19:36+00:00,warehouse_06,Warehouse,16.54,12440.0,5
+ORD-000196,Invoice Created,2026-04-02T21:40:50+00:00,accounting_07,Accounting,1.33,12440.0,6
+ORD-000196,Payment Received,2026-04-08T07:09:05+00:00,system,Finance,0.0,12440.0,7
+ORD-000197,Order Created,2026-03-23T11:14:00+00:00,sales_08,Sales,15.66,23510.0,1
+ORD-000197,Order Approved,2026-03-23T13:53:36+00:00,management_08,Management,9.19,23510.0,2
+ORD-000197,Picking Started,2026-03-23T19:00:37+00:00,warehouse_04,Warehouse,9.23,23510.0,3
+ORD-000197,Packed,2026-03-23T23:17:59+00:00,warehouse_03,Warehouse,15.96,23510.0,4
+ORD-000197,Shipped,2026-03-23T23:49:39+00:00,warehouse_07,Warehouse,17.12,23510.0,5
+ORD-000197,Invoice Created,2026-03-24T04:44:55+00:00,accounting_06,Accounting,15.42,23510.0,6
+ORD-000197,Payment Received,2026-03-28T08:58:56+00:00,system,Finance,0.0,23510.0,7
+ORD-000198,Order Created,2026-03-19T17:59:00+00:00,sales_01,Sales,13.05,26990.0,1
+ORD-000198,Order Approved,2026-03-19T18:24:26+00:00,management_01,Management,5.99,26990.0,2
+ORD-000198,Picking Started,2026-03-20T13:41:32+00:00,warehouse_07,Warehouse,14.89,26990.0,3
+ORD-000198,Packed,2026-03-20T15:50:26+00:00,warehouse_04,Warehouse,5.03,26990.0,4
+ORD-000198,Shipped,2026-03-20T16:47:33+00:00,warehouse_02,Warehouse,8.52,26990.0,5
+ORD-000198,Invoice Created,2026-03-20T17:39:21+00:00,accounting_05,Accounting,15.33,26990.0,6
+ORD-000198,Payment Received,2026-03-24T04:57:45+00:00,system,Finance,0.0,26990.0,7
+ORD-000199,Order Created,2026-03-06T10:40:00+00:00,sales_03,Sales,3.06,24500.0,1
+ORD-000199,Order Approved,2026-03-06T11:35:58+00:00,management_03,Management,12.68,24500.0,2
+ORD-000199,Picking Started,2026-03-06T17:46:08+00:00,warehouse_06,Warehouse,1.39,24500.0,3
+ORD-000199,Packed,2026-03-06T18:24:29+00:00,warehouse_01,Warehouse,5.65,24500.0,4
+ORD-000199,Shipped,2026-03-06T19:57:43+00:00,warehouse_03,Warehouse,3.9,24500.0,5
+ORD-000199,Invoice Created,2026-03-07T00:46:18+00:00,accounting_01,Accounting,2.57,24500.0,6
+ORD-000199,Payment Received,2026-03-10T20:52:01+00:00,system,Finance,0.0,24500.0,7
+ORD-000200,Order Created,2026-02-13T11:26:00+00:00,sales_07,Sales,10.7,35740.0,1
+ORD-000200,Order Approved,2026-02-13T15:10:57+00:00,management_06,Management,15.61,35740.0,2
+ORD-000200,Picking Started,2026-02-14T01:57:23+00:00,warehouse_06,Warehouse,6.05,35740.0,3
+ORD-000200,Packed,2026-02-14T04:47:06+00:00,warehouse_06,Warehouse,11.45,35740.0,4
+ORD-000200,Shipped,2026-02-14T06:00:04+00:00,warehouse_05,Warehouse,1.94,35740.0,5
+ORD-000200,Invoice Created,2026-02-14T07:03:11+00:00,accounting_06,Accounting,4.31,35740.0,6
+ORD-000200,Payment Received,2026-02-19T01:48:51+00:00,system,Finance,0.0,35740.0,7
+ORD-000201,Order Created,2026-01-20T10:14:00+00:00,sales_06,Sales,8.3,28510.0,1
+ORD-000201,Order Approved,2026-01-20T11:28:29+00:00,management_07,Management,17.78,28510.0,2
+ORD-000201,Picking Started,2026-01-20T17:04:05+00:00,warehouse_03,Warehouse,8.38,28510.0,3
+ORD-000201,Packed,2026-01-20T17:50:31+00:00,warehouse_03,Warehouse,3.82,28510.0,4
+ORD-000201,Shipped,2026-01-20T18:49:10+00:00,warehouse_08,Warehouse,14.78,28510.0,5
+ORD-000201,Invoice Created,2026-01-20T19:36:13+00:00,accounting_03,Accounting,17.85,28510.0,6
+ORD-000201,Payment Received,2026-01-22T14:18:22+00:00,system,Finance,0.0,28510.0,7
+ORD-000202,Order Created,2026-02-12T06:56:00+00:00,sales_01,Sales,6.71,50760.0,1
+ORD-000202,Order Approved,2026-02-12T08:44:46+00:00,management_02,Management,14.94,50760.0,2
+ORD-000202,Picking Started,2026-02-12T13:33:23+00:00,warehouse_02,Warehouse,12.04,50760.0,3
+ORD-000202,Packed,2026-02-12T16:26:43+00:00,warehouse_01,Warehouse,9.87,50760.0,4
+ORD-000202,Shipped,2026-02-12T17:38:30+00:00,warehouse_05,Warehouse,2.16,50760.0,5
+ORD-000202,Invoice Created,2026-02-12T21:58:11+00:00,accounting_07,Accounting,5.3,50760.0,6
+ORD-000203,Order Created,2026-04-02T17:06:00+00:00,sales_06,Sales,2.53,69460.0,1
+ORD-000203,Order Approved,2026-04-02T19:20:20+00:00,management_01,Management,6.51,69460.0,2
+ORD-000203,Picking Started,2026-04-02T21:53:52+00:00,warehouse_06,Warehouse,10.33,69460.0,3
+ORD-000203,Packed,2026-04-02T22:57:41+00:00,warehouse_02,Warehouse,1.63,69460.0,4
+ORD-000203,Shipped,2026-04-02T23:38:00+00:00,warehouse_04,Warehouse,3.3,69460.0,5
+ORD-000203,Invoice Created,2026-04-03T04:02:24+00:00,accounting_02,Accounting,5.14,69460.0,6
+ORD-000203,Payment Received,2026-04-05T12:08:29+00:00,system,Finance,0.0,69460.0,7
+ORD-000204,Order Created,2026-01-06T07:32:00+00:00,sales_02,Sales,16.43,10840.0,1
+ORD-000204,Order Approved,2026-01-06T09:45:59+00:00,management_08,Management,3.37,10840.0,2
+ORD-000204,Picking Started,2026-01-06T16:11:14+00:00,warehouse_06,Warehouse,2.2,10840.0,3
+ORD-000204,Packed,2026-01-06T18:03:31+00:00,warehouse_01,Warehouse,13.69,10840.0,4
+ORD-000204,Shipped,2026-01-06T19:07:05+00:00,warehouse_06,Warehouse,7.71,10840.0,5
+ORD-000204,Invoice Created,2026-01-06T23:25:36+00:00,accounting_07,Accounting,8.48,10840.0,6
+ORD-000204,Payment Received,2026-01-15T17:11:59+00:00,system,Finance,0.0,10840.0,7
+ORD-000205,Order Created,2026-01-05T17:18:00+00:00,sales_08,Sales,8.1,8910.0,1
+ORD-000205,Order Approved,2026-01-05T18:22:35+00:00,management_06,Management,4.8,8910.0,2
+ORD-000205,Picking Started,2026-01-05T20:51:09+00:00,warehouse_01,Warehouse,14.44,8910.0,3
+ORD-000205,Packed,2026-01-05T23:13:10+00:00,warehouse_02,Warehouse,3.58,8910.0,4
+ORD-000205,Shipped,2026-01-06T00:04:42+00:00,warehouse_06,Warehouse,11.26,8910.0,5
+ORD-000205,Invoice Created,2026-01-06T03:00:59+00:00,accounting_06,Accounting,6.58,8910.0,6
+ORD-000205,Payment Received,2026-01-16T05:47:34+00:00,system,Finance,0.0,8910.0,7
+ORD-000206,Order Created,2026-03-08T21:01:00+00:00,sales_06,Sales,4.77,17840.0,1
+ORD-000206,Order Approved,2026-03-08T23:06:06+00:00,management_04,Management,17.57,17840.0,2
+ORD-000206,Picking Started,2026-03-09T05:54:09+00:00,warehouse_03,Warehouse,16.17,17840.0,3
+ORD-000206,Packed,2026-03-09T07:31:25+00:00,warehouse_04,Warehouse,12.57,17840.0,4
+ORD-000206,Shipped,2026-03-09T08:10:02+00:00,warehouse_03,Warehouse,11.83,17840.0,5
+ORD-000206,Invoice Created,2026-03-09T09:33:52+00:00,accounting_04,Accounting,8.78,17840.0,6
+ORD-000206,Payment Received,2026-03-11T17:51:19+00:00,system,Finance,0.0,17840.0,7
+ORD-000207,Order Created,2026-03-28T16:26:00+00:00,sales_02,Sales,11.58,15670.0,1
+ORD-000207,Order Approved,2026-03-28T18:37:13+00:00,management_05,Management,8.36,15670.0,2
+ORD-000207,Picking Started,2026-03-29T03:48:42+00:00,warehouse_04,Warehouse,15.6,15670.0,3
+ORD-000207,Packed,2026-03-29T05:17:04+00:00,warehouse_07,Warehouse,12.09,15670.0,4
+ORD-000207,Shipped,2026-03-29T06:03:04+00:00,warehouse_02,Warehouse,2.83,15670.0,5
+ORD-000207,Invoice Created,2026-03-29T07:35:25+00:00,accounting_01,Accounting,7.04,15670.0,6
+ORD-000207,Payment Received,2026-04-04T14:04:43+00:00,system,Finance,0.0,15670.0,7
+ORD-000208,Order Created,2026-03-17T07:30:00+00:00,sales_02,Sales,5.67,11890.0,1
+ORD-000208,Order Approved,2026-03-17T09:54:11+00:00,management_06,Management,16.9,11890.0,2
+ORD-000208,Picking Started,2026-03-17T18:14:31+00:00,warehouse_04,Warehouse,16.73,11890.0,3
+ORD-000208,Packed,2026-03-17T19:41:21+00:00,warehouse_08,Warehouse,11.75,11890.0,4
+ORD-000208,Shipped,2026-03-17T21:51:12+00:00,warehouse_04,Warehouse,12.4,11890.0,5
+ORD-000208,Invoice Created,2026-03-17T23:59:01+00:00,accounting_01,Accounting,1.15,11890.0,6
+ORD-000208,Payment Received,2026-03-20T07:22:22+00:00,system,Finance,0.0,11890.0,7
+ORD-000209,Order Created,2026-01-29T10:27:00+00:00,sales_08,Sales,17.01,13270.0,1
+ORD-000209,Order Approved,2026-01-29T11:37:28+00:00,management_06,Management,14.09,13270.0,2
+ORD-000209,Picking Started,2026-01-29T16:18:54+00:00,warehouse_05,Warehouse,8.33,13270.0,3
+ORD-000209,Packed,2026-01-29T17:29:18+00:00,warehouse_01,Warehouse,5.82,13270.0,4
+ORD-000209,Shipped,2026-01-29T18:16:58+00:00,warehouse_03,Warehouse,5.55,13270.0,5
+ORD-000209,Invoice Created,2026-01-30T04:40:47+00:00,accounting_01,Accounting,7.31,13270.0,6
+ORD-000209,Payment Received,2026-02-07T19:39:08+00:00,system,Finance,0.0,13270.0,7
+ORD-000210,Order Created,2026-03-14T05:55:00+00:00,sales_02,Sales,3.7,30220.0,1
+ORD-000210,Order Approved,2026-03-14T09:16:51+00:00,management_07,Management,8.74,30220.0,2
+ORD-000210,Picking Started,2026-03-14T16:38:31+00:00,warehouse_08,Warehouse,4.71,30220.0,3
+ORD-000210,Packed,2026-03-14T18:39:49+00:00,warehouse_01,Warehouse,12.81,30220.0,4
+ORD-000210,Shipped,2026-03-14T20:24:17+00:00,warehouse_06,Warehouse,5.1,30220.0,5
+ORD-000210,Invoice Created,2026-03-14T21:22:44+00:00,accounting_04,Accounting,12.3,30220.0,6
+ORD-000210,Payment Received,2026-03-17T08:21:25+00:00,system,Finance,0.0,30220.0,7
+ORD-000211,Order Created,2026-01-11T18:17:00+00:00,sales_04,Sales,12.41,20610.0,1
+ORD-000211,Order Approved,2026-01-11T20:06:04+00:00,management_01,Management,1.29,20610.0,2
+ORD-000211,Picking Started,2026-01-11T23:26:49+00:00,warehouse_04,Warehouse,17.23,20610.0,3
+ORD-000211,Packed,2026-01-12T01:34:18+00:00,warehouse_02,Warehouse,2.17,20610.0,4
+ORD-000211,Shipped,2026-01-12T02:33:12+00:00,warehouse_01,Warehouse,14.15,20610.0,5
+ORD-000211,Invoice Created,2026-01-12T03:20:22+00:00,accounting_08,Accounting,7.93,20610.0,6
+ORD-000211,Payment Received,2026-01-17T20:53:16+00:00,system,Finance,0.0,20610.0,7
+ORD-000212,Order Created,2026-02-06T09:37:00+00:00,sales_07,Sales,17.64,29460.0,1
+ORD-000212,Order Approved,2026-02-06T09:59:15+00:00,management_08,Management,6.23,29460.0,2
+ORD-000212,Order Edited,2026-02-06T10:47:51+00:00,sales_05,Sales,3.85,29460.0,3
+ORD-000212,Order Approved,2026-02-06T12:11:51+00:00,management_01,Management,15.6,29460.0,4
+ORD-000212,Picking Started,2026-02-06T17:00:20+00:00,warehouse_07,Warehouse,5.89,29460.0,5
+ORD-000212,Packed,2026-02-06T18:05:36+00:00,warehouse_07,Warehouse,10.25,29460.0,6
+ORD-000212,Shipped,2026-02-06T19:42:35+00:00,warehouse_02,Warehouse,13.88,29460.0,7
+ORD-000212,Invoice Created,2026-02-06T21:43:33+00:00,accounting_01,Accounting,15.33,29460.0,8
+ORD-000212,Payment Received,2026-02-11T00:02:26+00:00,system,Finance,0.0,29460.0,9
+ORD-000213,Order Created,2026-01-19T15:31:00+00:00,sales_07,Sales,1.05,20490.0,1
+ORD-000213,Order Approved,2026-01-19T18:02:45+00:00,management_01,Management,14.75,20490.0,2
+ORD-000213,Picking Started,2026-01-20T04:41:13+00:00,warehouse_04,Warehouse,7.96,20490.0,3
+ORD-000213,Packed,2026-01-20T06:58:42+00:00,warehouse_04,Warehouse,14.02,20490.0,4
+ORD-000213,Shipped,2026-01-20T07:09:03+00:00,warehouse_03,Warehouse,11.66,20490.0,5
+ORD-000213,Invoice Created,2026-01-20T11:22:51+00:00,accounting_01,Accounting,2.24,20490.0,6
+ORD-000213,Payment Received,2026-01-29T18:30:07+00:00,system,Finance,0.0,20490.0,7
+ORD-000214,Order Created,2026-03-29T04:03:00+00:00,sales_03,Sales,14.32,50330.0,1
+ORD-000214,Order Approved,2026-03-29T05:38:47+00:00,management_03,Management,9.33,50330.0,2
+ORD-000214,Picking Started,2026-03-29T14:04:23+00:00,warehouse_02,Warehouse,11.57,50330.0,3
+ORD-000214,Packed,2026-03-29T16:49:30+00:00,warehouse_02,Warehouse,3.29,50330.0,4
+ORD-000214,Shipped,2026-03-29T18:46:02+00:00,warehouse_06,Warehouse,1.56,50330.0,5
+ORD-000214,Invoice Created,2026-03-30T09:42:56+00:00,accounting_03,Accounting,15.21,50330.0,6
+ORD-000214,Payment Received,2026-04-08T19:27:23+00:00,system,Finance,0.0,50330.0,7
+ORD-000215,Order Created,2026-02-13T10:25:00+00:00,sales_06,Sales,6.59,37030.0,1
+ORD-000215,Order Approved,2026-02-13T12:42:04+00:00,management_06,Management,2.68,37030.0,2
+ORD-000215,Picking Started,2026-02-13T16:04:18+00:00,warehouse_01,Warehouse,11.97,37030.0,3
+ORD-000215,Packed,2026-02-13T18:16:44+00:00,warehouse_04,Warehouse,10.74,37030.0,4
+ORD-000215,Shipped,2026-02-13T19:57:51+00:00,warehouse_03,Warehouse,13.78,37030.0,5
+ORD-000215,Invoice Created,2026-02-14T03:51:31+00:00,accounting_02,Accounting,12.71,37030.0,6
+ORD-000215,Payment Received,2026-02-20T01:44:08+00:00,system,Finance,0.0,37030.0,7
+ORD-000216,Order Created,2026-01-19T06:28:00+00:00,sales_08,Sales,16.31,59500.0,1
+ORD-000216,Order Approved,2026-01-19T08:54:59+00:00,management_06,Management,3.27,59500.0,2
+ORD-000216,Picking Started,2026-01-19T15:24:24+00:00,warehouse_01,Warehouse,10.06,59500.0,3
+ORD-000216,Packed,2026-01-19T17:03:58+00:00,warehouse_07,Warehouse,15.89,59500.0,4
+ORD-000216,Shipped,2026-01-19T17:46:34+00:00,warehouse_05,Warehouse,2.74,59500.0,5
+ORD-000216,Invoice Created,2026-01-19T23:54:42+00:00,accounting_08,Accounting,13.84,59500.0,6
+ORD-000216,Payment Received,2026-01-24T15:19:18+00:00,system,Finance,0.0,59500.0,7
+ORD-000217,Order Created,2026-03-26T05:50:00+00:00,sales_01,Sales,15.61,24330.0,1
+ORD-000217,Order Approved,2026-03-26T08:25:19+00:00,management_08,Management,11.94,24330.0,2
+ORD-000217,Order Edited,2026-03-26T09:06:48+00:00,sales_04,Sales,12.98,24330.0,3
+ORD-000217,Order Approved,2026-03-26T10:40:41+00:00,management_03,Management,4.49,24330.0,4
+ORD-000217,Picking Started,2026-03-27T19:48:36+00:00,warehouse_01,Warehouse,5.0,24330.0,5
+ORD-000217,Packed,2026-03-27T21:03:36+00:00,warehouse_08,Warehouse,9.26,24330.0,6
+ORD-000217,Shipped,2026-03-27T21:55:35+00:00,warehouse_04,Warehouse,11.44,24330.0,7
+ORD-000217,Invoice Created,2026-03-28T04:55:13+00:00,accounting_08,Accounting,3.23,24330.0,8
+ORD-000217,Payment Received,2026-03-31T16:58:28+00:00,system,Finance,0.0,24330.0,9
+ORD-000218,Order Created,2026-03-21T20:04:00+00:00,sales_07,Sales,16.42,15550.0,1
+ORD-000218,Order Approved,2026-03-21T21:22:59+00:00,management_08,Management,2.28,15550.0,2
+ORD-000218,Picking Started,2026-03-22T07:48:16+00:00,warehouse_07,Warehouse,7.38,15550.0,3
+ORD-000218,Packed,2026-03-22T09:07:37+00:00,warehouse_03,Warehouse,15.04,15550.0,4
+ORD-000218,Shipped,2026-03-22T10:42:47+00:00,warehouse_05,Warehouse,3.83,15550.0,5
+ORD-000218,Invoice Created,2026-03-22T16:36:31+00:00,accounting_06,Accounting,1.18,15550.0,6
+ORD-000218,Payment Received,2026-03-29T16:26:09+00:00,system,Finance,0.0,15550.0,7
+ORD-000219,Order Created,2026-01-15T20:18:00+00:00,sales_04,Sales,15.65,33300.0,1
+ORD-000219,Order Approved,2026-01-15T21:29:39+00:00,management_06,Management,17.93,33300.0,2
+ORD-000219,Picking Started,2026-01-16T00:46:18+00:00,warehouse_01,Warehouse,14.99,33300.0,3
+ORD-000219,Packed,2026-01-16T03:19:18+00:00,warehouse_01,Warehouse,6.7,33300.0,4
+ORD-000219,Shipped,2026-01-16T04:47:07+00:00,warehouse_05,Warehouse,8.2,33300.0,5
+ORD-000219,Invoice Created,2026-01-16T10:07:12+00:00,accounting_01,Accounting,2.46,33300.0,6
+ORD-000219,Payment Received,2026-01-25T15:46:48+00:00,system,Finance,0.0,33300.0,7
+ORD-000220,Order Created,2026-01-23T23:42:00+00:00,sales_02,Sales,5.91,34480.0,1
+ORD-000220,Order Approved,2026-01-24T01:15:48+00:00,management_02,Management,6.63,34480.0,2
+ORD-000220,Picking Started,2026-01-24T04:53:25+00:00,warehouse_01,Warehouse,4.63,34480.0,3
+ORD-000220,Packed,2026-01-24T06:41:23+00:00,warehouse_01,Warehouse,1.37,34480.0,4
+ORD-000220,Shipped,2026-01-24T07:26:15+00:00,warehouse_02,Warehouse,6.02,34480.0,5
+ORD-000220,Invoice Created,2026-01-24T10:57:33+00:00,accounting_04,Accounting,15.95,34480.0,6
+ORD-000221,Order Created,2026-02-28T02:05:00+00:00,sales_02,Sales,9.89,12590.0,1
+ORD-000221,Order Approved,2026-02-28T04:28:45+00:00,management_06,Management,13.57,12590.0,2
+ORD-000221,Picking Started,2026-02-28T07:43:36+00:00,warehouse_06,Warehouse,1.61,12590.0,3
+ORD-000221,Packed,2026-02-28T11:08:41+00:00,warehouse_07,Warehouse,11.05,12590.0,4
+ORD-000221,Shipped,2026-02-28T13:02:39+00:00,warehouse_01,Warehouse,12.42,12590.0,5
+ORD-000221,Invoice Created,2026-02-28T23:40:41+00:00,accounting_01,Accounting,1.7,12590.0,6
+ORD-000221,Payment Received,2026-03-05T09:56:01+00:00,system,Finance,0.0,12590.0,7
+ORD-000222,Order Created,2026-02-15T11:17:00+00:00,sales_01,Sales,17.43,27150.0,1
+ORD-000222,Order Approved,2026-02-15T12:52:58+00:00,management_06,Management,15.16,27150.0,2
+ORD-000222,Picking Started,2026-02-15T16:00:40+00:00,warehouse_02,Warehouse,5.91,27150.0,3
+ORD-000222,Packed,2026-02-15T19:34:16+00:00,warehouse_01,Warehouse,1.09,27150.0,4
+ORD-000222,Shipped,2026-02-15T21:00:20+00:00,warehouse_01,Warehouse,7.02,27150.0,5
+ORD-000222,Invoice Created,2026-02-16T01:39:46+00:00,accounting_01,Accounting,2.58,27150.0,6
+ORD-000222,Payment Received,2026-02-19T00:29:20+00:00,system,Finance,0.0,27150.0,7
+ORD-000223,Order Created,2026-02-12T15:41:00+00:00,sales_01,Sales,13.0,15550.0,1
+ORD-000223,Order Approved,2026-02-12T19:34:47+00:00,management_07,Management,13.75,15550.0,2
+ORD-000223,Order Edited,2026-02-12T20:10:21+00:00,sales_02,Sales,5.06,15550.0,3
+ORD-000223,Order Approved,2026-02-12T23:49:34+00:00,management_05,Management,8.13,15550.0,4
+ORD-000223,Picking Started,2026-02-13T04:37:15+00:00,warehouse_05,Warehouse,8.92,15550.0,5
+ORD-000223,Shipped,2026-02-13T05:19:46+00:00,warehouse_08,Warehouse,16.25,15550.0,6
+ORD-000223,Invoice Created,2026-02-13T10:10:39+00:00,accounting_05,Accounting,6.43,15550.0,7
+ORD-000223,Payment Received,2026-02-17T08:06:47+00:00,system,Finance,0.0,15550.0,8
+ORD-000224,Order Created,2026-01-19T19:17:00+00:00,sales_03,Sales,2.04,11000.0,1
+ORD-000224,Order Approved,2026-01-19T20:59:03+00:00,management_03,Management,2.23,11000.0,2
+ORD-000224,Picking Started,2026-01-20T04:19:56+00:00,warehouse_04,Warehouse,1.42,11000.0,3
+ORD-000224,Packed,2026-01-20T08:37:04+00:00,warehouse_02,Warehouse,3.85,11000.0,4
+ORD-000224,Shipped,2026-01-20T11:09:39+00:00,warehouse_05,Warehouse,17.67,11000.0,5
+ORD-000224,Invoice Created,2026-01-20T14:39:42+00:00,accounting_01,Accounting,12.69,11000.0,6
+ORD-000224,Payment Received,2026-01-22T21:25:39+00:00,system,Finance,0.0,11000.0,7
+ORD-000225,Order Created,2026-03-01T16:58:00+00:00,sales_01,Sales,11.1,52600.0,1
+ORD-000225,Order Approved,2026-03-01T20:10:22+00:00,management_07,Management,17.64,52600.0,2
+ORD-000225,Order Edited,2026-03-01T20:46:07+00:00,sales_02,Sales,8.44,52600.0,3
+ORD-000225,Order Approved,2026-03-01T22:48:46+00:00,management_06,Management,5.72,52600.0,4
+ORD-000225,Picking Started,2026-03-02T02:05:27+00:00,warehouse_06,Warehouse,13.73,52600.0,5
+ORD-000225,Packed,2026-03-02T04:49:04+00:00,warehouse_07,Warehouse,7.07,52600.0,6
+ORD-000225,Shipped,2026-03-02T06:33:50+00:00,warehouse_08,Warehouse,6.43,52600.0,7
+ORD-000225,Invoice Created,2026-03-02T10:43:42+00:00,accounting_01,Accounting,6.22,52600.0,8
+ORD-000225,Payment Received,2026-03-05T03:33:53+00:00,system,Finance,0.0,52600.0,9
+ORD-000226,Order Created,2026-04-04T05:25:00+00:00,sales_08,Sales,7.07,12320.0,1
+ORD-000226,Order Approved,2026-04-04T06:56:06+00:00,management_01,Management,16.46,12320.0,2
+ORD-000226,Picking Started,2026-04-04T10:42:16+00:00,warehouse_07,Warehouse,1.83,12320.0,3
+ORD-000226,Packed,2026-04-04T13:37:54+00:00,warehouse_05,Warehouse,12.22,12320.0,4
+ORD-000226,Shipped,2026-04-04T17:14:03+00:00,warehouse_04,Warehouse,5.02,12320.0,5
+ORD-000226,Invoice Created,2026-04-04T20:03:38+00:00,accounting_07,Accounting,2.61,12320.0,6
+ORD-000226,Payment Received,2026-04-08T01:51:09+00:00,system,Finance,0.0,12320.0,7
+ORD-000227,Order Created,2026-03-09T00:19:00+00:00,sales_06,Sales,6.71,30440.0,1
+ORD-000227,Order Approved,2026-03-09T03:16:48+00:00,management_04,Management,3.01,30440.0,2
+ORD-000227,Order Edited,2026-03-09T05:18:10+00:00,sales_06,Sales,14.78,30440.0,3
+ORD-000227,Order Approved,2026-03-09T07:47:58+00:00,management_06,Management,9.87,30440.0,4
+ORD-000227,Picking Started,2026-03-09T11:54:51+00:00,warehouse_01,Warehouse,6.53,30440.0,5
+ORD-000227,Packed,2026-03-09T12:59:07+00:00,warehouse_05,Warehouse,16.89,30440.0,6
+ORD-000227,Shipped,2026-03-09T13:33:10+00:00,warehouse_04,Warehouse,4.63,30440.0,7
+ORD-000227,Invoice Created,2026-03-09T20:18:06+00:00,accounting_07,Accounting,5.93,30440.0,8
+ORD-000227,Payment Received,2026-03-14T15:49:57+00:00,system,Finance,0.0,30440.0,9
+ORD-000228,Order Created,2026-03-06T09:59:00+00:00,sales_02,Sales,12.45,42490.0,1
+ORD-000228,Order Approved,2026-03-06T11:57:08+00:00,management_08,Management,15.02,42490.0,2
+ORD-000228,Picking Started,2026-03-06T17:54:40+00:00,warehouse_04,Warehouse,14.17,42490.0,3
+ORD-000228,Packed,2026-03-06T19:49:56+00:00,warehouse_06,Warehouse,15.85,42490.0,4
+ORD-000228,Shipped,2026-03-06T22:46:02+00:00,warehouse_04,Warehouse,5.2,42490.0,5
+ORD-000228,Invoice Created,2026-03-07T00:46:31+00:00,accounting_03,Accounting,16.36,42490.0,6
+ORD-000228,Payment Received,2026-03-17T18:21:19+00:00,system,Finance,0.0,42490.0,7
+ORD-000229,Order Created,2026-02-24T19:24:00+00:00,sales_02,Sales,16.08,29140.0,1
+ORD-000229,Order Approved,2026-02-24T23:11:47+00:00,management_03,Management,9.62,29140.0,2
+ORD-000229,Picking Started,2026-02-25T08:08:22+00:00,warehouse_03,Warehouse,9.61,29140.0,3
+ORD-000229,Packed,2026-02-25T09:24:28+00:00,warehouse_07,Warehouse,15.15,29140.0,4
+ORD-000229,Shipped,2026-02-25T10:59:51+00:00,warehouse_05,Warehouse,1.02,29140.0,5
+ORD-000229,Invoice Created,2026-02-25T15:05:50+00:00,accounting_08,Accounting,7.25,29140.0,6
+ORD-000229,Payment Received,2026-03-03T13:31:20+00:00,system,Finance,0.0,29140.0,7
+ORD-000230,Order Created,2026-02-13T13:39:00+00:00,sales_08,Sales,8.95,8440.0,1
+ORD-000230,Order Approved,2026-02-13T15:47:32+00:00,management_01,Management,5.28,8440.0,2
+ORD-000230,Order Edited,2026-02-13T16:32:53+00:00,sales_05,Sales,9.43,8440.0,3
+ORD-000230,Order Approved,2026-02-13T17:45:21+00:00,management_04,Management,13.49,8440.0,4
+ORD-000230,Picking Started,2026-02-13T21:03:07+00:00,warehouse_07,Warehouse,12.38,8440.0,5
+ORD-000230,Packed,2026-02-13T22:58:02+00:00,warehouse_08,Warehouse,10.84,8440.0,6
+ORD-000230,Shipped,2026-02-14T00:35:01+00:00,warehouse_02,Warehouse,6.65,8440.0,7
+ORD-000230,Invoice Created,2026-02-14T02:29:57+00:00,accounting_02,Accounting,10.16,8440.0,8
+ORD-000230,Payment Received,2026-02-22T01:52:27+00:00,system,Finance,0.0,8440.0,9
+ORD-000231,Order Created,2026-01-26T03:46:00+00:00,sales_04,Sales,12.97,31790.0,1
+ORD-000231,Order Approved,2026-01-26T05:25:52+00:00,management_08,Management,4.64,31790.0,2
+ORD-000231,Order Edited,2026-01-26T06:47:51+00:00,sales_04,Sales,14.98,31790.0,3
+ORD-000231,Order Approved,2026-01-26T09:35:25+00:00,management_03,Management,3.37,31790.0,4
+ORD-000231,Picking Started,2026-01-27T05:37:41+00:00,warehouse_02,Warehouse,2.18,31790.0,5
+ORD-000231,Packed,2026-01-27T07:53:15+00:00,warehouse_03,Warehouse,14.03,31790.0,6
+ORD-000231,Shipped,2026-01-27T09:36:32+00:00,warehouse_07,Warehouse,1.19,31790.0,7
+ORD-000231,Invoice Created,2026-01-27T14:08:59+00:00,accounting_06,Accounting,9.76,31790.0,8
+ORD-000231,Payment Received,2026-02-02T03:55:11+00:00,system,Finance,0.0,31790.0,9
+ORD-000232,Order Created,2026-01-27T05:42:00+00:00,sales_01,Sales,16.99,23240.0,1
+ORD-000232,Order Approved,2026-01-27T09:09:36+00:00,management_08,Management,12.93,23240.0,2
+ORD-000232,Picking Started,2026-01-27T14:30:07+00:00,warehouse_03,Warehouse,6.37,23240.0,3
+ORD-000232,Packed,2026-01-27T17:40:43+00:00,warehouse_07,Warehouse,3.46,23240.0,4
+ORD-000232,Shipped,2026-01-27T18:46:57+00:00,warehouse_08,Warehouse,16.35,23240.0,5
+ORD-000232,Invoice Created,2026-01-27T21:06:25+00:00,accounting_05,Accounting,14.68,23240.0,6
+ORD-000232,Payment Received,2026-02-06T16:24:16+00:00,system,Finance,0.0,23240.0,7
+ORD-000233,Order Created,2026-03-22T01:53:00+00:00,sales_01,Sales,1.75,10780.0,1
+ORD-000233,Order Approved,2026-03-22T03:52:43+00:00,management_02,Management,14.48,10780.0,2
+ORD-000233,Order Edited,2026-03-22T06:16:24+00:00,sales_01,Sales,4.24,10780.0,3
+ORD-000233,Order Approved,2026-03-22T06:53:18+00:00,management_08,Management,9.9,10780.0,4
+ORD-000233,Picking Started,2026-03-22T09:44:39+00:00,warehouse_03,Warehouse,5.62,10780.0,5
+ORD-000233,Packed,2026-03-22T11:18:17+00:00,warehouse_06,Warehouse,15.7,10780.0,6
+ORD-000233,Shipped,2026-03-22T11:39:43+00:00,warehouse_07,Warehouse,10.66,10780.0,7
+ORD-000233,Invoice Created,2026-03-22T16:54:06+00:00,accounting_04,Accounting,17.72,10780.0,8
+ORD-000233,Payment Received,2026-03-29T06:16:38+00:00,system,Finance,0.0,10780.0,9
+ORD-000234,Order Created,2026-01-17T23:15:00+00:00,sales_04,Sales,12.29,36180.0,1
+ORD-000234,Order Approved,2026-01-18T00:09:22+00:00,management_01,Management,12.35,36180.0,2
+ORD-000234,Picking Started,2026-01-18T04:49:09+00:00,warehouse_06,Warehouse,15.74,36180.0,3
+ORD-000234,Packed,2026-01-18T07:26:06+00:00,warehouse_04,Warehouse,17.48,36180.0,4
+ORD-000234,Shipped,2026-01-18T07:56:22+00:00,warehouse_03,Warehouse,16.92,36180.0,5
+ORD-000234,Invoice Created,2026-01-18T09:51:46+00:00,accounting_02,Accounting,11.1,36180.0,6
+ORD-000234,Payment Received,2026-01-28T03:29:51+00:00,system,Finance,0.0,36180.0,7
+ORD-000235,Order Created,2026-02-09T15:33:00+00:00,sales_05,Sales,1.66,38790.0,1
+ORD-000235,Order Approved,2026-02-09T17:03:31+00:00,management_04,Management,10.74,38790.0,2
+ORD-000235,Picking Started,2026-02-10T10:15:42+00:00,warehouse_01,Warehouse,12.05,38790.0,3
+ORD-000235,Packed,2026-02-10T11:44:39+00:00,warehouse_04,Warehouse,14.22,38790.0,4
+ORD-000235,Shipped,2026-02-10T13:39:47+00:00,warehouse_04,Warehouse,16.27,38790.0,5
+ORD-000235,Invoice Created,2026-02-10T19:24:21+00:00,accounting_06,Accounting,15.69,38790.0,6
+ORD-000235,Payment Received,2026-02-16T19:32:09+00:00,system,Finance,0.0,38790.0,7
+ORD-000236,Order Created,2026-03-25T04:59:00+00:00,sales_07,Sales,11.98,13000.0,1
+ORD-000236,Order Approved,2026-03-25T05:47:54+00:00,management_02,Management,2.25,13000.0,2
+ORD-000236,Picking Started,2026-03-25T12:36:40+00:00,warehouse_01,Warehouse,6.77,13000.0,3
+ORD-000236,Packed,2026-03-25T15:20:04+00:00,warehouse_03,Warehouse,2.66,13000.0,4
+ORD-000236,Shipped,2026-03-25T17:08:23+00:00,warehouse_05,Warehouse,3.51,13000.0,5
+ORD-000236,Invoice Created,2026-03-25T19:31:30+00:00,accounting_01,Accounting,7.29,13000.0,6
+ORD-000236,Payment Received,2026-04-06T10:49:14+00:00,system,Finance,0.0,13000.0,7
+ORD-000237,Order Created,2026-03-03T21:03:00+00:00,sales_02,Sales,13.67,69210.0,1
+ORD-000237,Order Approved,2026-03-03T23:32:10+00:00,management_05,Management,14.64,69210.0,2
+ORD-000237,Order Edited,2026-03-04T00:39:52+00:00,sales_02,Sales,5.73,69210.0,3
+ORD-000237,Order Approved,2026-03-04T01:52:10+00:00,management_06,Management,10.31,69210.0,4
+ORD-000237,Picking Started,2026-03-04T12:40:21+00:00,warehouse_02,Warehouse,14.43,69210.0,5
+ORD-000237,Packed,2026-03-04T13:54:34+00:00,warehouse_05,Warehouse,5.79,69210.0,6
+ORD-000237,Shipped,2026-03-04T15:32:16+00:00,warehouse_01,Warehouse,3.42,69210.0,7
+ORD-000237,Invoice Created,2026-03-04T16:24:29+00:00,accounting_05,Accounting,10.61,69210.0,8
+ORD-000237,Payment Received,2026-03-13T18:01:16+00:00,system,Finance,0.0,69210.0,9
+ORD-000238,Order Created,2026-02-02T15:36:00+00:00,sales_07,Sales,6.23,9760.0,1
+ORD-000238,Order Approved,2026-02-02T16:34:20+00:00,management_04,Management,3.68,9760.0,2
+ORD-000238,Picking Started,2026-02-03T01:21:49+00:00,warehouse_01,Warehouse,5.81,9760.0,3
+ORD-000238,Packed,2026-02-03T04:17:36+00:00,warehouse_02,Warehouse,3.0,9760.0,4
+ORD-000238,Shipped,2026-02-03T04:55:31+00:00,warehouse_08,Warehouse,10.93,9760.0,5
+ORD-000238,Invoice Created,2026-02-03T08:28:42+00:00,accounting_04,Accounting,7.27,9760.0,6
+ORD-000238,Payment Received,2026-02-10T18:50:26+00:00,system,Finance,0.0,9760.0,7
+ORD-000239,Order Created,2026-02-15T04:12:00+00:00,sales_03,Sales,6.93,36960.0,1
+ORD-000239,Order Approved,2026-02-15T07:30:59+00:00,management_05,Management,4.69,36960.0,2
+ORD-000239,Picking Started,2026-02-15T14:43:15+00:00,warehouse_07,Warehouse,15.52,36960.0,3
+ORD-000239,Packed,2026-02-15T17:43:07+00:00,warehouse_05,Warehouse,3.65,36960.0,4
+ORD-000239,Shipped,2026-02-15T18:26:39+00:00,warehouse_01,Warehouse,6.45,36960.0,5
+ORD-000239,Invoice Created,2026-02-17T08:55:09+00:00,accounting_07,Accounting,2.79,36960.0,6
+ORD-000239,Payment Received,2026-02-22T09:28:45+00:00,system,Finance,0.0,36960.0,7
+ORD-000240,Order Created,2026-01-19T06:28:00+00:00,sales_04,Sales,7.38,13670.0,1
+ORD-000240,Order Approved,2026-01-19T08:10:59+00:00,management_02,Management,13.69,13670.0,2
+ORD-000240,Picking Started,2026-01-19T12:11:39+00:00,warehouse_04,Warehouse,5.08,13670.0,3
+ORD-000240,Packed,2026-01-19T13:41:02+00:00,warehouse_02,Warehouse,6.24,13670.0,4
+ORD-000240,Shipped,2026-01-19T15:19:50+00:00,warehouse_02,Warehouse,7.35,13670.0,5
+ORD-000240,Invoice Created,2026-01-19T18:24:08+00:00,accounting_03,Accounting,10.59,13670.0,6
+ORD-000240,Payment Received,2026-01-22T04:39:58+00:00,system,Finance,0.0,13670.0,7
+ORD-000241,Order Created,2026-01-09T04:09:00+00:00,sales_06,Sales,7.47,23450.0,1
+ORD-000241,Order Approved,2026-01-09T12:19:37+00:00,management_02,Management,2.91,23450.0,2
+ORD-000241,Order Edited,2026-01-09T13:28:12+00:00,sales_04,Sales,16.58,23450.0,3
+ORD-000241,Order Approved,2026-01-09T14:44:06+00:00,management_04,Management,16.64,23450.0,4
+ORD-000241,Picking Started,2026-01-09T21:00:09+00:00,warehouse_03,Warehouse,13.22,23450.0,5
+ORD-000241,Packed,2026-01-09T22:51:42+00:00,warehouse_05,Warehouse,8.02,23450.0,6
+ORD-000241,Shipped,2026-01-10T01:07:09+00:00,warehouse_04,Warehouse,17.0,23450.0,7
+ORD-000241,Invoice Created,2026-01-10T02:51:32+00:00,accounting_08,Accounting,2.88,23450.0,8
+ORD-000241,Payment Received,2026-01-21T21:54:00+00:00,system,Finance,0.0,23450.0,9
+ORD-000242,Order Created,2026-01-06T23:02:00+00:00,sales_03,Sales,10.4,23230.0,1
+ORD-000242,Order Approved,2026-01-07T00:09:52+00:00,management_04,Management,10.09,23230.0,2
+ORD-000242,Order Edited,2026-01-07T01:44:45+00:00,sales_04,Sales,8.7,23230.0,3
+ORD-000242,Order Approved,2026-01-07T02:18:43+00:00,management_05,Management,17.29,23230.0,4
+ORD-000242,Picking Started,2026-01-07T14:29:07+00:00,warehouse_04,Warehouse,7.85,23230.0,5
+ORD-000242,Packed,2026-01-07T16:22:29+00:00,warehouse_03,Warehouse,5.08,23230.0,6
+ORD-000242,Shipped,2026-01-07T17:50:25+00:00,warehouse_04,Warehouse,15.56,23230.0,7
+ORD-000242,Invoice Created,2026-01-07T21:55:12+00:00,accounting_04,Accounting,10.62,23230.0,8
+ORD-000242,Payment Received,2026-01-14T06:50:53+00:00,system,Finance,0.0,23230.0,9
+ORD-000243,Order Created,2026-01-08T23:19:00+00:00,sales_06,Sales,15.12,12480.0,1
+ORD-000243,Order Approved,2026-01-09T04:21:29+00:00,management_03,Management,7.84,12480.0,2
+ORD-000243,Picking Started,2026-01-10T17:06:04+00:00,warehouse_04,Warehouse,14.58,12480.0,3
+ORD-000243,Packed,2026-01-10T19:01:52+00:00,warehouse_06,Warehouse,15.5,12480.0,4
+ORD-000243,Shipped,2026-01-10T20:28:16+00:00,warehouse_05,Warehouse,15.61,12480.0,5
+ORD-000243,Invoice Created,2026-01-10T22:13:56+00:00,accounting_05,Accounting,17.37,12480.0,6
+ORD-000243,Payment Received,2026-01-22T19:14:01+00:00,system,Finance,0.0,12480.0,7
+ORD-000244,Order Created,2026-03-06T16:07:00+00:00,sales_04,Sales,13.84,11110.0,1
+ORD-000244,Order Approved,2026-03-06T18:28:26+00:00,management_02,Management,11.51,11110.0,2
+ORD-000244,Picking Started,2026-03-06T22:36:51+00:00,warehouse_01,Warehouse,9.09,11110.0,3
+ORD-000244,Packed,2026-03-07T01:59:22+00:00,warehouse_06,Warehouse,3.53,11110.0,4
+ORD-000244,Shipped,2026-03-07T03:26:11+00:00,warehouse_01,Warehouse,15.23,11110.0,5
+ORD-000244,Invoice Created,2026-03-07T05:56:06+00:00,accounting_08,Accounting,9.85,11110.0,6
+ORD-000244,Payment Received,2026-03-10T19:00:58+00:00,system,Finance,0.0,11110.0,7
+ORD-000245,Order Created,2026-03-15T23:55:00+00:00,sales_06,Sales,11.48,10310.0,1
+ORD-000245,Order Approved,2026-03-16T00:29:45+00:00,management_07,Management,3.73,10310.0,2
+ORD-000245,Order Edited,2026-03-16T01:48:15+00:00,sales_04,Sales,16.59,10310.0,3
+ORD-000245,Order Approved,2026-03-16T03:55:02+00:00,management_05,Management,11.04,10310.0,4
+ORD-000245,Picking Started,2026-03-16T09:09:43+00:00,warehouse_01,Warehouse,10.08,10310.0,5
+ORD-000245,Packed,2026-03-16T12:01:59+00:00,warehouse_05,Warehouse,10.12,10310.0,6
+ORD-000245,Shipped,2026-03-16T13:57:31+00:00,warehouse_08,Warehouse,6.89,10310.0,7
+ORD-000245,Invoice Created,2026-03-17T13:48:57+00:00,accounting_03,Accounting,4.57,10310.0,8
+ORD-000246,Order Created,2026-03-16T05:10:00+00:00,sales_07,Sales,1.09,39940.0,1
+ORD-000246,Order Approved,2026-03-16T06:52:56+00:00,management_03,Management,5.0,39940.0,2
+ORD-000246,Picking Started,2026-03-16T08:43:57+00:00,warehouse_04,Warehouse,13.26,39940.0,3
+ORD-000246,Packed,2026-03-16T11:02:18+00:00,warehouse_02,Warehouse,5.61,39940.0,4
+ORD-000246,Shipped,2026-03-16T13:18:03+00:00,warehouse_06,Warehouse,11.19,39940.0,5
+ORD-000246,Invoice Created,2026-03-16T15:30:47+00:00,accounting_07,Accounting,2.4,39940.0,6
+ORD-000246,Payment Received,2026-03-19T21:08:53+00:00,system,Finance,0.0,39940.0,7
+ORD-000247,Order Created,2026-01-09T12:17:00+00:00,sales_05,Sales,12.03,24560.0,1
+ORD-000247,Order Approved,2026-01-09T12:50:56+00:00,management_08,Management,13.11,24560.0,2
+ORD-000247,Picking Started,2026-01-09T18:51:48+00:00,warehouse_07,Warehouse,9.76,24560.0,3
+ORD-000247,Packed,2026-01-09T20:01:45+00:00,warehouse_04,Warehouse,2.35,24560.0,4
+ORD-000247,Shipped,2026-01-09T21:53:39+00:00,warehouse_01,Warehouse,1.11,24560.0,5
+ORD-000247,Invoice Created,2026-01-09T23:39:52+00:00,accounting_07,Accounting,11.66,24560.0,6
+ORD-000247,Payment Received,2026-01-15T12:03:33+00:00,system,Finance,0.0,24560.0,7
+ORD-000248,Order Created,2026-02-07T05:38:00+00:00,sales_08,Sales,4.02,31200.0,1
+ORD-000248,Order Approved,2026-02-07T06:46:32+00:00,management_05,Management,11.67,31200.0,2
+ORD-000248,Picking Started,2026-02-07T17:19:34+00:00,warehouse_03,Warehouse,14.04,31200.0,3
+ORD-000248,Packed,2026-02-07T17:55:07+00:00,warehouse_04,Warehouse,11.01,31200.0,4
+ORD-000248,Shipped,2026-02-07T18:49:35+00:00,warehouse_05,Warehouse,17.64,31200.0,5
+ORD-000248,Invoice Created,2026-02-07T22:05:30+00:00,accounting_02,Accounting,11.76,31200.0,6
+ORD-000248,Payment Received,2026-02-12T14:48:43+00:00,system,Finance,0.0,31200.0,7
+ORD-000249,Order Created,2026-01-08T21:58:00+00:00,sales_05,Sales,8.54,15060.0,1
+ORD-000249,Order Approved,2026-01-09T00:06:11+00:00,management_08,Management,12.48,15060.0,2
+ORD-000249,Picking Started,2026-01-09T09:29:10+00:00,warehouse_05,Warehouse,1.23,15060.0,3
+ORD-000249,Packed,2026-01-09T10:38:03+00:00,warehouse_02,Warehouse,1.97,15060.0,4
+ORD-000249,Shipped,2026-01-09T11:36:49+00:00,warehouse_05,Warehouse,13.79,15060.0,5
+ORD-000249,Invoice Created,2026-01-09T15:54:48+00:00,accounting_06,Accounting,3.01,15060.0,6
+ORD-000249,Payment Received,2026-01-16T18:17:58+00:00,system,Finance,0.0,15060.0,7
+ORD-000250,Order Created,2026-01-17T19:17:00+00:00,sales_07,Sales,5.22,41360.0,1
+ORD-000250,Order Approved,2026-01-17T21:35:26+00:00,management_04,Management,3.12,41360.0,2
+ORD-000250,Picking Started,2026-01-17T23:48:40+00:00,warehouse_05,Warehouse,13.04,41360.0,3
+ORD-000250,Packed,2026-01-18T03:32:59+00:00,warehouse_06,Warehouse,6.22,41360.0,4
+ORD-000250,Shipped,2026-01-18T05:03:22+00:00,warehouse_02,Warehouse,6.93,41360.0,5
+ORD-000250,Invoice Created,2026-01-18T09:07:16+00:00,accounting_04,Accounting,10.25,41360.0,6
+ORD-000250,Payment Received,2026-01-24T21:52:37+00:00,system,Finance,0.0,41360.0,7

@@ -22,13 +22,13 @@ To run the tests:
 .venv/bin/python -m pytest
 ```
 
-To regenerate the committed demos from the fixed seed:
+Demo datasets are generated deterministically at startup (seed 42), so nothing large is committed. To export one as CSV:
 
 ```bash
-.venv/bin/python -m erp_process_analyzer.generator --cases 10000 --seed 42 --profile messy --output data/demo_messy.csv
-.venv/bin/python -m erp_process_analyzer.generator --cases 2000 --seed 42 --profile clean --output data/demo_clean.csv
-.venv/bin/python -m erp_process_analyzer.generator --cases 3000 --seed 42 --profile warehouse --output data/demo_warehouse.csv
+.venv/bin/python -m erp_process_analyzer.generator --cases 10000 --seed 42 --profile manufacturing --output manufacturing.csv
 ```
+
+Profiles: `manufacturing`, `retail`, `clean`, `messy`, `warehouse`. `data/sample_event_log.csv` is a small file for trying the upload flow.
 
 ## Docker
 

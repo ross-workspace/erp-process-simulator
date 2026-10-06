@@ -96,3 +96,32 @@ def test_generator_is_deterministic_and_scenarios_stay_bounded() -> None:
     removed = simulate_transition(result, edge["from_activity"], edge["to_activity"], 100)
     assert unchanged.adjusted_mean_hours == pytest.approx(unchanged.current_mean_hours)
     assert removed.case_results["adjusted_hours"].ge(0).all()
+
+
+@pytest.mark.parametrize("profile", ["clean", "messy", "warehouse", "manufacturing", "retail"])
+def test_every_demo_profile_imports_and_analyzes(profile: str) -> None:
+    frame = generate_events(cases=300, seed=1, profile=profile)
+    events, report = load_events(StringIO(frame.to_csv(index=False)))
+    result = analyze(events)
+    assert report.cases == 300
+    assert result.completed_cases > 0
+    assert not result.transitions.empty
+
+
+def test_manufacturing_quality_loops_count_as_rework() -> None:
+    events, _ = load_events(StringIO(generate_events(cases=400, seed=3, profile="manufacturing").to_csv(index=False)))
+    result = analyze(events)
+    loops = result.transitions.loc[
+        result.transitions["from_activity"].eq("Quality Check")
+        & result.transitions["to_activity"].eq("Production Started")
+    ]
+    assert not loops.empty
+    assert result.rework_cases >= int(loops["cases"].iloc[0])
+
+
+def test_retail_returns_stay_outside_the_process() -> None:
+    events, _ = load_events(StringIO(generate_events(cases=400, seed=3, profile="retail").to_csv(index=False)))
+    result = analyze(events)
+    assert result.post_payment_events > 0
+    assert "Return Requested" not in set(result.activities["activity"])
+    assert "Return Requested" in set(result.raw_events["activity"])
