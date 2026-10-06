@@ -2,12 +2,16 @@
 
 from __future__ import annotations
 
-from collections import Counter, defaultdict
 from dataclasses import dataclass
 
 import pandas as pd
 
 PAYMENT = "Payment Received"
+
+TRANSITION_COLUMNS = [
+    "from_activity", "to_activity", "occurrences", "cases", "mean_hours",
+    "median_hours", "p90_hours", "total_case_hours",
+]
 
 
 @dataclass(frozen=True)
@@ -29,95 +33,86 @@ class Analysis:
 
 
 def _has_rework(activities: tuple[str, ...]) -> bool:
-    state = 0
-    for activity in activities:
-        if state == 0 and activity == "Order Approved":
-            state = 1
-        elif state == 1 and activity == "Order Edited":
-            state = 2
-        elif state == 2 and activity == "Order Approved":
-            return True
-    return False
+    """A case loops back when any activity is recorded more than once."""
+
+    return len(set(activities)) < len(activities)
+
+
+def _sorted(events: pd.DataFrame) -> pd.DataFrame:
+    order = ["case_id"] + [column for column in ("timestamp", "event_order", "source_row") if column in events]
+    return events.sort_values(order, kind="stable", na_position="last")
 
 
 def analyze(events: pd.DataFrame) -> Analysis:
     """Calculate metrics for one prepared single-order-per-case event log."""
 
-    case_rows: list[dict] = []
-    transition_rows: list[dict] = []
-    process_indices: list[int] = []
-    activity_cases: dict[str, set[str]] = defaultdict(set)
-    activity_occurrences: Counter[str] = Counter()
-    variant_cases: dict[tuple[str, ...], list[str]] = defaultdict(list)
-    post_payment_count = 0
+    ordered = _sorted(events)
+    case_key = ordered["case_id"].astype(str)
+    position = case_key.groupby(case_key, sort=False).cumcount()
 
-    for case_id, group in events.groupby("case_id", sort=False, dropna=False):
-        group = group.sort_values(
-            [column for column in ("timestamp", "event_order", "source_row") if column in group],
-            kind="stable",
-            na_position="last",
-        )
-        payments = group.index[group["activity"].eq(PAYMENT)].tolist()
-        completed = bool(payments)
-        if completed:
-            payment_position = group.index.get_loc(payments[0])
-            process_group = group.iloc[: payment_position + 1]
-        else:
-            process_group = group
-        post_payment = len(group) - len(process_group)
-        post_payment_count += post_payment
-        process_indices.extend(process_group.index.tolist())
+    # Everything up to and including the first payment is the process; later
+    # events stay visible in raw_events but do not shape the metrics.
+    is_payment = ordered["activity"].eq(PAYMENT)
+    first_payment = position[is_payment].groupby(case_key[is_payment]).min()
+    payment_position = case_key.map(first_payment)
+    in_process = payment_position.isna() | position.le(payment_position)
 
-        activities = tuple(str(activity) for activity in process_group["activity"].tolist())
-        variant_cases[activities].append(str(case_id))
-        timestamps = process_group["timestamp"].tolist()
-        cycle_hours = (
-            (timestamps[-1] - timestamps[0]).total_seconds() / 3600
-            if completed and timestamps
-            else None
-        )
-        rework = _has_rework(activities)
-        case_rows.append(
-            {
-                "case_id": str(case_id),
-                "completed": completed,
-                "cycle_hours": cycle_hours,
-                "first_event": timestamps[0],
-                "last_process_event": timestamps[-1],
-                "event_count": len(group),
-                "process_event_count": len(process_group),
-                "post_payment_events": post_payment,
-                "sequence_ambiguous": bool(group["sequence_ambiguous"].any()) if "sequence_ambiguous" in group else False,
-                "rework": rework,
-                "variant": activities,
-            }
-        )
+    process = ordered.loc[in_process]
+    process_case = case_key[in_process]
+    process_ts = process["timestamp"]
+    activity = process["activity"].astype(str)
 
-        for activity in activities:
-            activity_occurrences[activity] += 1
-            activity_cases[activity].add(str(case_id))
-        for index in range(len(activities) - 1):
-            transition_rows.append(
-                {
-                    "case_id": str(case_id),
-                    "from_activity": activities[index],
-                    "to_activity": activities[index + 1],
-                    "gap_hours": (timestamps[index + 1] - timestamps[index]).total_seconds() / 3600,
-                }
-            )
-
-    cases = pd.DataFrame(case_rows)
-    instances = pd.DataFrame(
-        transition_rows,
-        columns=["case_id", "from_activity", "to_activity", "gap_hours"],
+    by_case = process_ts.groupby(process_case, sort=False)
+    sequences = activity.groupby(process_case, sort=False).agg(tuple)
+    rework = sequences.map(_has_rework)
+    completed = sequences.index.isin(first_payment.index)
+    first_event = by_case.min()
+    last_event = by_case.max()
+    cycle = (last_event - first_event).dt.total_seconds() / 3600
+    event_count = case_key.groupby(case_key, sort=False).size()
+    post_payment = (~in_process).groupby(case_key, sort=False).sum()
+    ambiguous = (
+        ordered["sequence_ambiguous"].groupby(case_key, sort=False).any()
+        if "sequence_ambiguous" in ordered
+        else pd.Series(False, index=event_count.index)
     )
+
+    cases = pd.DataFrame(
+        {
+            "case_id": sequences.index.astype(str),
+            "completed": completed,
+            "cycle_hours": cycle.where(completed).to_numpy(),
+            "first_event": first_event.to_numpy(),
+            "last_process_event": last_event.to_numpy(),
+            "event_count": event_count.reindex(sequences.index).to_numpy(),
+            "process_event_count": by_case.size().to_numpy(),
+            "post_payment_events": post_payment.reindex(sequences.index).astype(int).to_numpy(),
+            "sequence_ambiguous": ambiguous.reindex(sequences.index).astype(bool).to_numpy(),
+            "rework": rework.to_numpy(),
+            "variant": sequences.to_numpy(),
+        }
+    )
+    cases["first_event"] = pd.to_datetime(cases["first_event"], utc=True)
+    cases["last_process_event"] = pd.to_datetime(cases["last_process_event"], utc=True)
+    cases["cycle_hours"] = cases["cycle_hours"].astype(float)
+
+    next_activity = activity.groupby(process_case, sort=False).shift(-1)
+    next_ts = process_ts.groupby(process_case, sort=False).shift(-1)
+    has_next = next_activity.notna()
+    instances = pd.DataFrame(
+        {
+            "case_id": process_case[has_next].to_numpy(),
+            "from_activity": activity[has_next].to_numpy(),
+            "to_activity": next_activity[has_next].astype(str).to_numpy(),
+            "gap_hours": ((next_ts[has_next] - process_ts[has_next]).dt.total_seconds() / 3600).to_numpy(),
+        }
+    )
+    for column in ("resource", "department"):
+        if column in process:
+            instances[f"to_{column}"] = process[column].groupby(process_case, sort=False).shift(-1)[has_next].to_numpy()
+
     if instances.empty:
-        transitions = pd.DataFrame(
-            columns=[
-                "from_activity", "to_activity", "occurrences", "cases", "mean_hours",
-                "median_hours", "p90_hours", "total_case_hours",
-            ]
-        )
+        transitions = pd.DataFrame(columns=TRANSITION_COLUMNS)
     else:
         transitions = (
             instances.groupby(["from_activity", "to_activity"], sort=False)
@@ -134,30 +129,31 @@ def analyze(events: pd.DataFrame) -> Analysis:
             .reset_index(drop=True)
         )
 
-    activities = pd.DataFrame(
-        [
-            {"activity": name, "cases": len(activity_cases[name]), "occurrences": count}
-            for name, count in activity_occurrences.items()
-        ],
-        columns=["activity", "cases", "occurrences"],
+    activities = (
+        pd.DataFrame({"activity": activity.to_numpy(), "case_id": process_case.to_numpy()})
+        .groupby("activity", sort=False)
+        .agg(cases=("case_id", "nunique"), occurrences=("case_id", "size"))
+        .reset_index()
+        .sort_values("cases", ascending=False, kind="stable")
+        .reset_index(drop=True)
     )
-    if not activities.empty:
-        activities = activities.sort_values("cases", ascending=False, kind="stable").reset_index(drop=True)
 
+    variant_counts = sequences.value_counts(sort=False)
     variants = pd.DataFrame(
-        [
-            {"variant": sequence, "cases": len(ids), "share": len(ids) / len(cases), "rework": _has_rework(sequence)}
-            for sequence, ids in variant_cases.items()
-        ],
-        columns=["variant", "cases", "share", "rework"],
+        {
+            "variant": variant_counts.index.tolist(),
+            "cases": variant_counts.to_numpy(),
+        },
+        columns=["variant", "cases"],
     )
-    if not variants.empty:
-        variants = variants.sort_values("cases", ascending=False, kind="stable").reset_index(drop=True)
+    variants["share"] = variants["cases"] / max(len(cases), 1)
+    variants["rework"] = variants["variant"].map(_has_rework).astype(bool)
+    variants = variants.sort_values("cases", ascending=False, kind="stable").reset_index(drop=True)
 
     completed_cycles = cases.loc[cases["completed"], "cycle_hours"].dropna()
     return Analysis(
-        raw_events=events,
-        process_events=events.loc[process_indices].copy(),
+        raw_events=ordered,
+        process_events=process.copy(),
         cases=cases,
         transition_instances=instances,
         transitions=transitions,
@@ -166,7 +162,7 @@ def analyze(events: pd.DataFrame) -> Analysis:
         total_cases=len(cases),
         completed_cases=int(cases["completed"].sum()),
         open_cases=int((~cases["completed"]).sum()),
-        post_payment_events=post_payment_count,
+        post_payment_events=int((~in_process).sum()),
         rework_cases=int(cases["rework"].sum()),
         mean_cycle_hours=float(completed_cycles.mean()) if not completed_cycles.empty else None,
         median_cycle_hours=float(completed_cycles.median()) if not completed_cycles.empty else None,

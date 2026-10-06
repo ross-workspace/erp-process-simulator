@@ -56,7 +56,7 @@ Optional columns are `resource`, `department`, `cost`, `order_value`, and `event
 - The map is a directly-follows graph: `A → B` means an A event was followed immediately by B in the same case. Edge hover shows distinct cases and total occurrences separately.
 - A completed order reaches its first `Payment Received`. Completed cycle time runs from its first event to that payment. Open cases stay visible but are excluded from completed cycle-time and scenario aggregates.
 - An edge gap is elapsed calendar time between the two events. Median, P90, and total elapsed case-hours come from observed gap values. Long gaps are investigation candidates, not proven staff bottlenecks.
-- A variant is a full event sequence. Approval rework means `Order Approved`, then `Order Edited`, then another `Order Approved` in the same case.
+- A variant is a full event sequence. A case counts as rework when any activity repeats, such as `Order Approved` → `Order Edited` → `Order Approved`.
 - The scenario subtracts a chosen percentage of every matching edge gap from each completed case's observed cycle time, then recomputes aggregate mean and median. It assumes later events shift earlier by the same amount. It does not model capacity, queues, concurrent branches, payment terms, or behaviour changes. Case-hours are elapsed time across orders, not labour hours or financial savings.
 
 Events after the first payment are flagged, visible in case details, and excluded from process and scenario calculations. Demo data is synthetic throughout. Uploaded CSV data is analyzed in the local Streamlit session; if you host this app on a server, uploaded data will be processed there.

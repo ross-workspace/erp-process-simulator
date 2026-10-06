@@ -5,7 +5,7 @@ Each CSV row describes one recorded event. Column names are case-sensitive after
 | Column | Required | Meaning |
 |---|---|---|
 | `case_id` | Yes | One order identifier shared by its events. |
-| `activity` | Yes | Exact event label. `Payment Received` marks completion; `Order Approved` and `Order Edited` define approval rework. |
+| `activity` | Yes | Exact event label. `Payment Received` marks completion. A case that records any activity more than once is counted as rework (for example Approved → Edited → Approved, or a failed quality check sent back to production). |
 | `timestamp` | Yes | ISO 8601 date/time, preferably with UTC offset. |
 | `resource` | No | Person or system that produced the event; displayed in case details. |
 | `department` | No | Department label; displayed in case details. |
