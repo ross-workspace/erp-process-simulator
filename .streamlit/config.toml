@@ -1,9 +1,28 @@
 [theme]
-primaryColor = "#405cf5"
-backgroundColor = "#f4f7fc"
-secondaryBackgroundColor = "#ffffff"
+base = "light"
+primaryColor = "#3d5afe"
+backgroundColor = "#f4f6fb"
+secondaryBackgroundColor = "#f3f5fa"
 textColor = "#111c36"
-font = "sans serif"
+borderColor = "#e3e8f1"
+dataframeBorderColor = "#e8ecf3"
+dataframeHeaderBackgroundColor = "#f6f8fc"
+showWidgetBorder = true
+baseRadius = "10px"
+baseFontSize = 14
+font = "Inter:https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap"
+headingFontWeights = [800, 700, 700, 650, 600, 600]
+headingFontSizes = ["30px", "22px", "17px", "15px", "14px", "12px"]
+redColor = "#e5484d"
+greenColor = "#2f9e5b"
+orangeColor = "#e8a33d"
+
+[theme.sidebar]
+backgroundColor = "#0f1b33"
+secondaryBackgroundColor = "#1a2847"
+textColor = "#dde4f3"
+borderColor = "#25365b"
+primaryColor = "#4f6bff"
 
 [server]
 address = "127.0.0.1"

@@ -5,6 +5,8 @@ COPY pyproject.toml README.md ./
 COPY src ./src
 RUN pip install --no-cache-dir . && useradd --create-home appuser
 COPY app.py ./
+COPY dashboard ./dashboard
+COPY app_pages ./app_pages
 COPY data ./data
 COPY .streamlit ./.streamlit
 USER appuser
