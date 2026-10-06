@@ -125,3 +125,21 @@ def test_retail_returns_stay_outside_the_process() -> None:
     assert result.post_payment_events > 0
     assert "Return Requested" not in set(result.activities["activity"])
     assert "Return Requested" in set(result.raw_events["activity"])
+
+
+def test_insights_on_golden_fixture() -> None:
+    from erp_process_analyzer.insights import bottlenecks, department_workload, summarize_scenario
+
+    events, _ = load_events(FIXTURE)
+    result = analyze(events)
+    ranked = bottlenecks(result)
+    assert ranked["time_share"].sum() == pytest.approx(1.0)
+    assert set(ranked["status"]) <= {"High", "Medium", "OK"}
+    # Picking → Payment holds 10 of 25 elapsed hours.
+    top = ranked.iloc[0]
+    assert (top["from_activity"], top["to_activity"]) == ("Picking Started", "Payment Received")
+    assert top["status"] == "High"
+    summary = summarize_scenario(result, simulate_transition(result, "Order Approved", "Picking Started", 50))
+    assert summary.saved_per_affected_case_hours == 1.5
+    assert summary.mean_change == pytest.approx(-0.15)
+    assert department_workload(result).empty
