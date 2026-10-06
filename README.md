@@ -1,6 +1,6 @@
 # ERP Process Analyzer
 
-[![CI](https://github.com/ross-workspace/erp-process-analyzer/actions/workflows/ci.yml/badge.svg)](https://github.com/ross-workspace/erp-process-analyzer/actions/workflows/ci.yml)
+[![CI](https://github.com/ross-workspace/erp-process-simulator/actions/workflows/ci.yml/badge.svg)](https://github.com/ross-workspace/erp-process-simulator/actions/workflows/ci.yml)
 
 A local-first process-mining dashboard for Order-to-Cash event logs. It rebuilds how orders actually moved through an ERP, from creation and approval through picking, shipping, invoicing and payment. It shows where orders wait, which paths deviate from the standard flow, and what shortening one step would have changed.
 
