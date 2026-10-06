@@ -12,13 +12,11 @@ import streamlit as st
 from erp_process_analyzer import DataValidationError, analyze, load_events, simulate_transition
 from erp_process_analyzer.analyzer import Analysis
 from erp_process_analyzer.importer import ImportReport
-from erp_process_analyzer.visuals import make_process_map
+from erp_process_analyzer.visuals import process_map_svg
 
 ROOT = Path(__file__).resolve().parent
 DEMOS = {
-    "Messy Process · 10,000 orders": ROOT / "data" / "demo_messy.csv",
-    "Clean Process · 2,000 orders": ROOT / "data" / "demo_clean.csv",
-    "Warehouse Delay · 3,000 orders": ROOT / "data" / "demo_warehouse.csv",
+    "Sample · 250 orders": ROOT / "data" / "sample_event_log.csv",
 }
 
 st.set_page_config(
@@ -281,7 +279,7 @@ def main() -> None:
         with st.container(border=True):
             st.subheader("Process map")
             st.caption("Observed directly-follows paths · arrow thickness reflects case frequency")
-            st.plotly_chart(make_process_map(result, max_edges=18), width="stretch", config={"displayModeBar": False})
+            st.markdown(process_map_svg(result, max_edges=18), unsafe_allow_html=True)
         st.subheader("Process insights")
         common = result.variants.iloc[0] if len(result.variants) else None
         insights = [
@@ -310,7 +308,7 @@ def main() -> None:
         st.caption("Each edge means one event directly followed another in the same order. The map is not a BPMN model.")
         max_edges = st.slider("Maximum edges shown", 5, 60, 25)
         with st.container(border=True):
-            st.plotly_chart(make_process_map(result, max_edges=max_edges), width="stretch")
+            st.markdown(process_map_svg(result, max_edges=max_edges), unsafe_allow_html=True)
         transition_table(result)
 
     elif page == "Transitions":

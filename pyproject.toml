@@ -4,14 +4,13 @@ build-backend = "setuptools.build_meta"
 
 [project]
 name = "erp-process-analyzer"
-version = "0.1.0"
+version = "0.2.0"
 description = "Local-first Order-to-Cash process mining and transparent timing scenarios"
 requires-python = ">=3.12"
 dependencies = [
-  "networkx>=3.2,<4",
+  "altair>=5.4,<7",
   "numpy>=1.26,<3",
   "pandas>=2.2,<3",
-  "plotly>=5.22,<7",
   "streamlit>=1.64,<2",
 ]
 

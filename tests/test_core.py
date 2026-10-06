@@ -143,3 +143,18 @@ def test_insights_on_golden_fixture() -> None:
     assert summary.saved_per_affected_case_hours == 1.5
     assert summary.mean_change == pytest.approx(-0.15)
     assert department_workload(result).empty
+
+
+def test_process_map_svg_marks_loops_and_switches_labels() -> None:
+    from erp_process_analyzer.visuals import process_map_svg
+
+    events, _ = load_events(FIXTURE)
+    result = analyze(events)
+    frequency = process_map_svg(result, mode="frequency")
+    duration = process_map_svg(result, mode="duration")
+    assert frequency.startswith("<svg") and frequency.endswith("</svg>")
+    for activity in result.activities["activity"]:
+        assert activity in frequency
+    # Order Edited → Order Approved goes back to an earlier step: drawn dashed.
+    assert 'stroke-dasharray="6 4"' in frequency
+    assert ">3.0 h<" in duration  # median Approved → Picking
