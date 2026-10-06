@@ -30,3 +30,6 @@ maxUploadSize = 30
 
 [browser]
 gatherUsageStats = false
+
+[client]
+toolbarMode = "viewer"
